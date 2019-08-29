@@ -1,0 +1,23 @@
+name: ourenv
+channels:
+    - conda-forge
+dependencies:
+    - camelot-py
+    - python=3.7
+    - bokeh
+    - dash
+    - opencv
+    - pandas
+    - poppler
+    - numpy
+    - ipython
+    - beautifulsoup4
+    - requests
+    - flask
+    - gunicorn
+    - plotly
+    - nodejs
+    - pyyaml
+    - html5lib
+    - scikit-learn
+    - xlrd
