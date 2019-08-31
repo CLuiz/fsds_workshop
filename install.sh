@@ -22,7 +22,7 @@ else
   # PYTHONPATH may cause problems finding the correct python install. Unset before continuing.
   unset PYTHONPATH
 
-  # install miniconda to the directory miniconda3/ with the folling flags
+  # install miniconda to the directory miniconda3/ with the following flags
   # -b: silent mode. Also prevents writing to bashprofile.
   # -u: updates in the case miniconda is already installed
   # -p: sets installation path
@@ -58,16 +58,17 @@ if [ "$(conda-env list) | grep -c $ENV_NAME" ]
     conda env create -f requirements.yml
 fi
 
-# TODO
-# git clone workshop materials
-# mkdir logs
-# touch logs/log.log
-# chmod workshop materials
+# Create log directory
+mkdir logs
+# Get logfile name from the config file
+LOGFILE=$(grep LOGFILE config.ini | cut -d "=" -f2)
+# Create logfile
+touch$LOGFILE
 
-# need to init shell for conda
-# and make sure that conda is available to call the source location of our env
-# I can use a runscript for this but I'm not sure if it is worth the additional overhead
-# for the students.
+
+# need to init shell for conda $0 gives the program name, in this case the shell (bash, zsh, fsh, sh, etc)
+SHELL=$(echo $0)
+$CONDA_PATH init SHELL
 
 # Get datasets
 mkdir -p data/licenses_by_year
@@ -118,6 +119,5 @@ wget https://www.colorado.gov/pacific/sites/default/files/Centers%2012012015_1.p
 wget https://www.colorado.gov/pacific/sites/default/files/Retail%20Stores%2012012014.pdf -O ./data/licenses_by_year/rec_2014.pdf
 wget https://www.colorado.gov/pacific/sites/default/files/Centers%2012012014.pdf -O ./data/licenses_by_year/med_2014.pdf
 
-
-
-
+# chmod workshop materials
+chmod -R 755 .

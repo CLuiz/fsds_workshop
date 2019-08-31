@@ -2,9 +2,9 @@ name: ourenv
 channels:
     - conda-forge
 dependencies:
-    - camelot-py
     - python=3.7
     - bokeh
+    - camelot-py
     - dash
     - opencv
     - pandas
