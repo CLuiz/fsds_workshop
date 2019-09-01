@@ -23,7 +23,7 @@ run_script () {
   echo 'run script called'
   echo "running Flask server at port: $PORT"
   gunicorn -p pid.txt -w $WORKERS --threads $THREADS -b localhost:$PORT \
-      --log-level LOG_LEVEL --log-file $(pwd)/logs/$LOGFILE server:app &
+      --log-level LOG_LEVEL --log-file $(pwd)/$LOGFILE server:app &
   exit 0
 
 }
