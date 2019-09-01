@@ -5,17 +5,17 @@ SYSTEM=$(uname -s)
 if [ $SYSTEM = 'Darwin' ]
   then
     # if the system is darwin we are on a mac
-    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O ./miniconda_install.sh
+    curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o ./miniconda_install.sh
     brew install ghostscript
     brew link --overwrite ghostscript
   else
     # otherwise it is a linux machine
-    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ./miniconda_install.sh
+    curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o ./miniconda_install.sh
     # assumue ubuntu
     apt install python3-tk ghostscript
 fi
 
-if [ $(ls | grep -c miniconda3) ]
+if [ "$(ls | grep -c miniconda3)" ]
   then
     echo "Miniconda3 present, proceeding without download & install"
 else
@@ -51,7 +51,7 @@ ENV_NAME=$(grep name requirements.yml | sed 's/.*: //')
 # if env exists update,  else create
 # grep -c returns 1 if found else 0.  1 is interpreted as True and thus update is triggered if our
 # env is found
-if [ "$(conda-env list) | grep -c $ENV_NAME" ]
+if  [ "$(conda-env list) | grep -c $ENV_NAME" ]
   then
     conda env update -f requirements.yml
   else
@@ -59,65 +59,60 @@ if [ "$(conda-env list) | grep -c $ENV_NAME" ]
 fi
 
 # Create log directory
-mkdir logs
+mkdir -p logs
 # Get logfile name from the config file
 LOGFILE=$(grep LOGFILE config.ini | cut -d "=" -f2)
 # Create logfile
-touch$LOGFILE
-
-
-# need to init shell for conda $0 gives the program name, in this case the shell (bash, zsh, fsh, sh, etc)
-SHELL=$(echo $0)
-$CONDA_PATH init SHELL
+touch $LOGFILE
 
 # Get datasets
 mkdir -p data/licenses_by_year
 
 # MJ business licenses data
-wget https://data.colorado.gov/api/views/sqs8-2un5/rows.csv?accessType=DOWNLOAD -O ./data/licensed_mj_biz.csv
+curl https://data.colorado.gov/api/views/sqs8-2un5/rows.csv?accessType=DOWNLOAD -o ./data/licensed_mj_biz.csv
 
 # MJ tax revenue by county
-wget https://data.colorado.gov/api/views/3sm5-jtur/rows.csv?accessType=DOWNLOAD -O ./data/monthly_tx_revenue.csv
+curl https://data.colorado.gov/api/views/3sm5-jtur/rows.csv?accessType=DOWNLOAD -o ./data/monthly_tx_revenue.csv
 
 # MJ sales revenue
-wget https://data.colorado.gov/api/views/j7a3-jgd3/rows.csv?accessType=DOWNLOAD -O ./data/mj_sales_revenue.csv
+curl https://data.colorado.gov/api/views/j7a3-jgd3/rows.csv?accessType=DOWNLOAD -o ./data/mj_sales_revenue.csv
 
 # County Population by age and year
-wget https://data.colorado.gov/api/views/q5vp-adf3/rows.csv?accessType=DOWNLOAD -O ./data/pop_by_age_and_year.csv
+curl https://data.colorado.gov/api/views/q5vp-adf3/rows.csv?accessType=DOWNLOAD -o ./data/pop_by_age_and_year.csv
 
 # Personal Income by County
-wget https://data.colorado.gov/api/views/2cpa-vbur/rows.csv?accessType=DOWNLOAD -O ./data/personal_income.csv
+curl https://data.colorado.gov/api/views/2cpa-vbur/rows.csv?accessType=DOWNLOAD -o ./data/personal_income.csv
 
 # Unemployment by geographic area
-wget https://data.colorado.gov/api/views/4e3w-qire/rows.csv?accessType=DOWNLOAD -O ./data/unemployment_rates.csv
+curl https://data.colorado.gov/api/views/4e3w-qire/rows.csv?accessType=DOWNLOAD -o ./data/unemployment_rates.csv
 
 # Dean Runyon industry report pdf
-wget https://industry.colorado.com/sites/default/files/DeanRunyan%20EconomicImpact2017.pdf -O ./data/runyon.pdf
+curl https://industry.colorado.com/sites/default/files/DeanRunyan%20EconomicImpact2017.pdf -o ./data/runyon.pdf
 
 # get yearly licenses
 # 2019 to august
-wget https://www.colorado.gov/pacific/sites/default/files/190801%20Stores_0.xlsx -O ./data/licenses_by_year/retail_aug_2019.xlsx
-wget https://www.colorado.gov/pacific/sites/default/files/190801%20Centers.xlsx -O ./data/licenses_by_year/med_aug_2019.xlsx
+curl https://www.colorado.gov/pacific/sites/default/files/190801%20Stores_0.xlsx -o ./data/licenses_by_year/retail_aug_2019.xlsx
+curl https://www.colorado.gov/pacific/sites/default/files/190801%20Centers.xlsx -o ./data/licenses_by_year/med_aug_2019.xlsx
 
 # 2018
-wget https://www.colorado.gov/pacific/sites/default/files/Stores%2012032018.xlsx -O ./data/licenses_by_year/rec_2018.xlsx
-wget https://www.colorado.gov/pacific/sites/default/files/Centers%2012032018.xlsx -O ./data/licenses_by_year/med_2018.xlsx
+curl https://www.colorado.gov/pacific/sites/default/files/Stores%2012032018.xlsx -o ./data/licenses_by_year/rec_2018.xlsx
+curl https://www.colorado.gov/pacific/sites/default/files/Centers%2012032018.xlsx -o ./data/licenses_by_year/med_2018.xlsx
 
 # 2017
-wget https://www.colorado.gov/pacific/sites/default/files/Stores%2011012017_1.xlsx -O ./data/licenses_by_year/rec_2017.xlsx
-wget https://www.colorado.gov/pacific/sites/default/files/Centers%2012012017_1.xlsx -O ./data/licenses_by_year/med_2017.xlsx
+curl https://www.colorado.gov/pacific/sites/default/files/Stores%2011012017_1.xlsx -o ./data/licenses_by_year/rec_2017.xlsx
+curl https://www.colorado.gov/pacific/sites/default/files/Centers%2012012017_1.xlsx -o ./data/licenses_by_year/med_2017.xlsx
 
 # 2016
-wget https://www.colorado.gov/pacific/sites/default/files/Stores%2012012016.xlsx -O ./data/licenses_by_year/rec_2016.xlsx
-wget https://www.colorado.gov/pacific/sites/default/files/Centers%2012012016_1.xlsx -O ./data/licenses_by_year/med_2016.xlsx
+curl https://www.colorado.gov/pacific/sites/default/files/Stores%2012012016.xlsx -o ./data/licenses_by_year/rec_2016.xlsx
+curl https://www.colorado.gov/pacific/sites/default/files/Centers%2012012016_1.xlsx -o ./data/licenses_by_year/med_2016.xlsx
 
 # 2015
-wget https://www.colorado.gov/pacific/sites/default/files/Stores%2012012015_1.pdf -O ./data/licenses_by_year/rec_2015.pdf
-wget https://www.colorado.gov/pacific/sites/default/files/Centers%2012012015_1.pdf -O ./data/licenses_by_year/med_2015.pdf
+curl https://www.colorado.gov/pacific/sites/default/files/Stores%2012012015_1.pdf -o ./data/licenses_by_year/rec_2015.pdf
+curl https://www.colorado.gov/pacific/sites/default/files/Centers%2012012015_1.pdf -o ./data/licenses_by_year/med_2015.pdf
 
 # 2014
-wget https://www.colorado.gov/pacific/sites/default/files/Retail%20Stores%2012012014.pdf -O ./data/licenses_by_year/rec_2014.pdf
-wget https://www.colorado.gov/pacific/sites/default/files/Centers%2012012014.pdf -O ./data/licenses_by_year/med_2014.pdf
+curl https://www.colorado.gov/pacific/sites/default/files/Retail%20Stores%2012012014.pdf -o ./data/licenses_by_year/rec_2014.pdf
+curl https://www.colorado.gov/pacific/sites/default/files/Centers%2012012014.pdf -o ./data/licenses_by_year/med_2014.pdf
 
 # chmod workshop materials
 chmod -R 755 .
