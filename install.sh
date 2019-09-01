@@ -51,7 +51,7 @@ ENV_NAME=$(grep name requirements.yml | sed 's/.*: //')
 # if env exists update,  else create
 # grep -c returns 1 if found else 0.  1 is interpreted as True and thus update is triggered if our
 # env is found
-if  [ "$(conda-env list) | grep -c $ENV_NAME" ]
+if [ "$(conda-env list) | grep -c $ENV_NAME" ]
   then
     conda env update -f requirements.yml
   else
