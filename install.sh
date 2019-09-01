@@ -15,7 +15,7 @@ if [ $SYSTEM = 'Darwin' ]
     apt install python3-tk ghostscript
 fi
 
-if [ "$(ls | grep -c miniconda3)" ]
+if [ -d $(pwd)/miniconda3 ]
   then
     echo "Miniconda3 present, proceeding without download & install"
 else
@@ -49,12 +49,14 @@ conda update -n base -y -c conda-forge conda
 ENV_NAME=$(grep name requirements.yml | sed 's/.*: //')
 
 # if env exists update,  else create
-# grep -c returns 1 if found else 0.  1 is interpreted as True and thus update is triggered if our
-# env is found
-if [ "$(conda-env list) | grep -c $ENV_NAME" ]
+# grep -c returns 1 if found else 0. 0 is interpreted as True and thus update is triggered if our
+# env is found.
+if [ "$(conda-env list | grep -c $ENV_NAME || true)" ]
   then
+    echo 'Local conda env detected - updating packages'
     conda env update -f requirements.yml
   else
+    echo 'Local conda env not detected - creating env'
     conda env create -f requirements.yml
 fi
 
