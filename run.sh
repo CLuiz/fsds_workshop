@@ -23,7 +23,7 @@ run_script () {
   echo 'run script called'
   echo "running Flask server at port: $PORT"
   gunicorn -p pid.txt -w $WORKERS --threads $THREADS -b localhost:$PORT \
-      --log-level LOG_LEVEL 2>&1 >> $(pwd)$LOGFILE server:app
+      --log-level LOG_LEVEL --log-file $(pwd)/logs/$LOGFILE server:app &
   exit 0
 
 }
@@ -66,11 +66,12 @@ get_help () {
   echo '-b execute shell with args for commands'
   echo '-i start ipython repl'
   echo '-h show help'
+  echo '-x stop server'
   exit 0
 }
 
 check_install () {
-  CONDA_VERSION="{which ipython}"
+    CONDA_VERSION="$(which ipython)"
   echo $CONDA_VERSION
 
 }
