@@ -366,5 +366,5 @@ if __name__ == '__main__':
     processed_dfs = [pop_df, income_df, tax_rev_df, unemp_df, shops_by_year_df]
     master_df = join_dfs(processed_dfs)
     if write_file:
-        os.makedirs('data/processed_data/')
+        os.makedirs('data/processed_data/', exist_ok=True)
         master_df.to_csv('data/processed_data/processed_dataset.csv')
