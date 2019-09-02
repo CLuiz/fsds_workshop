@@ -365,6 +365,13 @@ if __name__ == '__main__':
     # not sure if is addressabel via the current data or not.
     processed_dfs = [pop_df, income_df, tax_rev_df, unemp_df, shops_by_year_df]
     master_df = join_dfs(processed_dfs)
+
+    # fill na of all int type columns and recast to int all but county and unemp rate
+    # before we write to file
+    int_cols = [col for col in master_df.columns if col not in ['county', 'unemprate']]
+    master_df[int_cols] = master_df[int_cols].fillna(0).astype(int)
+    master_df['unemprate'] = master_df['unemprate'].fillna(0)
+
     if write_file:
         os.makedirs('data/processed_data/', exist_ok=True)
         master_df.to_parquet(
