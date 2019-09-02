@@ -39,17 +39,42 @@ def prep_revenue_df(df, cash_cols, categorical_cols=False):
         # drop columns we made dummies from
         df.drop(categorical_cols, axis=1, inplace=True)
         # return merged dataframes
-        #return pd.concat([df, rec_dummies, med_dummies], axis=1)
         dummy_dfs.insert(0, df)
         return pd.concat(dummy_dfs, axis=1)
     else:
         df.drop(['med_blank_code', 'rec_blank_code'], axis=1, inplace=True)
         return df
 
+def combine_rev_tx_dfs(rev_df, tax_df):
+    # get mj sales info
+    mj_sales_df = prep_revenue_df(
+        dfs['mj_sales_revenue_df'],
+        ['med_sales', 'rec_sales'],
+        ['med_blank_code', 'rec_blank_code'])
+
+    # get tax info
+    mj_tax_df = prep_revenue_df(
+        dfs['monthly_tx_revenue_df'],
+        ['med_tax_rev', 'rec_tax_rev'],
+        ['med_blank_code', 'rec_blank_code'])
+
+    # drop unwanted columns from tax data
+    mj_tax_df.drop(['med_remainderofstate_counties',  'rec_remainderofstate_counties'], axis=1, inplace=True)
+
+    # join tax & revenue dfs
+    # TODO grouped to yearly from monthly
+    merged_tax_rev_df = pd.merge(
+    mj_sales_df, mj_tax_df, on=['county', 'date'], how='left')
+    merged_tax_rev_df['year'] = merged_tax_rev_df['date'].dt.year
+    tax_rev_df = merged_tax_rev_df.groupby(
+        ['county', 'year'], as_index=False)[
+            'med_sales', 'rec_sales', 'med_tax_rev', 'rec_tax_rev'].sum()
+    return tax_rev_df
 
 def prep_population_df(df):
     pop_by_age_df = dfs['pop_by_age_and_year_df']
     # get usage by age dict
+    # TODO consider scripting this.  Scrape with requests/bs4?
     # url ='https://www.statista.com/statistics/737849/share-americans-age-group-smokes-marijuana/'
     usage_by_age_dict = {'18-29': .24, '30-49': .13, '50-64': .11, '65+': .06}
     labels = list(usage_by_age_dict.keys())
@@ -102,7 +127,7 @@ def prep_population_df(df):
 
     # The row level is easy, the columns are different though.
     # The easy way to do this (and end up with interpretable headers) is to
-    rename the columns to a single str including both pieces of the index. This is how that can be done
+    # rename the columns to a single str including both pieces of the index. This is how that can be done
 
     # first we change the column type from categorical to string as so
     age_pivot = age_pivot.rename(columns=str)
@@ -166,7 +191,8 @@ def prep_income_df(df):
 def prep_unemp_df(df):
     # it looks like we want the first five columns from our previous work
     # and the last few on from this dataset, starting fom 'adjusted'
-    unemp_cols = cols[:5] + df.columns[-10:].tolist()
+    cols = ['stateabbrv', 'areatyname', 'areaname', 'area', 'periodyear']
+    unemp_cols = cols + df.columns[-10:].tolist()
     unemp_df = df[unemp_cols]
     # figure out what laborforce means - ie, should I just pull unemprate by county and year
 
@@ -186,7 +212,7 @@ def prep_unemp_df(df):
 
     # TODO remove commented date lines below if not using for merge
     # If the slash isn't added in the middle it sets the day to 20 rather than one
-    #unemp_df_yearly['date'] = pd.to_datetime(unemp_df_yearly['month'] + '/'+ unemp_df_yearly['year'], format='%m/%Y')
+    # unemp_df_yearly['date'] = pd.to_datetime(unemp_df_yearly['month'] + '/'+ unemp_df_yearly['year'], format='%m/%Y')
     unemp_df_yearly = unemp_df_yearly[
         (unemp_df_yearly['areatyname'] == 'County') &
         (unemp_df_yearly['prelim'] == 0)]
@@ -206,6 +232,7 @@ def prep_unemp_df(df):
     # subsequent merges are going to fail because the word 'County' is present
     # in each county field of the unemp_df_yearly df need to remove
     unemp_df_yearly['county'] = unemp_df_yearly['county'].str.replace('County', '').str.strip()
+    unemp_df_yearly['year'] = unemp_df_yearly['year'].astype(int)
     return unemp_df_yearly
 
 
@@ -258,7 +285,7 @@ def read_license_files(data_dir='data/licenses_by_year'):
 def get_zips(source='https://www.zipcodestogo.com/Colorado/'):
     # use pandas read_html to get a mapping of zip codes to counties from the
     # source url
-    zips = d.read_html(source, flavor='bs4', skiprows=3)
+    zips = pd.read_html(source, flavor='bs4', skiprows=3)
     zips = zips[0].iloc[:, :2]
     zips.columns = ['zip', 'county']
     return zips
@@ -278,27 +305,26 @@ def get_shops_by_year(license_file_dir='data/licenses_by_year/'):
     # them all. I'll leave this as an opportunity to improve on the processing
     # pipeline
 
-    # fix inconcistent dataset nameing. ret = rec for the rec (partial) dataset of 2019
-    license_df['source'] = ['rec' if x == 'ret' else x for x in license_df['source']
+    # fix inconsistent dataset naming. ret = rec for the rec (partial) dataset of 2019
+    license_df['source'] = ['rec' if x == 'ret' else x for x in license_df['source']]
 
-    # TODO Do I need to interim group by date? Or go straight to year?
-    license_grouped = license_df.groupby(
-        ['county', 'category', 'date'], as_index=False)['licensee'].count()
-    # now we have total mj business by county, type, and month licensed.
-    # I'd also like to see total by county, type, and year.
-    # yearly total of all mj businesses and
-
-    # Add back year column with pandas vectorized datetime operation
-    license_grouped['year'] = license_grouped['date'].dt.year
-    yearly_licenses = license_grouped.groupby(['county', 'category', 'year'], as_index=False)['licensee'].sum()
+    # get count of licenses, by county, by year, med and rec
+    yearly_licenses = license_df.groupby(['county', 'source', 'year'], as_index=False)['licensee'].count()
 
     # Pivot to get to one per county, per year
-    yearly_pivot = yearly_licenses.pivot_table(index=['county', 'year'], columns='category', values='licensee')
+    yearly_pivot = yearly_licenses.pivot_table(index=['county', 'year'], columns='source', values='licensee')
     # fix missing values that were set as NaN, and forced type float
     yearly_pivot = yearly_pivot.fillna(0).astype(int)
     # reset the index and change the column index to type str
     yearly_pivot = yearly_pivot.rename(columns=str).reset_index()
+    yearly_pivot['year'] = yearly_pivot['year'].astype(int)
     return yearly_pivot
+
+def join_dfs(dfs):
+    master = dfs[0]
+    for df in dfs[1:]:
+        master = pd.merge(master, df, on=['county', 'year'], how='outer')
+    return master
 
 
 if __name__ == '__main__':
@@ -313,29 +339,13 @@ if __name__ == '__main__':
 
     # personal income data
     # Pull income dataset and clean up
-    grouped_county_income_df = prep_income_df(dfs['personal_income_df'])
+    income_df = prep_income_df(dfs['personal_income_df'])
 
     # revenue
     # Pull out tax and revenue data and clean up
-
-    # get mj sales info
-    mj_sales_df = prep_revenue_df(
+    tax_rev_df = combine_rev_tx_dfs(
         dfs['mj_sales_revenue_df'],
-        ['med_sales', 'rec_sales'],
-        ['med_blank_code', 'rec_blank_code'])
-
-    # get tax info
-    mj_tax_df = prep_revenue_df(
-        dfs['monthly_tx_revenue_df'],
-        ['med_tax_rev', 'rec_tax_rev'],
-        ['med_blank_code', 'rec_blank_code'])
-
-    # drop unwanted columns from tax data
-    mj_tax_df.drop(['med_remainderofstate_counties',  'rec_remainderofstate_counties'], axis=1, inplace=True)
-
-    # join tax & revenue dfs
-    merged_tax_rev_df = pd.merge(
-    mj_sales_df, mj_tax_df, on=['county', 'date'], how='left')
+        dfs['monthly_tx_revenue_df'])
 
     # unemp
     # Pull unemployment data
@@ -345,4 +355,7 @@ if __name__ == '__main__':
     # Pull all license data and get to a useable form
     shops_by_year_df = get_shops_by_year(license_file_dir='data/licenses_by_year/')
 
-    # TODO join all data frames together
+    # TODO this needs to be looked at closer. Mya be missing some info from smaller counties.
+    # not sure if is addressabel via the current data or not.
+    processed_dfs = [pop_df, income_df, tax_rev_df, unemp_df, shops_by_year_df]
+    master_df = join_dfs(processed_dfs)
