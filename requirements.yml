@@ -12,8 +12,10 @@ dependencies:
     - numpy
     - ipython
     - beautifulsoup4
+    - python-snappy
     - requests
     - flask
+    - fastparquet
     - gunicorn
     - plotly
     - nodejs
