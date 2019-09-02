@@ -367,4 +367,6 @@ if __name__ == '__main__':
     master_df = join_dfs(processed_dfs)
     if write_file:
         os.makedirs('data/processed_data/', exist_ok=True)
-        master_df.to_csv('data/processed_data/processed_dataset.csv', index=False)
+        master_df.to_parquet(
+            'data/processed_data/processed_dataset.parquet',
+            index=False, engine='fastparquet')
