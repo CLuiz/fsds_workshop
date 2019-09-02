@@ -16,10 +16,8 @@ def load_csvs(data_dir):
 
 
 def prep_revenue_df(df, cash_cols, categorical_cols=False):
-    # TODO categorical handling not working properly,  Trace through.
+    # TODO ensure categorical handling is working properly,  Trace through.
     df.columns = df.columns.str.lower().str.replace(' ', '_')
-    # try to send all values to lowercase
-    # this will fail due to df having mixed dtypes
 
     # fix month and year iteratively
     df['month'] = df['month'].astype(str).str.pad(2, 'left', '0')
@@ -28,25 +26,10 @@ def prep_revenue_df(df, cash_cols, categorical_cols=False):
     df['date'] = pd.to_datetime(df['month'] + '/'+ df['year'], format='%m/%Y')
     df.drop(['month', 'year'], axis=1, inplace=True)
 
-    # set sales columns as type int. Will need to handle missing values
-    # first try without fixing nulls
-    #df[['med_sales', 'rec_sales']] = df[['med_sales', 'rec_sales']].astype(int)
-
-    # now look at value counts and do .isnull().sum() to see how many missing
-
     # fix using fill na and cast as int
     df[cash_cols] = df[cash_cols].fillna(0).astype(int)
 
-    # reference data source documentation to understand codes
-    # look at number of null susing Series.isnull().sum()
-    # look at value counts of rec_blank_code and med_blacnk_code
-    # talk about categoricla data
-    # talk about pd.get_dummies vs label encoding
-
     # not thinking I am going to need these columns.  #TODO delete or keep this part of the work?
-    # fill as needed.  One hot encode? or wait for model prep?
-    #med_dummies = pd.get_dummies(df['med_blank_code'], prefix='med')
-    #rec_dummies = pd.get_dummies(df['rec_blank_code'], prefix='rec')
     if categorical_cols:
         dummy_dfs = []
         for col in categorical_cols:
@@ -94,7 +77,8 @@ def prep_population_df(df):
 
     # combine our grouped populations with our total yearly poulations
     gmerged = pd.merge(grouped, total_pop_by_year, on=['county', 'year'])
-    # next, lets look at how many expected users there are, given the stats we found on the statista site
+    # next, lets look at how many expected users there are, given the stats we
+    #found on the statista site
     # add entry for under 18 and set usage fraction to zero
     usage_by_age_dict['<18'] = 0
 
@@ -117,7 +101,8 @@ def prep_population_df(df):
         'totalPopulation', 'consumer_fraction'], columns='binned_age')
 
     # The row level is easy, the columns are different though.
-    # The easy way to do this (and end up with interpretable headers) is to rename the columns to a single str including both pieces of the index. This is how that can be done
+    # The easy way to do this (and end up with interpretable headers) is to
+    rename the columns to a single str including both pieces of the index. This is how that can be done
 
     # first we change the column type from categorical to string as so
     age_pivot = age_pivot.rename(columns=str)
@@ -225,7 +210,6 @@ def prep_unemp_df(df):
 
 
 def read_license_files(data_dir='data/licenses_by_year'):
-    # TODO parameterize this function
     excel_files = glob(os.path.join(data_dir, '*.xlsx'))
     keys = [os.path.split(x)[-1].split('.')[0] for x in excel_files]
     dfs = {}
@@ -250,7 +234,7 @@ def read_license_files(data_dir='data/licenses_by_year'):
         tmp_df['year'] = key[-4:]
         pdf_dfs[key] = tmp_df
     # All of these files read in differently. Clean up, maintaining year and zip
-    # at least.
+    # at minimum.
     cols = pdf_dfs['med_2014'].iloc[1].str.lower().tolist()
     cols = ['year' if col == '2014' else col for col in cols]
     pdf_dfs['med_2014'].columns = cols
@@ -272,14 +256,15 @@ def read_license_files(data_dir='data/licenses_by_year'):
 
 
 def get_zips(source='https://www.zipcodestogo.com/Colorado/'):
-    zips = pd.read_html(source, flavor='bs4', skiprows=3)
+    # use pandas read_html to get a mapping of zip codes to counties from the
+    # source url
+    zips = d.read_html(source, flavor='bs4', skiprows=3)
     zips = zips[0].iloc[:, :2]
     zips.columns = ['zip', 'county']
     return zips
 
 
 def get_shops_by_year(license_file_dir='data/licenses_by_year/'):
-    # now need to map zips to countys and add to the master dataset
     shops_by_year = read_license_files(license_file_dir)
     shops_by_year = (
         shops_by_year.
@@ -293,29 +278,25 @@ def get_shops_by_year(license_file_dir='data/licenses_by_year/'):
     # them all. I'll leave this as an opportunity to improve on the processing
     # pipeline
 
-    # hmm, we have some weirdness here.  There are now three prefixes - med, rec, and 'ret'
-    # ah, inconcistent naming of the data.  We can just rename for now.
-    # ret = rec for the rec (partial) dataset of 2019
+    # fix inconcistent dataset nameing. ret = rec for the rec (partial) dataset of 2019
     license_df['source'] = ['rec' if x == 'ret' else x for x in license_df['source']
 
     # TODO Do I need to interim group by date? Or go straight to year?
     license_grouped = license_df.groupby(
         ['county', 'category', 'date'], as_index=False)['licensee'].count()
-    # now we have totla mj business by county, type, and month licensed.
+    # now we have total mj business by county, type, and month licensed.
     # I'd also like to see total by county, type, and year.
     # yearly total of all mj businesses and
 
-    # to get a year we will have to add a year column back, luckily that is
-    # easy to do with the df.dt vectorized datetime handling functionality
+    # Add back year column with pandas vectorized datetime operation
     license_grouped['year'] = license_grouped['date'].dt.year
     yearly_licenses = license_grouped.groupby(['county', 'category', 'year'], as_index=False)['licensee'].sum()
 
-    # I'd like to have one per county, per year as we do in our #TODO OTHER TABLE
-    # To do that, we can use pandas pivot_table method
+    # Pivot to get to one per county, per year
     yearly_pivot = yearly_licenses.pivot_table(index=['county', 'year'], columns='category', values='licensee')
-    # fix  the missing values were set as NaN, and forced type float
+    # fix missing values that were set as NaN, and forced type float
     yearly_pivot = yearly_pivot.fillna(0).astype(int)
-    # now lets reset the index and change the column index to type str
+    # reset the index and change the column index to type str
     yearly_pivot = yearly_pivot.rename(columns=str).reset_index()
     return yearly_pivot
 
@@ -328,7 +309,6 @@ if __name__ == '__main__':
 
     # population
     # Pull out population data and clean up
-
     pop_df = prep_population_df(dfs['pop_by_age_and_year_df'])
 
     # personal income data
@@ -339,23 +319,23 @@ if __name__ == '__main__':
     # Pull out tax and revenue data and clean up
 
     # get mj sales info
-    processed_df1 = prep_revenue_df(
+    mj_sales_df = prep_revenue_df(
         dfs['mj_sales_revenue_df'],
         ['med_sales', 'rec_sales'],
         ['med_blank_code', 'rec_blank_code'])
 
     # get tax info
-    processed_df2 = prep_revenue_df(
+    mj_tax_df = prep_revenue_df(
         dfs['monthly_tx_revenue_df'],
         ['med_tax_rev', 'rec_tax_rev'],
         ['med_blank_code', 'rec_blank_code'])
 
     # drop unwanted columns from tax data
-    processed_df2.drop(['med_remainderofstate_counties',  'rec_remainderofstate_counties'], axis=1, inplace=True)
+    mj_tax_df.drop(['med_remainderofstate_counties',  'rec_remainderofstate_counties'], axis=1, inplace=True)
 
     # join tax & revenue dfs
     merged_tax_rev_df = pd.merge(
-        processed_df1, processed_df2, on=['county', 'date'], how='left')
+    mj_sales_df, mj_tax_df, on=['county', 'date'], how='left')
 
     # unemp
     # Pull unemployment data
@@ -366,5 +346,3 @@ if __name__ == '__main__':
     shops_by_year_df = get_shops_by_year(license_file_dir='data/licenses_by_year/')
 
     # TODO join all data frames together
-
-
