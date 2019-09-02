@@ -336,6 +336,9 @@ if __name__ == '__main__':
     # skipping licenses by year because of mixed document types
     dfs = load_csvs('data')
 
+    # if True write completed file to csv
+    write_file = True
+
     # population
     # Pull out population data and clean up
     pop_df = prep_population_df(dfs['pop_by_age_and_year_df'])
@@ -362,3 +365,6 @@ if __name__ == '__main__':
     # not sure if is addressabel via the current data or not.
     processed_dfs = [pop_df, income_df, tax_rev_df, unemp_df, shops_by_year_df]
     master_df = join_dfs(processed_dfs)
+    if write_file:
+        os.makedirs('data/processed_data/')
+        master_df.to_csv('data/processed_data/processed_dataset.csv')
