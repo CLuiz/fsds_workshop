@@ -45,6 +45,7 @@ def prep_revenue_df(df, cash_cols, categorical_cols=False):
         df.drop(['med_blank_code', 'rec_blank_code'], axis=1, inplace=True)
         return df
 
+
 def combine_rev_tx_dfs(rev_df, tax_df):
     # get mj sales info
     mj_sales_df = prep_revenue_df(
@@ -70,6 +71,7 @@ def combine_rev_tx_dfs(rev_df, tax_df):
         ['county', 'year'], as_index=False)[
             'med_sales', 'rec_sales', 'med_tax_rev', 'rec_tax_rev'].sum()
     return tax_rev_df
+
 
 def prep_population_df(df):
     pop_by_age_df = dfs['pop_by_age_and_year_df']
@@ -319,6 +321,7 @@ def get_shops_by_year(license_file_dir='data/licenses_by_year/'):
     yearly_pivot = yearly_pivot.rename(columns=str).reset_index()
     yearly_pivot['year'] = yearly_pivot['year'].astype(int)
     return yearly_pivot
+
 
 def join_dfs(dfs):
     master = dfs[0]
