@@ -49,13 +49,13 @@ def prep_revenue_df(df, cash_cols, categorical_cols=False):
 def combine_rev_tx_dfs(rev_df, tax_df):
     # get mj sales info
     mj_sales_df = prep_revenue_df(
-        dfs['mj_sales_revenue_df'],
+        rev_df,
         ['med_sales', 'rec_sales'],
         ['med_blank_code', 'rec_blank_code'])
 
     # get tax info
     mj_tax_df = prep_revenue_df(
-        dfs['monthly_tx_revenue_df'],
+        tax_df,
         ['med_tax_rev', 'rec_tax_rev'],
         ['med_blank_code', 'rec_blank_code'])
 
@@ -73,8 +73,7 @@ def combine_rev_tx_dfs(rev_df, tax_df):
     return tax_rev_df
 
 
-def prep_population_df(df):
-    pop_by_age_df = dfs['pop_by_age_and_year_df']
+def prep_population_df(pop_by_age_df):
     # get usage by age dict
     # TODO consider scripting this.  Scrape with requests/bs4?
     # url ='https://www.statista.com/statistics/737849/share-americans-age-group-smokes-marijuana/'
@@ -379,6 +378,9 @@ if __name__ == '__main__':
     int_cols = [col for col in master_df.columns if col not in ['county', 'unemprate']]
     master_df[int_cols] = master_df[int_cols].fillna(0).astype(int)
     master_df['unemprate'] = master_df['unemprate'].fillna(0)
+
+    # One last thing to do with this dataset - missing data imputation. Will address
+    # in modeling step and save updated dataset after feature engineering
 
     if write_file:
         os.makedirs('data/processed_data/', exist_ok=True)
