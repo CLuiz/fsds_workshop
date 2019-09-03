@@ -145,7 +145,9 @@ def prep_population_df(pop_by_age_df):
     age_df = pd.merge(
         age_pivot, global_pops,
         how='left', on=['county', 'year'])
-    # and, lets look at the finished product
+    # lastly, drop the expected consumers in the < 18 bin, as it will always be zero
+    age_df.drop('expected_consumers_<18', inplace=True)
+
     return age_df
 
 
