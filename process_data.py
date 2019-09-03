@@ -212,9 +212,6 @@ def prep_unemp_df(df):
     unemp_df_yearly['month'] = unemp_df_yearly['period'].astype(str).str.pad(2, 'left', '0')
     unemp_df_yearly['year'] = unemp_df_yearly['periodyear'].astype(str)
 
-    # TODO remove commented date lines below if not using for merge
-    # If the slash isn't added in the middle it sets the day to 20 rather than one
-    # unemp_df_yearly['date'] = pd.to_datetime(unemp_df_yearly['month'] + '/'+ unemp_df_yearly['year'], format='%m/%Y')
     unemp_df_yearly = unemp_df_yearly[
         (unemp_df_yearly['areatyname'] == 'County') &
         (unemp_df_yearly['prelim'] == 0)]
@@ -229,8 +226,6 @@ def prep_unemp_df(df):
     # rename first column to match other data sets
 
     unemp_df_yearly.rename(columns={'areaname': 'county'}, inplace=True)
-    #TODO merge is broken, need to fix and prevent duplicate columns from coming through
-
     # subsequent merges are going to fail because the word 'County' is present
     # in each county field of the unemp_df_yearly df need to remove
     unemp_df_yearly['county'] = unemp_df_yearly['county'].str.replace('County', '').str.strip()
@@ -258,6 +253,7 @@ def read_license_files(data_dir='data/licenses_by_year'):
     pdf_dfs = {}
     pdfs = glob(os.path.join(data_dir, '*.pdf'))
     keys = [os.path.split(x)[-1].split('.')[0] for x in pdfs]
+    # use camelot's read_pdf to rextract the info
     for key, pdf in zip(keys, pdfs):
         tmp_df = read_pdf(pdf)[0].df
         tmp_df['year'] = key[-4:]
@@ -272,14 +268,22 @@ def read_license_files(data_dir='data/licenses_by_year'):
     pdf_dfs['rec_2014'] = pdf_dfs['rec_2014'][1:]
 
     # for 2015 just get zip and year
-    rec_zips_2015 = pdf_dfs['rec_2015'][0].str.extract(r'(?P<zip>\d{5})')
+    rec_zips_2015 = pd.DataFrame(pdf_dfs['rec_2015'][0].str.split('\n').str[1][1:])
     rec_zips_2015['year'] = 2015
+    # remove non-zip entry at index 29
+    rec_zips_2015.drop(29, inplace=True)
 
-    med_zips_2015 = pdf_dfs['med_2015'][0].str.extract(r'(?P<zip>\d{5})')
+    med_zips_2015 = pd.DataFrame(pdf_dfs['med_2015'][0].str.split('\n').str[-1])
     med_zips_2015['year'] = 2015
 
-    pdf_dfs['rec_2015']= rec_zips_2015
-    pdf_dfs['med_2015']= med_zips_2015
+    rec_zips_2015.columns = med_zips_2015.columns = ['zip', 'year']
+    pdf_dfs['rec_2015'] = rec_zips_2015
+    pdf_dfs['med_2015'] = med_zips_2015
+
+    # 2018 has a row with garbage in it (looks like the headers)
+    # in the middle of the data set...
+    dfs['rec_2018'].drop(285, inplace=True)
+
     dfs.update(pdf_dfs)
     return pd.concat(dfs, sort=False)
 
@@ -288,8 +292,9 @@ def get_zips(source='https://www.zipcodestogo.com/Colorado/'):
     # use pandas read_html to get a mapping of zip codes to counties from the
     # source url
     zips = pd.read_html(source, flavor='bs4', skiprows=3)
-    zips = zips[0].iloc[:, :2]
-    zips.columns = ['zip', 'county']
+    zips = zips[0].iloc[:, :3]
+    zips.columns = ['zip', 'city', 'county']
+    zips.drop('city', inplace=True, axis=1)
     return zips
 
 
@@ -300,11 +305,16 @@ def get_shops_by_year(license_file_dir='data/licenses_by_year/'):
         reset_index().
         rename(columns={'level_0': 'source'}).
         drop('level_1', axis=1))
+    # name source to 'rec' and 'med'
     shops_by_year['source'] = shops_by_year['source'].str[:3]
+    # change zip to type int for merge
+    shops_by_year['zip'] = shops_by_year['zip'].astype(int)
+
     zips = get_zips()
     license_df = pd.merge(shops_by_year, zips, on='zip')
     # there are some errors with how the zip codes are entered and we didn't get
-    # them all. I'll leave this as an opportunity to improve on the processing
+    # them all. it appeasr 44/4188 were missed. I'll leave this as an
+    # opportunity to improve on the processing
     # pipeline
 
     # fix inconsistent dataset naming. ret = rec for the rec (partial) dataset of 2019
@@ -361,10 +371,17 @@ if __name__ == '__main__':
     # Pull all license data and get to a useable form
     shops_by_year_df = get_shops_by_year(license_file_dir='data/licenses_by_year/')
 
-    # TODO this needs to be looked at closer. Mya be missing some info from smaller counties.
-    # not sure if is addressabel via the current data or not.
     processed_dfs = [pop_df, income_df, tax_rev_df, unemp_df, shops_by_year_df]
     master_df = join_dfs(processed_dfs)
+
+    # fill na of all int type columns and recast to int all but county and unemp rate
+    # before we write to file
+    int_cols = [col for col in master_df.columns if col not in ['county', 'unemprate']]
+    master_df[int_cols] = master_df[int_cols].fillna(0).astype(int)
+    master_df['unemprate'] = master_df['unemprate'].fillna(0)
+
     if write_file:
         os.makedirs('data/processed_data/', exist_ok=True)
-        master_df.to_csv('data/processed_data/processed_dataset.csv', index=False)
+        master_df.to_parquet(
+            'data/processed_data/processed_dataset.parquet',
+            index=False, engine='fastparquet')
