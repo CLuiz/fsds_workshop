@@ -12,8 +12,8 @@ if [ $SYSTEM = 'Darwin' ]
     # otherwise it is a linux machine
     curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o ./miniconda_install.sh
     # assumue ubuntu
-    apt-get update
-    apt-get install python3-tk ghostscript
+    sudo apt-get update
+    sudo apt-get install python3-tk ghostscript
 fi
 
 if [ -d $(pwd)/miniconda3 ]
