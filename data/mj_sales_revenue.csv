@@ -1,0 +1,3777 @@
+Month,Year,County,Med_Sales,Rec_Sales,Med_Blank_Code,Rec_Blank_Code
+1,2014,Adams,683098,,,NR
+1,2014,Alamosa,,,NR,NL
+1,2014,Arapahoe,1188232,,,NL
+1,2014,Archuleta,,,NR,NL
+1,2014,Baca,,,NL,NL
+1,2014,Bent,,,NL,NL
+1,2014,Boulder,3417873,,,NL
+1,2014,Broomfield,,,NL,NL
+1,2014,Chaffee,83714,,,NL
+1,2014,Cheyenne,,,NL,NL
+1,2014,Clear Creek,143736,459640,,
+1,2014,Conejos,,,NL,NL
+1,2014,Costilla,,,NR,NL
+1,2014,Crowley,,,NL,NL
+1,2014,Custer,,,NL,NL
+1,2014,Delta,,,NL,NL
+1,2014,Denver,15351083,8482593,,
+1,2014,Dolores,,,NL,NL
+1,2014,Douglas,,,NL,NL
+1,2014,Eagle,203060,,,NL
+1,2014,Elbert,,,NL,NL
+1,2014,El Paso,4923633,,,NL
+1,2014,Fremont,134388,,,NL
+1,2014,Garfield,396086,,,NR
+1,2014,Gilpin,28798,197379,,
+1,2014,Grand,,,NR,NL
+1,2014,Gunnison,36244,,,NR
+1,2014,Hinsdale,,,NL,NL
+1,2014,Huerfano,,,NL,NL
+1,2014,Jackson,,,NL,NL
+1,2014,Jefferson,1979386,853675,,
+1,2014,Kiowa,,,NL,NL
+1,2014,Kit Carson,,,NL,NL
+1,2014,Lake,,,NL,NR
+1,2014,La Plata,523193,,,NL
+1,2014,Larimer,964948,,,NL
+1,2014,Las Animas,,,NL,NL
+1,2014,Lincoln,,,NL,NL
+1,2014,Logan,,,NL,NL
+1,2014,Mesa,,,NR,NL
+1,2014,Mineral,,,NL,NL
+1,2014,Moffat,,,NR,NL
+1,2014,Montezuma,100634,,,NL
+1,2014,Montrose,,,NR,NL
+1,2014,Morgan,,,NL,NL
+1,2014,Otero,,,NL,NL
+1,2014,Ouray,,,NR,NR
+1,2014,Park,,,NR,NR
+1,2014,Phillips,,,NL,NL
+1,2014,Pitkin,194865,,,NL
+1,2014,Prowers,,,NL,NL
+1,2014,Pueblo,419894,,,NR
+1,2014,Rio Blanco,,,NL,NL
+1,2014,Rio Grande,,,NL,NL
+1,2014,Routt,239509,,,NR
+1,2014,Saguache,,,NL,NL
+1,2014,San Juan,,,NL,NL
+1,2014,San Miguel,164384,338934,,
+1,2014,Sedgwick,,,NR,NL
+1,2014,Summit,271441,1274208,,
+1,2014,Teller,,,NR,NL
+1,2014,Washington,,,NL,NL
+1,2014,Weld,657150,,,NR
+1,2014,Yuma,,,NL,NL
+1,2015,Adams,421362,1189877,,
+1,2015,Alamosa,,,NR,NL
+1,2015,Arapahoe,1493744,1844768,,
+1,2015,Archuleta,,,NR,NR
+1,2015,Baca,,,NL,NL
+1,2015,Bent,,,NL,NL
+1,2015,Boulder,2501072,3565252,,
+1,2015,Broomfield,,,NL,NL
+1,2015,Chaffee,,,NR,NR
+1,2015,Cheyenne,,,NL,NL
+1,2015,Clear Creek,79640,455108,,
+1,2015,Conejos,,,NL,NL
+1,2015,Costilla,,,NR,NR
+1,2015,Crowley,,,NL,NL
+1,2015,Custer,,,NL,NL
+1,2015,Delta,,,NL,NL
+1,2015,Denver,13374117,15485689,,
+1,2015,Dolores,,,NL,NL
+1,2015,Douglas,,,NL,NL
+1,2015,Eagle,316095,825587,,
+1,2015,Elbert,,,NL,NL
+1,2015,El Paso,5582451,,,NR
+1,2015,Fremont,180201,,,NL
+1,2015,Garfield,325730,616641,,
+1,2015,Gilpin,31006,112455,,
+1,2015,Grand,,,NR,NR
+1,2015,Gunnison,,273043,NR,
+1,2015,Hinsdale,,,NL,NL
+1,2015,Huerfano,,,NL,NL
+1,2015,Jackson,,,NL,NL
+1,2015,Jefferson,1868844,2108127,,
+1,2015,Kiowa,,,NL,NL
+1,2015,Kit Carson,,,NL,NL
+1,2015,Lake,,,NL,NR
+1,2015,La Plata,893330,798627,,
+1,2015,Larimer,1141214,1728021,,
+1,2015,Las Animas,,224113,NR,
+1,2015,Lincoln,,,NL,NL
+1,2015,Logan,,,NL,NL
+1,2015,Mesa,,,NR,NR
+1,2015,Mineral,,,NL,NL
+1,2015,Moffat,,,NR,NL
+1,2015,Montezuma,114767,,,NR
+1,2015,Montrose,,,NR,NL
+1,2015,Morgan,,,NR,NR
+1,2015,Otero,,,NL,NL
+1,2015,Ouray,,,NR,NR
+1,2015,Park,,,NR,NR
+1,2015,Phillips,,,NL,NL
+1,2015,Pitkin,90522,813722,,
+1,2015,Prowers,,,NL,NL
+1,2015,Pueblo,359950,1063092,,
+1,2015,Rio Blanco,,,NL,NL
+1,2015,Rio Grande,,,NL,NL
+1,2015,Routt,,,NR,NR
+1,2015,Saguache,,,NL,NR
+1,2015,San Juan,,,NL,NR
+1,2015,San Miguel,50579,374588,,
+1,2015,Sedgwick,,,NR,NR
+1,2015,Summit,255639,1685111,,
+1,2015,Teller,,,NR,NL
+1,2015,Washington,,,NL,NL
+1,2015,Weld,340278,1199406,,
+1,2015,Yuma,,,NL,NL
+1,2016,Adams,363668,2544485,,
+1,2016,Alamosa,,,NR,NL
+1,2016,Arapahoe,1547734,5949573,,
+1,2016,Archuleta,,,NR,NR
+1,2016,Baca,,,NL,NL
+1,2016,Bent,,,NL,NL
+1,2016,Boulder,2565967,4499880,,
+1,2016,Broomfield,,,NL,NL
+1,2016,Chaffee,,268240,NR,
+1,2016,Cheyenne,,,NL,NL
+1,2016,Clear Creek,103212,550192,,
+1,2016,Conejos,,,NL,NR
+1,2016,Costilla,,,NR,NR
+1,2016,Crowley,,,NL,NL
+1,2016,Custer,,,NL,NL
+1,2016,Delta,,,NL,NL
+1,2016,Denver,14692917,18969263,,
+1,2016,Dolores,,,NL,NL
+1,2016,Douglas,,,NL,NL
+1,2016,Eagle,258266,1214652,,
+1,2016,Elbert,,,NL,NL
+1,2016,El Paso,7124874,,,NR
+1,2016,Fremont,160049,,,NL
+1,2016,Garfield,342951,821090,,
+1,2016,Gilpin,,136475,NR,
+1,2016,Grand,,287813,NR,
+1,2016,Gunnison,,400086,NR,
+1,2016,Hinsdale,,,NL,NL
+1,2016,Huerfano,,,NL,NR
+1,2016,Jackson,,,NL,NL
+1,2016,Jefferson,1624527,3020022,,
+1,2016,Kiowa,,,NL,NL
+1,2016,Kit Carson,,,NL,NL
+1,2016,Lake,,,NL,NR
+1,2016,La Plata,364582,1396817,,
+1,2016,Larimer,1310553,2708125,,
+1,2016,Las Animas,,922872,NR,
+1,2016,Lincoln,,,NL,NL
+1,2016,Logan,,,NL,NL
+1,2016,Mesa,,,NR,NR
+1,2016,Mineral,,,NL,NL
+1,2016,Moffat,,,NR,NL
+1,2016,Montezuma,79330,532773,,
+1,2016,Montrose,,,NR,NL
+1,2016,Morgan,,,NR,NR
+1,2016,Otero,,,NL,NL
+1,2016,Ouray,,,NR,NR
+1,2016,Park,,187006,NR,
+1,2016,Phillips,,,NL,NL
+1,2016,Pitkin,93239,1008558,,
+1,2016,Prowers,,,NL,NL
+1,2016,Pueblo,822153,1466234,,
+1,2016,Rio Blanco,,,NL,NL
+1,2016,Rio Grande,,,NL,NL
+1,2016,Routt,203373,792416,,
+1,2016,Saguache,,,NL,NR
+1,2016,San Juan,,,NL,NR
+1,2016,San Miguel,,385569,NR,
+1,2016,Sedgwick,,,NR,NR
+1,2016,Summit,228510,2338782,,
+1,2016,Teller,,,NR,NL
+1,2016,Washington,,,NL,NL
+1,2016,Weld,356636,1793538,,
+1,2016,Yuma,,,NL,NL
+1,2017,Adams,520138,4192709,,
+1,2017,Alamosa,,,NR,NL
+1,2017,Arapahoe,1137598,8481055,,
+1,2017,Archuleta,,,NR,NR
+1,2017,Baca,,,NL,NL
+1,2017,Bent,,,NL,NL
+1,2017,Boulder,1943678,5351831,,
+1,2017,Broomfield,,,NL,NL
+1,2017,Chaffee,,316009,NR,
+1,2017,Cheyenne,,,NL,NL
+1,2017,Clear Creek,52434,584198,,
+1,2017,Conejos,,294331,NL,
+1,2017,Costilla,,214330,NR,
+1,2017,Crowley,,,NL,NL
+1,2017,Custer,,,NL,NL
+1,2017,Delta,,,NL,NL
+1,2017,Denver,15275938,25681498,,
+1,2017,Dolores,,,NL,NL
+1,2017,Douglas,,,NL,NL
+1,2017,Eagle,135334,1297711,,
+1,2017,Elbert,,,NL,NL
+1,2017,El Paso,7656270,,,NR
+1,2017,Fremont,,,NR,NL
+1,2017,Garfield,308266,1373945,,
+1,2017,Gilpin,,157003,NR,
+1,2017,Grand,,378163,NR,
+1,2017,Gunnison,,546542,NR,
+1,2017,Hinsdale,,,NL,NL
+1,2017,Huerfano,,,NL,NR
+1,2017,Jackson,,,NL,NL
+1,2017,Jefferson,1370186,4098431,,
+1,2017,Kiowa,,,NL,NL
+1,2017,Kit Carson,,,NL,NL
+1,2017,Lake,,188571,NL,
+1,2017,La Plata,301119,1655168,,
+1,2017,Larimer,1099359,3695944,,
+1,2017,Las Animas,,2162976,NR,
+1,2017,Lincoln,,,NL,NL
+1,2017,Logan,,,NL,NL
+1,2017,Mesa,,,NR,NR
+1,2017,Mineral,,,NL,NL
+1,2017,Moffat,,,NR,NL
+1,2017,Montezuma,55703,1146208,,
+1,2017,Montrose,,,NR,NL
+1,2017,Morgan,,,NR,NR
+1,2017,Otero,,,NR,NL
+1,2017,Ouray,,326182,NR,
+1,2017,Park,,267804,NR,
+1,2017,Phillips,,,NL,NL
+1,2017,Pitkin,66911,1164037,,
+1,2017,Prowers,,,NL,NL
+1,2017,Pueblo,515017,2334107,,
+1,2017,Rio Blanco,,,NL,NL
+1,2017,Rio Grande,,,NL,NL
+1,2017,Routt,186048,938153,,
+1,2017,Saguache,,,NL,NR
+1,2017,San Juan,,,NL,NR
+1,2017,San Miguel,35319,426586,,
+1,2017,Sedgwick,,,NR,NR
+1,2017,Summit,,2678675,NR,
+1,2017,Teller,,,NR,NL
+1,2017,Washington,,,NL,NL
+1,2017,Weld,267811,2382718,,
+1,2017,Yuma,,,NL,NL
+1,2018,Adams,803293,6081061,,
+1,2018,Alamosa,,,NR,NL
+1,2018,Arapahoe,844394,9032907,,
+1,2018,Archuleta,,624455,NR,
+1,2018,Baca,,,NL,NL
+1,2018,Bent,,,NL,NL
+1,2018,Boulder,1647031,6212027,,
+1,2018,Broomfield,,,NL,NL
+1,2018,Chaffee,,340366,NR,
+1,2018,Cheyenne,,,NL,NL
+1,2018,Clear Creek,29971,596376,,
+1,2018,Conejos,,390971,NL,
+1,2018,Costilla,,246490,NL,
+1,2018,Crowley,,,NL,NL
+1,2018,Custer,,,NL,NL
+1,2018,Delta,,,NL,NL
+1,2018,Denver,13211845,28855834,,
+1,2018,Dolores,,,NL,NL
+1,2018,Douglas,,,NL,NL
+1,2018,Eagle,132762,1599616,,
+1,2018,Elbert,,,NL,NL
+1,2018,El Paso,7661315,,,NR
+1,2018,Fremont,134858,,,NL
+1,2018,Garfield,249651,1391402,,
+1,2018,Gilpin,,167184,NR,
+1,2018,Grand,,462433,NR,
+1,2018,Gunnison,,600542,NR,
+1,2018,Hinsdale,,,NL,NL
+1,2018,Huerfano,,,NL,NR
+1,2018,Jackson,,,NL,NL
+1,2018,Jefferson,1278807,3912816,,
+1,2018,Kiowa,,,NL,NL
+1,2018,Kit Carson,,,NL,NL
+1,2018,Lake,,223602,NL,
+1,2018,La Plata,273077,1675203,,
+1,2018,Larimer,1122353,4982764,,
+1,2018,Las Animas,44461,3370017,,
+1,2018,Lincoln,,,NL,NL
+1,2018,Logan,,,NL,NL
+1,2018,Mesa,,1069286,NR,
+1,2018,Mineral,,,NL,NL
+1,2018,Moffat,,,NR,NL
+1,2018,Montezuma,54617,1514572,,
+1,2018,Montrose,,,NR,NL
+1,2018,Morgan,,748636,NR,
+1,2018,Otero,,,NR,NL
+1,2018,Ouray,,409591,NR,
+1,2018,Park,,334849,NR,
+1,2018,Phillips,,,NL,NL
+1,2018,Pitkin,65391,1361900,,
+1,2018,Prowers,,,NL,NL
+1,2018,Pueblo,531897,3448129,,
+1,2018,Rio Blanco,,,NL,NL
+1,2018,Rio Grande,,,NL,NL
+1,2018,Routt,165408,1140165,,
+1,2018,Saguache,,99344,NL,
+1,2018,San Juan,,,NL,NR
+1,2018,San Miguel,,484986,NR,
+1,2018,Sedgwick,,,NR,NR
+1,2018,Summit,118928,2841769,,
+1,2018,Teller,,,NL,NL
+1,2018,Washington,,,NL,NL
+1,2018,Weld,348569,2300531,,
+1,2018,Yuma,,,NL,NL
+2,2014,Adams,454940,,,NR
+2,2014,Alamosa,,,NR,NL
+2,2014,Arapahoe,1210155,,,NL
+2,2014,Archuleta,,,NR,NL
+2,2014,Baca,,,NL,NL
+2,2014,Bent,,,NL,NL
+2,2014,Boulder,3345413,,,NR
+2,2014,Broomfield,,,NL,NL
+2,2014,Chaffee,,,NR,NL
+2,2014,Cheyenne,,,NL,NL
+2,2014,Clear Creek,111164,445976,,
+2,2014,Conejos,,,NL,NL
+2,2014,Costilla,,,NR,NL
+2,2014,Crowley,,,NL,NL
+2,2014,Custer,,,NL,NL
+2,2014,Delta,,,NL,NL
+2,2014,Denver,14680476,8349069,,
+2,2014,Dolores,,,NL,NL
+2,2014,Douglas,,,NL,NL
+2,2014,Eagle,185360,,,NL
+2,2014,Elbert,,,NL,NL
+2,2014,El Paso,5116438,,,NL
+2,2014,Fremont,215839,,,NL
+2,2014,Garfield,373432,,,NR
+2,2014,Gilpin,32325,113337,,
+2,2014,Grand,,,NR,NL
+2,2014,Gunnison,,,NR,NR
+2,2014,Hinsdale,,,NL,NL
+2,2014,Huerfano,,,NL,NL
+2,2014,Jackson,,,NL,NL
+2,2014,Jefferson,2044484,880367,,
+2,2014,Kiowa,,,NL,NL
+2,2014,Kit Carson,,,NL,NL
+2,2014,Lake,,,NL,NR
+2,2014,La Plata,521985,,,NL
+2,2014,Larimer,1009841,,,NL
+2,2014,Las Animas,,,NL,NL
+2,2014,Lincoln,,,NL,NL
+2,2014,Logan,,,NL,NL
+2,2014,Mesa,,,NR,NL
+2,2014,Mineral,,,NL,NL
+2,2014,Moffat,,,NR,NL
+2,2014,Montezuma,103266,,,NL
+2,2014,Montrose,,,NR,NL
+2,2014,Morgan,,,NL,NL
+2,2014,Otero,,,NL,NL
+2,2014,Ouray,,,NR,NR
+2,2014,Park,,,NR,NR
+2,2014,Phillips,,,NL,NL
+2,2014,Pitkin,161237,,,NL
+2,2014,Prowers,,,NL,NL
+2,2014,Pueblo,418489,823156,,
+2,2014,Rio Blanco,,,NL,NL
+2,2014,Rio Grande,,,NL,NL
+2,2014,Routt,209165,,,NR
+2,2014,Saguache,,,NL,NL
+2,2014,San Juan,,,NL,NL
+2,2014,San Miguel,94099,230470,,
+2,2014,Sedgwick,,,NR,NL
+2,2014,Summit,244818,1063383,,
+2,2014,Teller,,,NR,NL
+2,2014,Washington,,,NL,NL
+2,2014,Weld,671024,,,NR
+2,2014,Yuma,,,NL,NL
+2,2015,Adams,434375,,,NR
+2,2015,Alamosa,,,NR,NL
+2,2015,Arapahoe,1402007,2114064,,
+2,2015,Archuleta,,,NR,NR
+2,2015,Baca,,,NL,NL
+2,2015,Bent,,,NL,NL
+2,2015,Boulder,2257951,3209140,,
+2,2015,Broomfield,,,NL,NL
+2,2015,Chaffee,,,NR,NR
+2,2015,Cheyenne,,,NL,NL
+2,2015,Clear Creek,77001,416086,,
+2,2015,Conejos,,,NL,NL
+2,2015,Costilla,,,NR,NR
+2,2015,Crowley,,,NL,NL
+2,2015,Custer,,,NL,NL
+2,2015,Delta,,,NL,NL
+2,2015,Denver,12841486,14411812,,
+2,2015,Dolores,,,NL,NL
+2,2015,Douglas,,,NL,NL
+2,2015,Eagle,292481,735296,,
+2,2015,Elbert,,,NL,NL
+2,2015,El Paso,5578020,,,NR
+2,2015,Fremont,175136,,,NL
+2,2015,Garfield,348057,535881,,
+2,2015,Gilpin,28410,104647,,
+2,2015,Grand,,,NR,NR
+2,2015,Gunnison,,224407,NR,
+2,2015,Hinsdale,,,NL,NL
+2,2015,Huerfano,,,NL,NL
+2,2015,Jackson,,,NL,NL
+2,2015,Jefferson,1700441,1960725,,
+2,2015,Kiowa,,,NL,NL
+2,2015,Kit Carson,,,NL,NL
+2,2015,Lake,,,NL,NR
+2,2015,La Plata,892507,840795,,
+2,2015,Larimer,1111034,1685559,,
+2,2015,Las Animas,,287148,NR,
+2,2015,Lincoln,,,NL,NL
+2,2015,Logan,,,NL,NL
+2,2015,Mesa,,,NR,NR
+2,2015,Mineral,,,NL,NL
+2,2015,Moffat,,,NR,NL
+2,2015,Montezuma,104595,159174,,
+2,2015,Montrose,,,NR,NL
+2,2015,Morgan,,,NR,NR
+2,2015,Otero,,,NL,NL
+2,2015,Ouray,,,NR,NR
+2,2015,Park,,,NR,NR
+2,2015,Phillips,,,NL,NL
+2,2015,Pitkin,75050,705757,,
+2,2015,Prowers,,,NL,NL
+2,2015,Pueblo,358140,1039417,,
+2,2015,Rio Blanco,,,NL,NL
+2,2015,Rio Grande,,,NL,NL
+2,2015,Routt,,,NR,NR
+2,2015,Saguache,,,NL,NR
+2,2015,San Juan,,,NL,NR
+2,2015,San Miguel,41195,300473,,
+2,2015,Sedgwick,,,NR,NR
+2,2015,Summit,246053,1393552,,
+2,2015,Teller,,,NR,NL
+2,2015,Washington,,,NL,NL
+2,2015,Weld,364563,1270638,,
+2,2015,Yuma,,,NL,NL
+2,2016,Adams,331503,2597102,,
+2,2016,Alamosa,,,NR,NL
+2,2016,Arapahoe,1502406,6229934,,
+2,2016,Archuleta,,,NR,NR
+2,2016,Baca,,,NL,NL
+2,2016,Bent,,,NL,NL
+2,2016,Boulder,2517617,4477304,,
+2,2016,Broomfield,,,NL,NL
+2,2016,Chaffee,,281840,NR,
+2,2016,Cheyenne,,,NL,NL
+2,2016,Clear Creek,89373,535811,,
+2,2016,Conejos,,163449,NL,
+2,2016,Costilla,,153417,NR,
+2,2016,Crowley,,,NL,NL
+2,2016,Custer,,,NL,NL
+2,2016,Delta,,,NL,NL
+2,2016,Denver,15302180,19129746,,
+2,2016,Dolores,,,NL,NL
+2,2016,Douglas,,,NL,NL
+2,2016,Eagle,234659,1176777,,
+2,2016,Elbert,,,NL,NL
+2,2016,El Paso,7548713,,,NR
+2,2016,Fremont,,,NR,NL
+2,2016,Garfield,386348,860185,,
+2,2016,Gilpin,,172887,NR,
+2,2016,Grand,,279018,NR,
+2,2016,Gunnison,,413264,NR,
+2,2016,Hinsdale,,,NL,NL
+2,2016,Huerfano,,,NL,NR
+2,2016,Jackson,,,NL,NL
+2,2016,Jefferson,1589401,2970642,,
+2,2016,Kiowa,,,NL,NL
+2,2016,Kit Carson,,,NL,NL
+2,2016,Lake,,,NL,NR
+2,2016,La Plata,360382,1484507,,
+2,2016,Larimer,1341468,2878307,,
+2,2016,Las Animas,,1012648,NR,
+2,2016,Lincoln,,,NL,NL
+2,2016,Logan,,,NL,NL
+2,2016,Mesa,,,NR,NR
+2,2016,Mineral,,,NL,NL
+2,2016,Moffat,,,NR,NL
+2,2016,Montezuma,102860,600808,,
+2,2016,Montrose,,,NR,NL
+2,2016,Morgan,,,NR,NR
+2,2016,Otero,,,NL,NL
+2,2016,Ouray,,,NR,NR
+2,2016,Park,,176302,NR,
+2,2016,Phillips,,,NL,NL
+2,2016,Pitkin,95627,964350,,
+2,2016,Prowers,,,NL,NL
+2,2016,Pueblo,980275,1686427,,
+2,2016,Rio Blanco,,,NL,NL
+2,2016,Rio Grande,,,NL,NL
+2,2016,Routt,193928,772020,,
+2,2016,Saguache,,,NL,NR
+2,2016,San Juan,,,NL,NR
+2,2016,San Miguel,46544,339892,,
+2,2016,Sedgwick,,,NR,NR
+2,2016,Summit,212147,2116576,,
+2,2016,Teller,,,NR,NL
+2,2016,Washington,,,NL,NL
+2,2016,Weld,395983,1866786,,
+2,2016,Yuma,,,NL,NL
+2,2017,Adams,602151,4117924,,
+2,2017,Alamosa,,,NR,NL
+2,2017,Arapahoe,1330979,8243087,,
+2,2017,Archuleta,,498578,NR,
+2,2017,Baca,,,NL,NL
+2,2017,Bent,,,NL,NL
+2,2017,Boulder,1728022,5165008,,
+2,2017,Broomfield,,,NL,NL
+2,2017,Chaffee,,311277,NR,
+2,2017,Cheyenne,,,NL,NL
+2,2017,Clear Creek,59126,551247,,
+2,2017,Conejos,,331768,NL,
+2,2017,Costilla,,214658,NR,
+2,2017,Crowley,,,NL,NL
+2,2017,Custer,,,NL,NL
+2,2017,Delta,,,NL,NL
+2,2017,Denver,14300291,25223748,,
+2,2017,Dolores,,,NL,NL
+2,2017,Douglas,,,NL,NL
+2,2017,Eagle,136357,1277562,,
+2,2017,Elbert,,,NL,NL
+2,2017,El Paso,7876520,,,NR
+2,2017,Fremont,164115,,,NL
+2,2017,Garfield,274508,1492785,,
+2,2017,Gilpin,,180512,NR,
+2,2017,Grand,,366095,NR,
+2,2017,Gunnison,,493440,NR,
+2,2017,Hinsdale,,,NL,NL
+2,2017,Huerfano,,,NL,NR
+2,2017,Jackson,,,NL,NL
+2,2017,Jefferson,1519126,3970982,,
+2,2017,Kiowa,,,NL,NL
+2,2017,Kit Carson,,,NL,NL
+2,2017,Lake,,187885,NL,
+2,2017,La Plata,282052,1708769,,
+2,2017,Larimer,1041868,3771110,,
+2,2017,Las Animas,31212,2558480,,
+2,2017,Lincoln,,,NL,NL
+2,2017,Logan,,,NL,NL
+2,2017,Mesa,,,NR,NR
+2,2017,Mineral,,,NL,NL
+2,2017,Moffat,,,NR,NL
+2,2017,Montezuma,57030,1275430,,
+2,2017,Montrose,,,NR,NL
+2,2017,Morgan,,623494,NR,
+2,2017,Otero,,,NR,NL
+2,2017,Ouray,,331947,NR,
+2,2017,Park,,275968,NR,
+2,2017,Phillips,,,NL,NL
+2,2017,Pitkin,64017,1076901,,
+2,2017,Prowers,,,NL,NL
+2,2017,Pueblo,562271,2575500,,
+2,2017,Rio Blanco,,,NL,NL
+2,2017,Rio Grande,,,NL,NL
+2,2017,Routt,161179,912576,,
+2,2017,Saguache,,,NL,NR
+2,2017,San Juan,,,NL,NR
+2,2017,San Miguel,22889,394742,,
+2,2017,Sedgwick,,,NR,NR
+2,2017,Summit,138716,2403241,,
+2,2017,Teller,,,NR,NL
+2,2017,Washington,,,NL,NL
+2,2017,Weld,270319,2440896,,
+2,2017,Yuma,,,NL,NL
+2,2018,Adams,686490,5562602,,
+2,2018,Alamosa,,,NR,NL
+2,2018,Arapahoe,788639,8659080,,
+2,2018,Archuleta,,568046,NR,
+2,2018,Baca,,,NL,NL
+2,2018,Bent,,,NL,NL
+2,2018,Boulder,1481838,5937258,,
+2,2018,Broomfield,,,NL,NL
+2,2018,Chaffee,,364706,NR,
+2,2018,Cheyenne,,,NL,NL
+2,2018,Clear Creek,28097,578860,,
+2,2018,Conejos,,383902,NL,
+2,2018,Costilla,,254480,NL,
+2,2018,Crowley,,,NL,NL
+2,2018,Custer,,,NL,NL
+2,2018,Delta,,,NL,NL
+2,2018,Denver,11430319,27629202,,
+2,2018,Dolores,,,NL,NL
+2,2018,Douglas,,,NL,NL
+2,2018,Eagle,119561,1633799,,
+2,2018,Elbert,,,NL,NL
+2,2018,El Paso,7412365,,,NR
+2,2018,Fremont,134945,,,NL
+2,2018,Garfield,239710,1361931,,
+2,2018,Gilpin,,162046,NR,
+2,2018,Grand,,455352,NR,
+2,2018,Gunnison,,518883,NL,
+2,2018,Hinsdale,,,NL,NL
+2,2018,Huerfano,,,NL,NR
+2,2018,Jackson,,,NL,NL
+2,2018,Jefferson,1205386,3648040,,
+2,2018,Kiowa,,,NL,NL
+2,2018,Kit Carson,,,NL,NL
+2,2018,Lake,,197617,NL,
+2,2018,La Plata,277446,1752698,,
+2,2018,Larimer,1057880,4825740,,
+2,2018,Las Animas,36072,3477803,,
+2,2018,Lincoln,,,NL,NL
+2,2018,Logan,,,NL,NL
+2,2018,Mesa,,1179371,NR,
+2,2018,Mineral,,,NL,NL
+2,2018,Moffat,,,NR,NL
+2,2018,Montezuma,52213,1646139,,
+2,2018,Montrose,,,NR,NL
+2,2018,Morgan,,821939,NR,
+2,2018,Otero,,,NR,NL
+2,2018,Ouray,,436779,NR,
+2,2018,Park,,303972,NR,
+2,2018,Phillips,,,NL,NL
+2,2018,Pitkin,58230,1215285,,
+2,2018,Prowers,,,NL,NL
+2,2018,Pueblo,508986,3697366,,
+2,2018,Rio Blanco,,,NL,NL
+2,2018,Rio Grande,,,NL,NL
+2,2018,Routt,158779,1072374,,
+2,2018,Saguache,,98025,NL,
+2,2018,San Juan,,,NL,NR
+2,2018,San Miguel,,428164,NR,
+2,2018,Sedgwick,,,NR,NR
+2,2018,Summit,106905,2548153,,
+2,2018,Teller,,,NL,NL
+2,2018,Washington,,,NL,NL
+2,2018,Weld,327679,2298788,,
+2,2018,Yuma,,,NL,NL
+3,2014,Adams,477275,,,NR
+3,2014,Alamosa,,,NR,NL
+3,2014,Arapahoe,1490219,,,NL
+3,2014,Archuleta,,,NR,NL
+3,2014,Baca,,,NL,NL
+3,2014,Bent,,,NL,NL
+3,2014,Boulder,3505875,1396479,,
+3,2014,Broomfield,,,NL,NL
+3,2014,Chaffee,,,NR,NL
+3,2014,Cheyenne,,,NL,NL
+3,2014,Clear Creek,106955,524541,,
+3,2014,Conejos,,,NL,NL
+3,2014,Costilla,,,NR,NL
+3,2014,Crowley,,,NL,NL
+3,2014,Custer,,,NL,NL
+3,2014,Delta,,,NL,NL
+3,2014,Denver,16102218,10746117,,
+3,2014,Dolores,,,NL,NL
+3,2014,Douglas,,,NL,NL
+3,2014,Eagle,201147,,,NL
+3,2014,Elbert,,,NL,NL
+3,2014,El Paso,5929766,,,NL
+3,2014,Fremont,222270,,,NL
+3,2014,Garfield,401766,,,NR
+3,2014,Gilpin,33416,131685,,
+3,2014,Grand,,,NR,NL
+3,2014,Gunnison,,,NR,NR
+3,2014,Hinsdale,,,NL,NL
+3,2014,Huerfano,,,NL,NL
+3,2014,Jackson,,,NL,NL
+3,2014,Jefferson,2014285,1056723,,
+3,2014,Kiowa,,,NL,NL
+3,2014,Kit Carson,,,NL,NL
+3,2014,Lake,,,NL,NR
+3,2014,La Plata,587114,,,NL
+3,2014,Larimer,1234344,,,NL
+3,2014,Las Animas,,,NL,NL
+3,2014,Lincoln,,,NL,NL
+3,2014,Logan,,,NL,NL
+3,2014,Mesa,,,NR,NL
+3,2014,Mineral,,,NL,NL
+3,2014,Moffat,,,NR,NL
+3,2014,Montezuma,,,NR,NL
+3,2014,Montrose,,,NR,NL
+3,2014,Morgan,,,NL,NL
+3,2014,Otero,,,NL,NL
+3,2014,Ouray,,,NR,NR
+3,2014,Park,,,NR,NR
+3,2014,Phillips,,,NL,NL
+3,2014,Pitkin,157541,,,NR
+3,2014,Prowers,,,NL,NL
+3,2014,Pueblo,375711,1196018,,
+3,2014,Rio Blanco,,,NL,NL
+3,2014,Rio Grande,,,NL,NL
+3,2014,Routt,214650,,,NR
+3,2014,Saguache,,,NR,NL
+3,2014,San Juan,,,NL,NL
+3,2014,San Miguel,75215,319620,,
+3,2014,Sedgwick,,,NR,NL
+3,2014,Summit,253937,1427935,,
+3,2014,Teller,,,NR,NL
+3,2014,Washington,,,NL,NL
+3,2014,Weld,580961,,,NR
+3,2014,Yuma,,,NL,NL
+3,2015,Adams,479975,1497796,,
+3,2015,Alamosa,,,NR,NL
+3,2015,Arapahoe,1562845,2615133,,
+3,2015,Archuleta,,,NR,NR
+3,2015,Baca,,,NL,NL
+3,2015,Bent,,,NL,NL
+3,2015,Boulder,2525620,3856723,,
+3,2015,Broomfield,,,NL,NL
+3,2015,Chaffee,,,NR,NR
+3,2015,Cheyenne,,,NL,NL
+3,2015,Clear Creek,82344,485304,,
+3,2015,Conejos,,,NL,NL
+3,2015,Costilla,,,NR,NR
+3,2015,Crowley,,,NL,NL
+3,2015,Custer,,,NL,NL
+3,2015,Delta,,,NL,NL
+3,2015,Denver,14406613,17121933,,
+3,2015,Dolores,,,NL,NL
+3,2015,Douglas,,,NL,NL
+3,2015,Eagle,337864,862396,,
+3,2015,Elbert,,,NL,NL
+3,2015,El Paso,6380331,,,NR
+3,2015,Fremont,194875,,,NL
+3,2015,Garfield,379738,642659,,
+3,2015,Gilpin,,117004,NR,
+3,2015,Grand,,,NR,NR
+3,2015,Gunnison,,296334,NR,
+3,2015,Hinsdale,,,NL,NL
+3,2015,Huerfano,,,NL,NL
+3,2015,Jackson,,,NL,NL
+3,2015,Jefferson,1861813,2224610,,
+3,2015,Kiowa,,,NL,NL
+3,2015,Kit Carson,,,NL,NL
+3,2015,Lake,,,NL,NR
+3,2015,La Plata,1017530,1020552,,
+3,2015,Larimer,1320406,1943174,,
+3,2015,Las Animas,,415008,NR,
+3,2015,Lincoln,,,NL,NL
+3,2015,Logan,,,NL,NL
+3,2015,Mesa,,,NR,NR
+3,2015,Mineral,,,NL,NL
+3,2015,Moffat,,,NR,NL
+3,2015,Montezuma,133639,254446,,
+3,2015,Montrose,,,NR,NL
+3,2015,Morgan,,,NR,NR
+3,2015,Otero,,,NL,NL
+3,2015,Ouray,,,NR,NR
+3,2015,Park,,146105,NR,
+3,2015,Phillips,,,NL,NL
+3,2015,Pitkin,85006,896693,,
+3,2015,Prowers,,,NL,NL
+3,2015,Pueblo,463245,1355119,,
+3,2015,Rio Blanco,,,NL,NL
+3,2015,Rio Grande,,,NL,NL
+3,2015,Routt,199449,616913,,
+3,2015,Saguache,,,NL,NR
+3,2015,San Juan,,,NL,NR
+3,2015,San Miguel,50730,375409,,
+3,2015,Sedgwick,,,NR,NR
+3,2015,Summit,292686,1727608,,
+3,2015,Teller,,,NR,NL
+3,2015,Washington,,,NL,NL
+3,2015,Weld,386290,1443488,,
+3,2015,Yuma,,,NL,NL
+3,2016,Adams,347344,2909379,,
+3,2016,Alamosa,,,NR,NL
+3,2016,Arapahoe,1601551,7112616,,
+3,2016,Archuleta,,,NR,NR
+3,2016,Baca,,,NL,NL
+3,2016,Bent,,,NL,NL
+3,2016,Boulder,2718254,5138199,,
+3,2016,Broomfield,,,NL,NL
+3,2016,Chaffee,,350973,NR,
+3,2016,Cheyenne,,,NL,NL
+3,2016,Clear Creek,87829,561094,,
+3,2016,Conejos,,211950,NL,
+3,2016,Costilla,,195952,NR,
+3,2016,Crowley,,,NL,NL
+3,2016,Custer,,,NL,NL
+3,2016,Delta,,,NL,NL
+3,2016,Denver,17353519,21459311,,
+3,2016,Dolores,,,NL,NL
+3,2016,Douglas,,,NL,NL
+3,2016,Eagle,264913,1283537,,
+3,2016,Elbert,,,NL,NL
+3,2016,El Paso,8537583,,,NR
+3,2016,Fremont,207942,,,NL
+3,2016,Garfield,425553,1095523,,
+3,2016,Gilpin,,188204,NR,
+3,2016,Grand,,360353,NR,
+3,2016,Gunnison,,490823,NR,
+3,2016,Hinsdale,,,NL,NL
+3,2016,Huerfano,,,NL,NR
+3,2016,Jackson,,,NL,NL
+3,2016,Jefferson,1715396,3327498,,
+3,2016,Kiowa,,,NL,NL
+3,2016,Kit Carson,,,NL,NL
+3,2016,Lake,,,NL,NR
+3,2016,La Plata,404686,1679875,,
+3,2016,Larimer,1401215,3197373,,
+3,2016,Las Animas,,1284687,NR,
+3,2016,Lincoln,,,NL,NL
+3,2016,Logan,,,NL,NL
+3,2016,Mesa,,,NR,NR
+3,2016,Mineral,,,NL,NL
+3,2016,Moffat,,,NR,NL
+3,2016,Montezuma,102939,728890,,
+3,2016,Montrose,,,NR,NL
+3,2016,Morgan,,,NR,NR
+3,2016,Otero,,,NL,NL
+3,2016,Ouray,,,NR,NR
+3,2016,Park,,229022,NR,
+3,2016,Phillips,,,NL,NL
+3,2016,Pitkin,103033,1082334,,
+3,2016,Prowers,,,NL,NL
+3,2016,Pueblo,1240646,2074591,,
+3,2016,Rio Blanco,,,NL,NL
+3,2016,Rio Grande,,,NL,NL
+3,2016,Routt,220567,759132,,
+3,2016,Saguache,,,NL,NR
+3,2016,San Juan,,,NL,NR
+3,2016,San Miguel,,,NR,NR
+3,2016,Sedgwick,,,NR,NR
+3,2016,Summit,,2395692,NR,
+3,2016,Teller,,,NR,NL
+3,2016,Washington,,,NL,NL
+3,2016,Weld,,2034731,NR,
+3,2016,Yuma,,,NL,NL
+3,2017,Adams,913402,5044686,,
+3,2017,Alamosa,,,NR,NL
+3,2017,Arapahoe,1334138,10106784,,
+3,2017,Archuleta,,605222,NR,
+3,2017,Baca,,,NL,NL
+3,2017,Bent,,,NL,NL
+3,2017,Boulder,1997004,6322530,,
+3,2017,Broomfield,,,NL,NL
+3,2017,Chaffee,,423717,NR,
+3,2017,Cheyenne,,,NL,NL
+3,2017,Clear Creek,64572,640228,,
+3,2017,Conejos,,401292,NL,
+3,2017,Costilla,,295783,NR,
+3,2017,Crowley,,,NL,NL
+3,2017,Custer,,,NL,NL
+3,2017,Delta,,,NL,NL
+3,2017,Denver,17960587,30626743,,
+3,2017,Dolores,,,NL,NL
+3,2017,Douglas,,,NL,NL
+3,2017,Eagle,163530,1472005,,
+3,2017,Elbert,,,NL,NL
+3,2017,El Paso,9287927,,,NR
+3,2017,Fremont,182868,,,NL
+3,2017,Garfield,336144,1854980,,
+3,2017,Gilpin,,216220,NR,
+3,2017,Grand,,452276,NR,
+3,2017,Gunnison,,617409,NR,
+3,2017,Hinsdale,,,NL,NL
+3,2017,Huerfano,,,NL,NR
+3,2017,Jackson,,,NL,NL
+3,2017,Jefferson,1607995,4831958,,
+3,2017,Kiowa,,,NL,NL
+3,2017,Kit Carson,,,NL,NL
+3,2017,Lake,,,NL,NR
+3,2017,La Plata,338875,2125562,,
+3,2017,Larimer,1197682,4573556,,
+3,2017,Las Animas,35131,3349342,,
+3,2017,Lincoln,,,NL,NL
+3,2017,Logan,,,NL,NL
+3,2017,Mesa,,,NR,NR
+3,2017,Mineral,,,NL,NL
+3,2017,Moffat,,,NR,NL
+3,2017,Montezuma,63516,1684919,,
+3,2017,Montrose,,,NR,NL
+3,2017,Morgan,,,NR,NR
+3,2017,Otero,,,NR,NL
+3,2017,Ouray,,,NR,NR
+3,2017,Park,,356540,NR,
+3,2017,Phillips,,,NL,NL
+3,2017,Pitkin,74384,1277247,,
+3,2017,Prowers,,,NL,NL
+3,2017,Pueblo,676620,3341395,,
+3,2017,Rio Blanco,,,NL,NL
+3,2017,Rio Grande,,,NL,NL
+3,2017,Routt,,1010851,NR,
+3,2017,Saguache,,,NL,NR
+3,2017,San Juan,,,NL,NR
+3,2017,San Miguel,27209,477587,,
+3,2017,Sedgwick,,,NR,NR
+3,2017,Summit,158399,2854198,,
+3,2017,Teller,,,NR,NL
+3,2017,Washington,,,NL,NL
+3,2017,Weld,297470,2751277,,
+3,2017,Yuma,,,NL,NL
+3,2018,Adams,455735,6602994,,
+3,2018,Alamosa,,,NR,NL
+3,2018,Arapahoe,831623,9956392,,
+3,2018,Archuleta,,785123,NR,
+3,2018,Baca,,,NL,NL
+3,2018,Bent,,,NL,NL
+3,2018,Boulder,1691157,7245363,,
+3,2018,Broomfield,,,NL,NL
+3,2018,Chaffee,,469806,NR,
+3,2018,Cheyenne,,,NL,NL
+3,2018,Clear Creek,42961,709544,,
+3,2018,Conejos,,482119,NL,
+3,2018,Costilla,,335071,NL,
+3,2018,Crowley,,,NL,NL
+3,2018,Custer,,,NL,NL
+3,2018,Delta,,,NL,NL
+3,2018,Denver,12756286,34757371,,
+3,2018,Dolores,,,NL,NL
+3,2018,Douglas,,,NL,NL
+3,2018,Eagle,107351,1888834,,
+3,2018,Elbert,,,NL,NL
+3,2018,El Paso,8239341,,,NR
+3,2018,Fremont,120020,,,NL
+3,2018,Garfield,288623,1625638,,
+3,2018,Gilpin,,223369,NR,
+3,2018,Grand,,,NR,NR
+3,2018,Gunnison,,,NL,NR
+3,2018,Hinsdale,,,NL,NL
+3,2018,Huerfano,,,NL,NR
+3,2018,Jackson,,,NL,NL
+3,2018,Jefferson,1413017,4318064,,
+3,2018,Kiowa,,,NL,NL
+3,2018,Kit Carson,,,NL,NL
+3,2018,Lake,,240748,NL,
+3,2018,La Plata,251773,2154494,,
+3,2018,Larimer,1151055,5839729,,
+3,2018,Las Animas,32453,4619588,,
+3,2018,Lincoln,,,NL,NL
+3,2018,Logan,,,NL,NL
+3,2018,Mesa,,1535841,NR,
+3,2018,Mineral,,,NL,NL
+3,2018,Moffat,,,NR,NR
+3,2018,Montezuma,57109,2033604,,
+3,2018,Montrose,,,NR,NL
+3,2018,Morgan,,1062942,NR,
+3,2018,Otero,,,NR,NL
+3,2018,Ouray,,,NR,NR
+3,2018,Park,,386538,NR,
+3,2018,Phillips,,,NL,NL
+3,2018,Pitkin,,1517035,NR,
+3,2018,Prowers,,,NL,NL
+3,2018,Pueblo,574112,4770132,,
+3,2018,Rio Blanco,,,NL,NL
+3,2018,Rio Grande,,,NL,NL
+3,2018,Routt,168347,1153952,,
+3,2018,Saguache,,137847,NL,
+3,2018,San Juan,,,NL,NR
+3,2018,San Miguel,,503751,NR,
+3,2018,Sedgwick,,,NR,NR
+3,2018,Summit,121159,3061330,,
+3,2018,Teller,,,NL,NL
+3,2018,Washington,,,NL,NL
+3,2018,Weld,370633,2681871,,
+3,2018,Yuma,,,NL,NL
+4,2014,Adams,452636,,,NR
+4,2014,Alamosa,,,NR,NL
+4,2014,Arapahoe,1517828,,,NL
+4,2014,Archuleta,,,NR,NL
+4,2014,Baca,,,NL,NL
+4,2014,Bent,,,NL,NL
+4,2014,Boulder,3136133,1835900,,
+4,2014,Broomfield,,,NL,NL
+4,2014,Chaffee,,,NR,NL
+4,2014,Cheyenne,,,NL,NL
+4,2014,Clear Creek,92791,369117,,
+4,2014,Conejos,,,NL,NL
+4,2014,Costilla,,,NR,NL
+4,2014,Crowley,,,NL,NL
+4,2014,Custer,,,NL,NL
+4,2014,Delta,,,NL,NL
+4,2014,Denver,15064678,12005332,,
+4,2014,Dolores,,,NL,NL
+4,2014,Douglas,,,NL,NL
+4,2014,Eagle,178397,,,NL
+4,2014,Elbert,,,NL,NL
+4,2014,El Paso,5535184,,,NL
+4,2014,Fremont,225243,,,NL
+4,2014,Garfield,371447,,,NR
+4,2014,Gilpin,43162,114408,,
+4,2014,Grand,,,NR,NL
+4,2014,Gunnison,,,NR,NR
+4,2014,Hinsdale,,,NL,NL
+4,2014,Huerfano,,,NL,NL
+4,2014,Jackson,,,NL,NL
+4,2014,Jefferson,2039086,1368618,,
+4,2014,Kiowa,,,NL,NL
+4,2014,Kit Carson,,,NL,NL
+4,2014,Lake,,,NL,NR
+4,2014,La Plata,613521,,,NL
+4,2014,Larimer,1162178,,,NR
+4,2014,Las Animas,,,NL,NL
+4,2014,Lincoln,,,NL,NL
+4,2014,Logan,,,NL,NL
+4,2014,Mesa,,,NR,NL
+4,2014,Mineral,,,NL,NL
+4,2014,Moffat,,,NR,NL
+4,2014,Montezuma,108703,,,NL
+4,2014,Montrose,,,NR,NL
+4,2014,Morgan,,,NL,NL
+4,2014,Otero,,,NL,NL
+4,2014,Ouray,,,NR,NR
+4,2014,Park,,,NR,NR
+4,2014,Phillips,,,NL,NL
+4,2014,Pitkin,123525,227021,,
+4,2014,Prowers,,,NL,NL
+4,2014,Pueblo,401959,1132339,,
+4,2014,Rio Blanco,,,NL,NL
+4,2014,Rio Grande,,,NL,NL
+4,2014,Routt,186308,,,NR
+4,2014,Saguache,,,NL,NL
+4,2014,San Juan,,,NL,NL
+4,2014,San Miguel,64107,188733,,
+4,2014,Sedgwick,,,NR,NL
+4,2014,Summit,243097,757131,,
+4,2014,Teller,,,NR,NL
+4,2014,Washington,,,NL,NL
+4,2014,Weld,519545,521853,,
+4,2014,Yuma,,,NL,NL
+4,2015,Adams,474341,1611106,,
+4,2015,Alamosa,,,NR,NL
+4,2015,Arapahoe,1559596,3257101,,
+4,2015,Archuleta,,,NR,NR
+4,2015,Baca,,,NL,NL
+4,2015,Bent,,,NL,NL
+4,2015,Boulder,2559060,3973545,,
+4,2015,Broomfield,,,NL,NL
+4,2015,Chaffee,,250729,NR,
+4,2015,Cheyenne,,,NL,NL
+4,2015,Clear Creek,76243,365896,,
+4,2015,Conejos,,,NL,NL
+4,2015,Costilla,,,NR,NR
+4,2015,Crowley,,,NL,NL
+4,2015,Custer,,,NL,NL
+4,2015,Delta,,,NL,NL
+4,2015,Denver,14953494,18946519,,
+4,2015,Dolores,,,NL,NL
+4,2015,Douglas,,,NL,NL
+4,2015,Eagle,287781,516095,,
+4,2015,Elbert,,,NL,NL
+4,2015,El Paso,6540175,,,NR
+4,2015,Fremont,198045,,,NL
+4,2015,Garfield,381432,644631,,
+4,2015,Gilpin,,130946,NR,
+4,2015,Grand,,,NR,NR
+4,2015,Gunnison,,160176,NR,
+4,2015,Hinsdale,,,NL,NL
+4,2015,Huerfano,,,NL,NL
+4,2015,Jackson,,,NL,NL
+4,2015,Jefferson,1931784,2429996,,
+4,2015,Kiowa,,,NL,NL
+4,2015,Kit Carson,,,NL,NL
+4,2015,Lake,,,NL,NR
+4,2015,La Plata,493486,930516,,
+4,2015,Larimer,1277080,2045132,,
+4,2015,Las Animas,,471514,NR,
+4,2015,Lincoln,,,NL,NL
+4,2015,Logan,,,NL,NL
+4,2015,Mesa,,,NR,NR
+4,2015,Mineral,,,NL,NL
+4,2015,Moffat,,,NR,NL
+4,2015,Montezuma,124006,313150,,
+4,2015,Montrose,,,NR,NL
+4,2015,Morgan,,,NR,NR
+4,2015,Otero,,,NL,NL
+4,2015,Ouray,,,NR,NR
+4,2015,Park,,121375,NR,
+4,2015,Phillips,,,NL,NL
+4,2015,Pitkin,65486,426689,,
+4,2015,Prowers,,,NL,NL
+4,2015,Pueblo,389146,1318252,,
+4,2015,Rio Blanco,,,NL,NL
+4,2015,Rio Grande,,,NL,NL
+4,2015,Routt,193801,433152,,
+4,2015,Saguache,,,NL,NR
+4,2015,San Juan,,,NL,NR
+4,2015,San Miguel,38531,150531,,
+4,2015,Sedgwick,,,NR,NR
+4,2015,Summit,305570,953219,,
+4,2015,Teller,,,NR,NL
+4,2015,Washington,,,NL,NL
+4,2015,Weld,350491,1521411,,
+4,2015,Yuma,,,NL,NL
+4,2016,Adams,387146,3187313,,
+4,2016,Alamosa,,,NR,NL
+4,2016,Arapahoe,1682301,7531661,,
+4,2016,Archuleta,,,NR,NR
+4,2016,Baca,,,NL,NL
+4,2016,Bent,,,NL,NL
+4,2016,Boulder,2706731,5082136,,
+4,2016,Broomfield,,,NL,NL
+4,2016,Chaffee,,300638,NR,
+4,2016,Cheyenne,,,NL,NL
+4,2016,Clear Creek,80570,423714,,
+4,2016,Conejos,,221411,NL,
+4,2016,Costilla,,184198,NR,
+4,2016,Crowley,,,NL,NL
+4,2016,Custer,,,NL,NL
+4,2016,Delta,,,NL,NL
+4,2016,Denver,17690729,22606396,,
+4,2016,Dolores,,,NL,NL
+4,2016,Douglas,,,NL,NL
+4,2016,Eagle,231691,820436,,
+4,2016,Elbert,,,NL,NL
+4,2016,El Paso,8357949,,,NR
+4,2016,Fremont,217581,,,NL
+4,2016,Garfield,468925,1153014,,
+4,2016,Gilpin,,190800,NR,
+4,2016,Grand,,233601,NR,
+4,2016,Gunnison,,325678,NR,
+4,2016,Hinsdale,,,NL,NL
+4,2016,Huerfano,,,NL,NR
+4,2016,Jackson,,,NL,NL
+4,2016,Jefferson,1727954,3572554,,
+4,2016,Kiowa,,,NL,NL
+4,2016,Kit Carson,,,NL,NL
+4,2016,Lake,,,NL,NR
+4,2016,La Plata,410448,1598561,,
+4,2016,Larimer,1388304,3233416,,
+4,2016,Las Animas,,1258520,NR,
+4,2016,Lincoln,,,NL,NL
+4,2016,Logan,,,NL,NL
+4,2016,Mesa,,,NR,NR
+4,2016,Mineral,,,NL,NL
+4,2016,Moffat,,,NR,NL
+4,2016,Montezuma,114171,727306,,
+4,2016,Montrose,,,NR,NL
+4,2016,Morgan,,,NR,NR
+4,2016,Otero,,,NL,NL
+4,2016,Ouray,,,NR,NR
+4,2016,Park,,199423,NR,
+4,2016,Phillips,,,NL,NL
+4,2016,Pitkin,88482,501414,,
+4,2016,Prowers,,,NL,NL
+4,2016,Pueblo,1248985,2069169,,
+4,2016,Rio Blanco,,,NL,NL
+4,2016,Rio Grande,,,NL,NL
+4,2016,Routt,188783,550366,,
+4,2016,Saguache,,,NL,NR
+4,2016,San Juan,,,NL,NR
+4,2016,San Miguel,44771,138111,,
+4,2016,Sedgwick,,,NR,NR
+4,2016,Summit,201583,1391044,,
+4,2016,Teller,,,NR,NL
+4,2016,Washington,,,NL,NL
+4,2016,Weld,425780,2029498,,
+4,2016,Yuma,,,NL,NL
+4,2017,Adams,1170547,4969567,,
+4,2017,Alamosa,,,NR,NL
+4,2017,Arapahoe,1171574,9966130,,
+4,2017,Archuleta,,409149,NR,
+4,2017,Baca,,,NL,NL
+4,2017,Bent,,,NL,NL
+4,2017,Boulder,2002527,5899546,,
+4,2017,Broomfield,,,NL,NL
+4,2017,Chaffee,,356366,NR,
+4,2017,Cheyenne,,,NL,NL
+4,2017,Clear Creek,53972,478629,,
+4,2017,Conejos,,404901,NL,
+4,2017,Costilla,,256910,NR,
+4,2017,Crowley,,,NL,NL
+4,2017,Custer,,,NL,NL
+4,2017,Delta,,,NL,NL
+4,2017,Denver,19101844,30186897,,
+4,2017,Dolores,,,NL,NL
+4,2017,Douglas,,,NL,NL
+4,2017,Eagle,160790,938098,,
+4,2017,Elbert,,,NL,NL
+4,2017,El Paso,8978250,,,NR
+4,2017,Fremont,178131,,,NL
+4,2017,Garfield,307340,1809692,,
+4,2017,Gilpin,,191824,NR,
+4,2017,Grand,,265989,NR,
+4,2017,Gunnison,,432842,NR,
+4,2017,Hinsdale,,,NL,NL
+4,2017,Huerfano,,,NL,NR
+4,2017,Jackson,,,NL,NL
+4,2017,Jefferson,1408453,4695857,,
+4,2017,Kiowa,,,NL,NL
+4,2017,Kit Carson,,,NL,NL
+4,2017,Lake,,196156,NL,
+4,2017,La Plata,347940,1867263,,
+4,2017,Larimer,1235650,4578590,,
+4,2017,Las Animas,30610,2875977,,
+4,2017,Lincoln,,,NL,NL
+4,2017,Logan,,,NL,NL
+4,2017,Mesa,,,NR,NR
+4,2017,Mineral,,,NL,NL
+4,2017,Moffat,,,NR,NL
+4,2017,Montezuma,72479,1683864,,
+4,2017,Montrose,,,NR,NL
+4,2017,Morgan,,,NR,NR
+4,2017,Otero,,,NR,NL
+4,2017,Ouray,,,NR,NR
+4,2017,Park,,301838,NR,
+4,2017,Phillips,,,NL,NL
+4,2017,Pitkin,,625875,NR,
+4,2017,Prowers,,,NL,NL
+4,2017,Pueblo,583583,3094658,,
+4,2017,Rio Blanco,,,NL,NL
+4,2017,Rio Grande,,,NL,NL
+4,2017,Routt,,689882,NR,
+4,2017,Saguache,,,NL,NR
+4,2017,San Juan,,,NL,NR
+4,2017,San Miguel,18710,161211,,
+4,2017,Sedgwick,,,NR,NR
+4,2017,Summit,141152,1630117,,
+4,2017,Teller,,,NR,NL
+4,2017,Washington,,,NL,NL
+4,2017,Weld,293539,2626833,,
+4,2017,Yuma,,,NL,NL
+4,2018,Adams,417502,6868698,,
+4,2018,Alamosa,,,NR,NL
+4,2018,Arapahoe,741609,9954701,,
+4,2018,Archuleta,,502525,NR,
+4,2018,Baca,,,NL,NL
+4,2018,Bent,,,NL,NL
+4,2018,Boulder,1601589,6957538,,
+4,2018,Broomfield,,,NL,NL
+4,2018,Chaffee,,393528,NR,
+4,2018,Cheyenne,,,NL,NL
+4,2018,Clear Creek,,490554,NR,
+4,2018,Conejos,,435677,NL,
+4,2018,Costilla,,292932,NL,
+4,2018,Crowley,,,NL,NL
+4,2018,Custer,,,NL,NL
+4,2018,Delta,,,NL,NL
+4,2018,Denver,11689420,33791852,,
+4,2018,Dolores,,,NL,NL
+4,2018,Douglas,,,NL,NL
+4,2018,Eagle,97151,1144193,,
+4,2018,Elbert,,,NL,NL
+4,2018,El Paso,7826668,,,NR
+4,2018,Fremont,141438,,,NL
+4,2018,Garfield,252013,1503426,,
+4,2018,Gilpin,,212366,NR,
+4,2018,Grand,,343222,NR,
+4,2018,Gunnison,,437758,NL,
+4,2018,Hinsdale,,,NL,NL
+4,2018,Huerfano,,,NL,NR
+4,2018,Jackson,,,NL,NL
+4,2018,Jefferson,1084394,4142771,,
+4,2018,Kiowa,,,NL,NL
+4,2018,Kit Carson,,,NL,NL
+4,2018,Lake,,197779,NL,
+4,2018,La Plata,228755,1863227,,
+4,2018,Larimer,1108635,5632150,,
+4,2018,Las Animas,34180,3934794,,
+4,2018,Lincoln,,,NL,NL
+4,2018,Logan,,,NL,NL
+4,2018,Mesa,,1482947,NR,
+4,2018,Mineral,,,NL,NL
+4,2018,Moffat,,,NR,NR
+4,2018,Montezuma,45539,1905829,,
+4,2018,Montrose,,,NR,NL
+4,2018,Morgan,,,NR,NR
+4,2018,Otero,,,NR,NL
+4,2018,Ouray,,,NR,NR
+4,2018,Park,,325805,NR,
+4,2018,Phillips,,,NL,NL
+4,2018,Pitkin,54543,699425,,
+4,2018,Prowers,,,NL,NL
+4,2018,Pueblo,478009,4436171,,
+4,2018,Rio Blanco,,,NL,NL
+4,2018,Rio Grande,,,NL,NL
+4,2018,Routt,157073,790286,,
+4,2018,Saguache,,137104,NL,
+4,2018,San Juan,,,NL,NR
+4,2018,San Miguel,,219836,NR,
+4,2018,Sedgwick,,,NR,NR
+4,2018,Summit,113189,1543168,,
+4,2018,Teller,,,NL,NL
+4,2018,Washington,,,NL,NL
+4,2018,Weld,375487,2421030,,
+4,2018,Yuma,,,NL,NL
+5,2014,Adams,467977,,,NR
+5,2014,Alamosa,,,NR,NL
+5,2014,Arapahoe,1511922,,,NL
+5,2014,Archuleta,,,NR,NL
+5,2014,Baca,,,NL,NL
+5,2014,Bent,,,NL,NL
+5,2014,Boulder,2823124,2354205,,
+5,2014,Broomfield,,,NL,NL
+5,2014,Chaffee,88974,,,NL
+5,2014,Cheyenne,,,NL,NL
+5,2014,Clear Creek,97349,320076,,
+5,2014,Conejos,,,NL,NL
+5,2014,Costilla,,,NR,NL
+5,2014,Crowley,,,NL,NL
+5,2014,Custer,,,NL,NL
+5,2014,Delta,,,NL,NL
+5,2014,Denver,14150620,11300905,,
+5,2014,Dolores,,,NL,NL
+5,2014,Douglas,,,NL,NL
+5,2014,Eagle,146126,,,NR
+5,2014,Elbert,,,NL,NL
+5,2014,El Paso,5518910,,,NL
+5,2014,Fremont,239918,,,NL
+5,2014,Garfield,434235,292839,,
+5,2014,Gilpin,42979,116815,,
+5,2014,Grand,,,NR,NL
+5,2014,Gunnison,,,NR,NR
+5,2014,Hinsdale,,,NL,NL
+5,2014,Huerfano,,,NL,NL
+5,2014,Jackson,,,NL,NL
+5,2014,Jefferson,2037535,1435895,,
+5,2014,Kiowa,,,NL,NL
+5,2014,Kit Carson,,,NL,NL
+5,2014,Lake,,,NL,NR
+5,2014,La Plata,561810,,,NL
+5,2014,Larimer,1116171,,,NR
+5,2014,Las Animas,,,NL,NL
+5,2014,Lincoln,,,NL,NL
+5,2014,Logan,,,NL,NL
+5,2014,Mesa,,,NR,NL
+5,2014,Mineral,,,NL,NL
+5,2014,Moffat,,,NR,NL
+5,2014,Montezuma,120385,,,NL
+5,2014,Montrose,,,NR,NL
+5,2014,Morgan,,,NL,NL
+5,2014,Otero,,,NL,NL
+5,2014,Ouray,,,NR,NR
+5,2014,Park,,,NR,NR
+5,2014,Phillips,,,NL,NL
+5,2014,Pitkin,95001,185390,,
+5,2014,Prowers,,,NL,NL
+5,2014,Pueblo,452196,1417017,,
+5,2014,Rio Blanco,,,NL,NL
+5,2014,Rio Grande,,,NL,NL
+5,2014,Routt,159620,,,NR
+5,2014,Saguache,,,NL,NL
+5,2014,San Juan,,,NL,NL
+5,2014,San Miguel,49679,257276,,
+5,2014,Sedgwick,,,NR,NL
+5,2014,Summit,201566,545898,,
+5,2014,Teller,,,NR,NL
+5,2014,Washington,,,NL,NL
+5,2014,Weld,516873,694205,,
+5,2014,Yuma,,,NL,NL
+5,2015,Adams,495716,1687270,,
+5,2015,Alamosa,,,NR,NL
+5,2015,Arapahoe,1588756,3615509,,
+5,2015,Archuleta,,,NR,NR
+5,2015,Baca,,,NL,NL
+5,2015,Bent,,,NL,NL
+5,2015,Boulder,2451648,4281906,,
+5,2015,Broomfield,,,NL,NL
+5,2015,Chaffee,,312605,NR,
+5,2015,Cheyenne,,,NL,NL
+5,2015,Clear Creek,96276,348152,,
+5,2015,Conejos,,,NL,NL
+5,2015,Costilla,,,NR,NR
+5,2015,Crowley,,,NL,NL
+5,2015,Custer,,,NL,NL
+5,2015,Delta,,,NL,NL
+5,2015,Denver,15598475,17590490,,
+5,2015,Dolores,,,NL,NL
+5,2015,Douglas,,,NL,NL
+5,2015,Eagle,259399,432292,,
+5,2015,Elbert,,,NL,NL
+5,2015,El Paso,6793848,,,NR
+5,2015,Fremont,200945,,,NL
+5,2015,Garfield,407487,720995,,
+5,2015,Gilpin,,143079,NR,
+5,2015,Grand,,,NR,NR
+5,2015,Gunnison,,176131,NR,
+5,2015,Hinsdale,,,NL,NL
+5,2015,Huerfano,,,NL,NL
+5,2015,Jackson,,,NL,NL
+5,2015,Jefferson,1933694,2538231,,
+5,2015,Kiowa,,,NL,NL
+5,2015,Kit Carson,,,NL,NL
+5,2015,Lake,,,NL,NR
+5,2015,La Plata,452253,1155547,,
+5,2015,Larimer,1292742,2292433,,
+5,2015,Las Animas,,606835,NR,
+5,2015,Lincoln,,,NL,NL
+5,2015,Logan,,,NL,NL
+5,2015,Mesa,,,NR,NR
+5,2015,Mineral,,,NL,NL
+5,2015,Moffat,,,NR,NL
+5,2015,Montezuma,136143,403035,,
+5,2015,Montrose,,,NR,NL
+5,2015,Morgan,,,NR,NR
+5,2015,Otero,,,NL,NL
+5,2015,Ouray,,,NR,NR
+5,2015,Park,,154563,NR,
+5,2015,Phillips,,,NL,NL
+5,2015,Pitkin,57287,329419,,
+5,2015,Prowers,,,NL,NL
+5,2015,Pueblo,396182,1482501,,
+5,2015,Rio Blanco,,,NL,NL
+5,2015,Rio Grande,,,NL,NL
+5,2015,Routt,163870,419611,,
+5,2015,Saguache,,,NL,NR
+5,2015,San Juan,,,NL,NR
+5,2015,San Miguel,,153689,NR,
+5,2015,Sedgwick,,,NR,NR
+5,2015,Summit,224409,719343,,
+5,2015,Teller,,,NR,NL
+5,2015,Washington,,,NL,NL
+5,2015,Weld,342765,1636318,,
+5,2015,Yuma,,,NL,NL
+5,2016,Adams,391906,3360096,,
+5,2016,Alamosa,,,NR,NL
+5,2016,Arapahoe,1511924,7426175,,
+5,2016,Archuleta,,,NR,NR
+5,2016,Baca,,,NL,NL
+5,2016,Bent,,,NL,NL
+5,2016,Boulder,2436555,5315292,,
+5,2016,Broomfield,,,NL,NL
+5,2016,Chaffee,,333276,NR,
+5,2016,Cheyenne,,,NL,NL
+5,2016,Clear Creek,83258,452848,,
+5,2016,Conejos,,257716,NL,
+5,2016,Costilla,,223862,NR,
+5,2016,Crowley,,,NL,NL
+5,2016,Custer,,,NL,NL
+5,2016,Delta,,,NL,NL
+5,2016,Denver,17833330,21615189,,
+5,2016,Dolores,,,NL,NL
+5,2016,Douglas,,,NL,NL
+5,2016,Eagle,194685,650881,,
+5,2016,Elbert,,,NL,NL
+5,2016,El Paso,8343490,,,NR
+5,2016,Fremont,207499,,,NL
+5,2016,Garfield,526740,1210134,,
+5,2016,Gilpin,,225826,NR,
+5,2016,Grand,,189787,NR,
+5,2016,Gunnison,,344705,NR,
+5,2016,Hinsdale,,,NL,NL
+5,2016,Huerfano,,,NL,NR
+5,2016,Jackson,,,NL,NL
+5,2016,Jefferson,1679965,3572041,,
+5,2016,Kiowa,,,NL,NL
+5,2016,Kit Carson,,,NL,NL
+5,2016,Lake,,147684,NL,
+5,2016,La Plata,400259,1740113,,
+5,2016,Larimer,1292029,3465166,,
+5,2016,Las Animas,,1456567,NR,
+5,2016,Lincoln,,,NL,NL
+5,2016,Logan,,,NL,NL
+5,2016,Mesa,,,NR,NR
+5,2016,Mineral,,,NL,NL
+5,2016,Moffat,,,NR,NL
+5,2016,Montezuma,100642,842550,,
+5,2016,Montrose,,,NR,NL
+5,2016,Morgan,,543167,NR,
+5,2016,Otero,,,NL,NL
+5,2016,Ouray,,325887,NR,
+5,2016,Park,,237775,NR,
+5,2016,Phillips,,,NL,NL
+5,2016,Pitkin,80601,392581,,
+5,2016,Prowers,,,NL,NL
+5,2016,Pueblo,1262557,2184317,,
+5,2016,Rio Blanco,,,NL,NL
+5,2016,Rio Grande,,,NL,NL
+5,2016,Routt,,514632,NR,
+5,2016,Saguache,,,NL,NR
+5,2016,San Juan,,,NL,NR
+5,2016,San Miguel,37042,157740,,
+5,2016,Sedgwick,,,NR,NR
+5,2016,Summit,161710,991298,,
+5,2016,Teller,,,NR,NL
+5,2016,Washington,,,NL,NL
+5,2016,Weld,360773,2043048,,
+5,2016,Yuma,,,NL,NL
+5,2017,Adams,1075187,5013781,,
+5,2017,Alamosa,,,NR,NL
+5,2017,Arapahoe,1171273,9370054,,
+5,2017,Archuleta,,,NR,NR
+5,2017,Baca,,,NL,NL
+5,2017,Bent,,,NL,NL
+5,2017,Boulder,1906922,6368428,,
+5,2017,Broomfield,,,NL,NL
+5,2017,Chaffee,,433627,NR,
+5,2017,Cheyenne,,,NL,NL
+5,2017,Clear Creek,55309,460991,,
+5,2017,Conejos,,444090,NL,
+5,2017,Costilla,,332894,NR,
+5,2017,Crowley,,,NL,NL
+5,2017,Custer,,,NL,NL
+5,2017,Delta,,,NL,NL
+5,2017,Denver,18140806,30503582,,
+5,2017,Dolores,,,NL,NL
+5,2017,Douglas,,,NL,NL
+5,2017,Eagle,124904,689235,,
+5,2017,Elbert,,,NL,NL
+5,2017,El Paso,8925573,,,NR
+5,2017,Fremont,,,NR,NL
+5,2017,Garfield,321107,1911323,,
+5,2017,Gilpin,,196823,NR,
+5,2017,Grand,,218635,NR,
+5,2017,Gunnison,,444435,NR,
+5,2017,Hinsdale,,,NL,NL
+5,2017,Huerfano,,,NL,NR
+5,2017,Jackson,,,NL,NL
+5,2017,Jefferson,1274422,4370646,,
+5,2017,Kiowa,,,NL,NL
+5,2017,Kit Carson,,,NL,NL
+5,2017,Lake,,197459,NL,
+5,2017,La Plata,313285,1980269,,
+5,2017,Larimer,1167689,4562024,,
+5,2017,Las Animas,,3471581,NR,
+5,2017,Lincoln,,,NL,NL
+5,2017,Logan,,,NL,NL
+5,2017,Mesa,,,NR,NR
+5,2017,Mineral,,,NL,NL
+5,2017,Moffat,,,NR,NL
+5,2017,Montezuma,70134,1766079,,
+5,2017,Montrose,,,NR,NL
+5,2017,Morgan,,841413,NR,
+5,2017,Otero,,,NR,NL
+5,2017,Ouray,,465454,NR,
+5,2017,Park,,314186,NR,
+5,2017,Phillips,,,NL,NL
+5,2017,Pitkin,59097,485392,,
+5,2017,Prowers,,,NL,NL
+5,2017,Pueblo,599384,3276386,,
+5,2017,Rio Blanco,,,NL,NL
+5,2017,Rio Grande,,,NL,NL
+5,2017,Routt,,634839,NR,
+5,2017,Saguache,,,NL,NR
+5,2017,San Juan,,,NL,NR
+5,2017,San Miguel,13661,189132,,
+5,2017,Sedgwick,,,NR,NR
+5,2017,Summit,101828,1140913,,
+5,2017,Teller,,,NR,NL
+5,2017,Washington,,,NL,NL
+5,2017,Weld,290867,2587473,,
+5,2017,Yuma,,,NL,NL
+5,2018,Adams,390116,6884789,,
+5,2018,Alamosa,,,NR,NL
+5,2018,Arapahoe,842104,9846235,,
+5,2018,Archuleta,,633849,NR,
+5,2018,Baca,,,NL,NL
+5,2018,Bent,,,NL,NL
+5,2018,Boulder,1540156,7305495,,
+5,2018,Broomfield,,,NL,NL
+5,2018,Chaffee,,457767,NR,
+5,2018,Cheyenne,,,NL,NL
+5,2018,Clear Creek,28054,518925,,
+5,2018,Conejos,,495930,NL,
+5,2018,Costilla,,322017,NL,
+5,2018,Crowley,,,NL,NL
+5,2018,Custer,,,NL,NL
+5,2018,Delta,,,NL,NL
+5,2018,Denver,11380605,31592911,,
+5,2018,Dolores,,,NL,NL
+5,2018,Douglas,,,NL,NL
+5,2018,Eagle,96713,968533,,
+5,2018,Elbert,,,NL,NL
+5,2018,El Paso,7332608,,,NR
+5,2018,Fremont,147909,,,NL
+5,2018,Garfield,252772,1577479,,
+5,2018,Gilpin,,219588,NR,
+5,2018,Grand,,309809,NR,
+5,2018,Gunnison,,487921,NL,
+5,2018,Hinsdale,,,NL,NL
+5,2018,Huerfano,,,NL,NR
+5,2018,Jackson,,,NL,NL
+5,2018,Jefferson,1262338,4153426,,
+5,2018,Kiowa,,,NL,NL
+5,2018,Kit Carson,,,NL,NL
+5,2018,Lake,,,NL,NR
+5,2018,La Plata,257014,2086680,,
+5,2018,Larimer,984003,5891148,,
+5,2018,Las Animas,44907,4082306,,
+5,2018,Lincoln,,,NL,NL
+5,2018,Logan,,,NL,NL
+5,2018,Mesa,,1605904,NR,
+5,2018,Mineral,,,NL,NL
+5,2018,Moffat,,,NR,NR
+5,2018,Montezuma,47400,1967881,,
+5,2018,Montrose,,,NR,NL
+5,2018,Morgan,,1000228,NR,
+5,2018,Otero,,,NR,NL
+5,2018,Ouray,,592357,NR,
+5,2018,Park,,357535,NR,
+5,2018,Phillips,,,NL,NL
+5,2018,Pitkin,46482,561866,,
+5,2018,Prowers,,,NL,NL
+5,2018,Pueblo,436538,4619173,,
+5,2018,Rio Blanco,,,NL,NL
+5,2018,Rio Grande,,,NL,NL
+5,2018,Routt,152758,717802,,
+5,2018,Saguache,,151704,NL,
+5,2018,San Juan,,,NL,NR
+5,2018,San Miguel,,235398,NR,
+5,2018,Sedgwick,,,NR,NR
+5,2018,Summit,103122,1225108,,
+5,2018,Teller,,,NL,NL
+5,2018,Washington,,,NL,NL
+5,2018,Weld,331438,2396424,,
+5,2018,Yuma,,,NL,NL
+6,2014,Adams,433176,,,NR
+6,2014,Alamosa,,,NR,NL
+6,2014,Arapahoe,1425313,,,NL
+6,2014,Archuleta,,,NR,NL
+6,2014,Baca,,,NL,NL
+6,2014,Bent,,,NL,NL
+6,2014,Boulder,2507058,2593735,,
+6,2014,Broomfield,,,NL,NL
+6,2014,Chaffee,96647,,,NL
+6,2014,Cheyenne,,,NL,NL
+6,2014,Clear Creek,97965,396938,,
+6,2014,Conejos,,,NL,NL
+6,2014,Costilla,,,NR,NL
+6,2014,Crowley,,,NL,NL
+6,2014,Custer,,,NL,NL
+6,2014,Delta,,,NL,NL
+6,2014,Denver,13476218,12245778,,
+6,2014,Dolores,,,NL,NL
+6,2014,Douglas,,,NL,NL
+6,2014,Eagle,132878,,,NR
+6,2014,Elbert,,,NL,NL
+6,2014,El Paso,5342494,,,NL
+6,2014,Fremont,228665,,,NL
+6,2014,Garfield,418280,392391,,
+6,2014,Gilpin,38278,145630,,
+6,2014,Grand,,,NR,NL
+6,2014,Gunnison,,,NR,NR
+6,2014,Hinsdale,,,NL,NL
+6,2014,Huerfano,,,NL,NL
+6,2014,Jackson,,,NL,NL
+6,2014,Jefferson,1889080,1445315,,
+6,2014,Kiowa,,,NL,NL
+6,2014,Kit Carson,,,NL,NL
+6,2014,Lake,,,NL,NR
+6,2014,La Plata,544589,,,NL
+6,2014,Larimer,1112079,,,NR
+6,2014,Las Animas,,,NL,NL
+6,2014,Lincoln,,,NL,NL
+6,2014,Logan,,,NL,NL
+6,2014,Mesa,,,NR,NL
+6,2014,Mineral,,,NL,NL
+6,2014,Moffat,,,NR,NL
+6,2014,Montezuma,115548,,,NL
+6,2014,Montrose,,,NR,NL
+6,2014,Morgan,,,NL,NL
+6,2014,Otero,,,NL,NL
+6,2014,Ouray,,,NR,NR
+6,2014,Park,,,NR,NR
+6,2014,Phillips,,,NL,NL
+6,2014,Pitkin,110679,322473,,
+6,2014,Prowers,,,NL,NL
+6,2014,Pueblo,403341,1571864,,
+6,2014,Rio Blanco,,,NL,NL
+6,2014,Rio Grande,,,NL,NL
+6,2014,Routt,,,NR,NR
+6,2014,Saguache,,,NR,NL
+6,2014,San Juan,,,NL,NL
+6,2014,San Miguel,75455,451452,,
+6,2014,Sedgwick,,,NR,NR
+6,2014,Summit,203354,686139,,
+6,2014,Teller,,,NR,NL
+6,2014,Washington,,,NL,NL
+6,2014,Weld,470633,795293,,
+6,2014,Yuma,,,NL,NL
+6,2015,Adams,441872,,,NR
+6,2015,Alamosa,,,NR,NL
+6,2015,Arapahoe,1525525,3753244,,
+6,2015,Archuleta,,,NR,NR
+6,2015,Baca,,,NL,NL
+6,2015,Bent,,,NL,NL
+6,2015,Boulder,2363534,4273572,,
+6,2015,Broomfield,,,NL,NL
+6,2015,Chaffee,,,NR,NR
+6,2015,Cheyenne,,,NL,NL
+6,2015,Clear Creek,90303,441514,,
+6,2015,Conejos,,,NL,NL
+6,2015,Costilla,,,NR,NR
+6,2015,Crowley,,,NL,NL
+6,2015,Custer,,,NL,NL
+6,2015,Delta,,,NL,NL
+6,2015,Denver,16545160,17280785,,
+6,2015,Dolores,,,NL,NL
+6,2015,Douglas,,,NL,NL
+6,2015,Eagle,259462,534649,,
+6,2015,Elbert,,,NL,NL
+6,2015,El Paso,7050814,,,NR
+6,2015,Fremont,205924,,,NL
+6,2015,Garfield,430562,798425,,
+6,2015,Gilpin,,183787,NR,
+6,2015,Grand,,142695,NR,
+6,2015,Gunnison,,273865,NR,
+6,2015,Hinsdale,,,NL,NL
+6,2015,Huerfano,,,NL,NR
+6,2015,Jackson,,,NL,NL
+6,2015,Jefferson,1833049,2584940,,
+6,2015,Kiowa,,,NL,NL
+6,2015,Kit Carson,,,NL,NL
+6,2015,Lake,,,NL,NR
+6,2015,La Plata,425100,1283234,,
+6,2015,Larimer,1219011,2321397,,
+6,2015,Las Animas,,714276,NR,
+6,2015,Lincoln,,,NL,NL
+6,2015,Logan,,,NL,NL
+6,2015,Mesa,,,NR,NR
+6,2015,Mineral,,,NL,NL
+6,2015,Moffat,,,NR,NL
+6,2015,Montezuma,127877,463559,,
+6,2015,Montrose,,,NR,NL
+6,2015,Morgan,,,NR,NR
+6,2015,Otero,,,NL,NL
+6,2015,Ouray,,,NR,NR
+6,2015,Park,,191938,NR,
+6,2015,Phillips,,,NL,NL
+6,2015,Pitkin,77058,570064,,
+6,2015,Prowers,,,NL,NL
+6,2015,Pueblo,569375,1517777,,
+6,2015,Rio Blanco,,,NL,NL
+6,2015,Rio Grande,,,NL,NL
+6,2015,Routt,159915,485969,,
+6,2015,Saguache,,,NL,NR
+6,2015,San Juan,,,NL,NR
+6,2015,San Miguel,51852,315531,,
+6,2015,Sedgwick,,,NR,NR
+6,2015,Summit,215753,925580,,
+6,2015,Teller,,,NR,NL
+6,2015,Washington,,,NL,NL
+6,2015,Weld,287920,1693656,,
+6,2015,Yuma,,,NL,NL
+6,2016,Adams,379841,3434567,,
+6,2016,Alamosa,,,NR,NL
+6,2016,Arapahoe,1485581,7565406,,
+6,2016,Archuleta,,,NR,NR
+6,2016,Baca,,,NL,NL
+6,2016,Bent,,,NL,NL
+6,2016,Boulder,2271053,5541278,,
+6,2016,Broomfield,,,NL,NL
+6,2016,Chaffee,,455848,NR,
+6,2016,Cheyenne,,,NL,NL
+6,2016,Clear Creek,68418,553669,,
+6,2016,Conejos,,332403,NL,
+6,2016,Costilla,,265269,NR,
+6,2016,Crowley,,,NL,NL
+6,2016,Custer,,,NL,NL
+6,2016,Delta,,,NL,NL
+6,2016,Denver,18632737,21841675,,
+6,2016,Dolores,,,NL,NL
+6,2016,Douglas,,,NL,NL
+6,2016,Eagle,211161,842569,,
+6,2016,Elbert,,,NL,NL
+6,2016,El Paso,8443101,,,NR
+6,2016,Fremont,212028,,,NL
+6,2016,Garfield,426581,1333408,,
+6,2016,Gilpin,,243952,NR,
+6,2016,Grand,,261059,NR,
+6,2016,Gunnison,,479935,NR,
+6,2016,Hinsdale,,,NL,NL
+6,2016,Huerfano,,,NL,NR
+6,2016,Jackson,,,NL,NL
+6,2016,Jefferson,1538630,3753947,,
+6,2016,Kiowa,,,NL,NL
+6,2016,Kit Carson,,,NL,NL
+6,2016,Lake,,206574,NL,
+6,2016,La Plata,441148,1939519,,
+6,2016,Larimer,1222737,3648840,,
+6,2016,Las Animas,,1622815,NR,
+6,2016,Lincoln,,,NL,NL
+6,2016,Logan,,,NL,NL
+6,2016,Mesa,,,NR,NR
+6,2016,Mineral,,,NL,NL
+6,2016,Moffat,,,NR,NL
+6,2016,Montezuma,96553,914168,,
+6,2016,Montrose,,,NR,NL
+6,2016,Morgan,,549251,NR,
+6,2016,Otero,,,NL,NL
+6,2016,Ouray,,,NR,NR
+6,2016,Park,,299449,NR,
+6,2016,Phillips,,,NL,NL
+6,2016,Pitkin,94197,673427,,
+6,2016,Prowers,,,NL,NL
+6,2016,Pueblo,1386239,2365115,,
+6,2016,Rio Blanco,,,NL,NL
+6,2016,Rio Grande,,,NL,NL
+6,2016,Routt,140614,649366,,
+6,2016,Saguache,,,NL,NR
+6,2016,San Juan,,,NL,NR
+6,2016,San Miguel,43855,329083,,
+6,2016,Sedgwick,,,NR,NR
+6,2016,Summit,153626,1253529,,
+6,2016,Teller,,,NR,NL
+6,2016,Washington,,,NL,NL
+6,2016,Weld,301573,2024804,,
+6,2016,Yuma,,,NL,NL
+6,2017,Adams,1091425,5137782,,
+6,2017,Alamosa,,,NR,NL
+6,2017,Arapahoe,1033427,9314356,,
+6,2017,Archuleta,,691943,NR,
+6,2017,Baca,,,NL,NL
+6,2017,Bent,,,NL,NL
+6,2017,Boulder,1846713,6880933,,
+6,2017,Broomfield,,,NL,NL
+6,2017,Chaffee,,559238,NR,
+6,2017,Cheyenne,,,NL,NL
+6,2017,Clear Creek,57869,581672,,
+6,2017,Conejos,,510132,NL,
+6,2017,Costilla,,403056,NR,
+6,2017,Crowley,,,NL,NL
+6,2017,Custer,,,NL,NL
+6,2017,Delta,,,NL,NL
+6,2017,Denver,17634832,31586804,,
+6,2017,Dolores,,,NL,NL
+6,2017,Douglas,,,NL,NL
+6,2017,Eagle,129118,916059,,
+6,2017,Elbert,,,NL,NL
+6,2017,El Paso,9117656,,,NR
+6,2017,Fremont,179179,,,NL
+6,2017,Garfield,292213,2042113,,
+6,2017,Gilpin,,256404,NR,
+6,2017,Grand,,330529,NR,
+6,2017,Gunnison,,522302,NR,
+6,2017,Hinsdale,,,NL,NL
+6,2017,Huerfano,,,NL,NR
+6,2017,Jackson,,,NL,NL
+6,2017,Jefferson,1252570,4405653,,
+6,2017,Kiowa,,,NL,NL
+6,2017,Kit Carson,,,NL,NL
+6,2017,Lake,,248265,NL,
+6,2017,La Plata,294220,2206045,,
+6,2017,Larimer,1134167,4929421,,
+6,2017,Las Animas,32972,3836814,,
+6,2017,Lincoln,,,NL,NL
+6,2017,Logan,,,NL,NL
+6,2017,Mesa,,,NR,NR
+6,2017,Mineral,,,NL,NL
+6,2017,Moffat,,,NR,NL
+6,2017,Montezuma,81402,1863923,,
+6,2017,Montrose,,,NR,NL
+6,2017,Morgan,,860998,NR,
+6,2017,Otero,,,NR,NL
+6,2017,Ouray,,583159,NR,
+6,2017,Park,,375371,NR,
+6,2017,Phillips,,,NL,NL
+6,2017,Pitkin,69389,880604,,
+6,2017,Prowers,,,NL,NL
+6,2017,Pueblo,707393,3465138,,
+6,2017,Rio Blanco,,,NL,NL
+6,2017,Rio Grande,,,NL,NL
+6,2017,Routt,,796881,NR,
+6,2017,Saguache,,,NL,NR
+6,2017,San Juan,,,NL,NR
+6,2017,San Miguel,24094,397687,,
+6,2017,Sedgwick,,,NR,NR
+6,2017,Summit,104603,1503046,,
+6,2017,Teller,,,NR,NL
+6,2017,Washington,,,NL,NL
+6,2017,Weld,301813,2545979,,
+6,2017,Yuma,,,NL,NL
+6,2018,Adams,355054,7071943,,
+6,2018,Alamosa,,,NR,NL
+6,2018,Arapahoe,769443,10003372,,
+6,2018,Archuleta,,834469,NR,
+6,2018,Baca,,,NL,NL
+6,2018,Bent,,,NL,NL
+6,2018,Boulder,1430060,7752657,,
+6,2018,Broomfield,,,NL,NL
+6,2018,Chaffee,,578419,NR,
+6,2018,Cheyenne,,,NL,NL
+6,2018,Clear Creek,22895,633162,,
+6,2018,Conejos,,558542,NL,
+6,2018,Costilla,,408573,NL,
+6,2018,Crowley,,,NL,NL
+6,2018,Custer,,,NL,NL
+6,2018,Delta,,,NL,NL
+6,2018,Denver,11375581,32336676,,
+6,2018,Dolores,,,NL,NL
+6,2018,Douglas,,,NL,NL
+6,2018,Eagle,99986,1273668,,
+6,2018,Elbert,,,NL,NL
+6,2018,El Paso,8272114,,,NR
+6,2018,Fremont,153170,,,NL
+6,2018,Garfield,253141,1711546,,
+6,2018,Gilpin,,240622,NR,
+6,2018,Grand,,471237,NR,
+6,2018,Gunnison,,697112,NL,
+6,2018,Hinsdale,,,NL,NL
+6,2018,Huerfano,,,NL,NR
+6,2018,Jackson,,,NL,NL
+6,2018,Jefferson,1194256,4376615,,
+6,2018,Kiowa,,,NL,NL
+6,2018,Kit Carson,,,NL,NL
+6,2018,Lake,,,NL,NR
+6,2018,La Plata,256422,2045737,,
+6,2018,Larimer,965461,6087233,,
+6,2018,Las Animas,39736,4436437,,
+6,2018,Lincoln,,,NL,NL
+6,2018,Logan,,,NL,NL
+6,2018,Mesa,,1654095,NR,
+6,2018,Mineral,,,NL,NL
+6,2018,Moffat,,,NR,NR
+6,2018,Montezuma,59954,2023138,,
+6,2018,Montrose,,,NR,NL
+6,2018,Morgan,,1067039,NR,
+6,2018,Otero,,,NR,NL
+6,2018,Ouray,,666243,NR,
+6,2018,Park,,409810,NR,
+6,2018,Phillips,,,NL,NL
+6,2018,Pitkin,52088,919527,,
+6,2018,Prowers,,,NL,NL
+6,2018,Pueblo,692724,4836544,,
+6,2018,Rio Blanco,,,NL,NL
+6,2018,Rio Grande,,,NL,NL
+6,2018,Routt,126739,899556,,
+6,2018,Saguache,,173495,NL,
+6,2018,San Juan,,,NL,NR
+6,2018,San Miguel,,453787,NR,
+6,2018,Sedgwick,,,NR,NR
+6,2018,Summit,84313,1668835,,
+6,2018,Teller,,,NL,NL
+6,2018,Washington,,,NL,NL
+6,2018,Weld,331725,2379519,,
+6,2018,Yuma,,,NL,NL
+7,2014,Adams,452488,,,NR
+7,2014,Alamosa,,,NR,NL
+7,2014,Arapahoe,1470823,,,NL
+7,2014,Archuleta,,,NR,NL
+7,2014,Baca,,,NL,NL
+7,2014,Bent,,,NL,NL
+7,2014,Boulder,2547883,3192671,,
+7,2014,Broomfield,,,NL,NL
+7,2014,Chaffee,92938,,,NL
+7,2014,Cheyenne,,,NL,NL
+7,2014,Clear Creek,108796,473299,,
+7,2014,Conejos,,,NL,NL
+7,2014,Costilla,,,NR,NL
+7,2014,Crowley,,,NL,NL
+7,2014,Custer,,,NL,NL
+7,2014,Delta,,,NL,NL
+7,2014,Denver,14083010,14518417,,
+7,2014,Dolores,,,NL,NL
+7,2014,Douglas,,,NL,NL
+7,2014,Eagle,165132,,,NR
+7,2014,Elbert,,,NL,NL
+7,2014,El Paso,5895119,,,NR
+7,2014,Fremont,250084,,,NL
+7,2014,Garfield,446439,403958,,
+7,2014,Gilpin,36110,160328,,
+7,2014,Grand,,,NR,NL
+7,2014,Gunnison,,307664,NR,
+7,2014,Hinsdale,,,NL,NL
+7,2014,Huerfano,,,NL,NL
+7,2014,Jackson,,,NL,NL
+7,2014,Jefferson,1913729,1699749,,
+7,2014,Kiowa,,,NL,NL
+7,2014,Kit Carson,,,NL,NL
+7,2014,Lake,,,NL,NR
+7,2014,La Plata,604088,,,NL
+7,2014,Larimer,1087000,1083910,,
+7,2014,Las Animas,,,NL,NL
+7,2014,Lincoln,,,NL,NL
+7,2014,Logan,,,NL,NL
+7,2014,Mesa,,,NR,NL
+7,2014,Mineral,,,NL,NL
+7,2014,Moffat,,,NR,NL
+7,2014,Montezuma,120802,,,NL
+7,2014,Montrose,,,NR,NL
+7,2014,Morgan,,,NL,NL
+7,2014,Otero,,,NL,NL
+7,2014,Ouray,,,NR,NR
+7,2014,Park,,,NR,NR
+7,2014,Phillips,,,NL,NL
+7,2014,Pitkin,117930,505148,,
+7,2014,Prowers,,,NL,NL
+7,2014,Pueblo,459326,1985679,,
+7,2014,Rio Blanco,,,NL,NL
+7,2014,Rio Grande,,,NL,NL
+7,2014,Routt,,,NR,NR
+7,2014,Saguache,,,NR,NR
+7,2014,San Juan,,,NL,NL
+7,2014,San Miguel,49131,548213,,
+7,2014,Sedgwick,,,NR,NR
+7,2014,Summit,189746,981349,,
+7,2014,Teller,,,NR,NL
+7,2014,Washington,,,NL,NL
+7,2014,Weld,303374,1168267,,
+7,2014,Yuma,,,NL,NL
+7,2015,Adams,456679,1822902,,
+7,2015,Alamosa,,,NR,NL
+7,2015,Arapahoe,1629440,4482419,,
+7,2015,Archuleta,,,NR,NR
+7,2015,Baca,,,NL,NL
+7,2015,Bent,,,NL,NL
+7,2015,Boulder,2638188,4926814,,
+7,2015,Broomfield,,,NL,NL
+7,2015,Chaffee,,,NR,NR
+7,2015,Cheyenne,,,NL,NL
+7,2015,Clear Creek,97914,558033,,
+7,2015,Conejos,,,NL,NR
+7,2015,Costilla,,,NR,NR
+7,2015,Crowley,,,NL,NL
+7,2015,Custer,,,NL,NL
+7,2015,Delta,,,NL,NL
+7,2015,Denver,19786382,19851838,,
+7,2015,Dolores,,,NL,NL
+7,2015,Douglas,,,NL,NL
+7,2015,Eagle,310266,745007,,
+7,2015,Elbert,,,NL,NL
+7,2015,El Paso,8504081,,,NR
+7,2015,Fremont,242306,,,NL
+7,2015,Garfield,481231,953213,,
+7,2015,Gilpin,,185927,NR,
+7,2015,Grand,,230218,NR,
+7,2015,Gunnison,,454862,NR,
+7,2015,Hinsdale,,,NL,NL
+7,2015,Huerfano,,,NL,NR
+7,2015,Jackson,,,NL,NL
+7,2015,Jefferson,2038463,2891081,,
+7,2015,Kiowa,,,NL,NL
+7,2015,Kit Carson,,,NL,NL
+7,2015,Lake,,,NL,NR
+7,2015,La Plata,486029,1529417,,
+7,2015,Larimer,1401524,2714363,,
+7,2015,Las Animas,,1009958,NR,
+7,2015,Lincoln,,,NL,NL
+7,2015,Logan,,,NL,NL
+7,2015,Mesa,,,NR,NR
+7,2015,Mineral,,,NL,NL
+7,2015,Moffat,,,NR,NL
+7,2015,Montezuma,142880,572832,,
+7,2015,Montrose,,,NR,NL
+7,2015,Morgan,,,NR,NR
+7,2015,Otero,,,NL,NL
+7,2015,Ouray,,,NR,NR
+7,2015,Park,,235832,NR,
+7,2015,Phillips,,,NL,NL
+7,2015,Pitkin,94939,850341,,
+7,2015,Prowers,,,NL,NL
+7,2015,Pueblo,699033,1852589,,
+7,2015,Rio Blanco,,,NL,NL
+7,2015,Rio Grande,,,NL,NL
+7,2015,Routt,186072,631836,,
+7,2015,Saguache,,,NL,NR
+7,2015,San Juan,,,NL,NR
+7,2015,San Miguel,51293,387509,,
+7,2015,Sedgwick,,,NR,NR
+7,2015,Summit,246327,1304307,,
+7,2015,Teller,,,NR,NL
+7,2015,Washington,,,NL,NL
+7,2015,Weld,364477,1878564,,
+7,2015,Yuma,,,NL,NL
+7,2016,Adams,407856,4154813,,
+7,2016,Alamosa,,,NR,NL
+7,2016,Arapahoe,1544755,8738376,,
+7,2016,Archuleta,,,NR,NR
+7,2016,Baca,,,NL,NL
+7,2016,Bent,,,NL,NL
+7,2016,Boulder,2288359,6365624,,
+7,2016,Broomfield,,,NL,NL
+7,2016,Chaffee,,,NR,NR
+7,2016,Cheyenne,,,NL,NL
+7,2016,Clear Creek,69153,672704,,
+7,2016,Conejos,,436196,NL,
+7,2016,Costilla,,383906,NR,
+7,2016,Crowley,,,NL,NL
+7,2016,Custer,,,NL,NL
+7,2016,Delta,,,NL,NL
+7,2016,Denver,19516909,25938973,,
+7,2016,Dolores,,,NL,NL
+7,2016,Douglas,,,NL,NL
+7,2016,Eagle,203569,1111856,,
+7,2016,Elbert,,,NL,NL
+7,2016,El Paso,9016410,,,NR
+7,2016,Fremont,229800,,,NL
+7,2016,Garfield,443929,1628885,,
+7,2016,Gilpin,,267260,NR,
+7,2016,Grand,,381080,NR,
+7,2016,Gunnison,,459794,NR,
+7,2016,Hinsdale,,,NL,NL
+7,2016,Huerfano,,,NL,NR
+7,2016,Jackson,,,NL,NL
+7,2016,Jefferson,1706015,4318330,,
+7,2016,Kiowa,,,NL,NL
+7,2016,Kit Carson,,,NL,NL
+7,2016,Lake,,274691,NL,
+7,2016,La Plata,429948,2306604,,
+7,2016,Larimer,1355537,4181160,,
+7,2016,Las Animas,,2179979,NR,
+7,2016,Lincoln,,,NL,NL
+7,2016,Logan,,,NL,NL
+7,2016,Mesa,,,NR,NR
+7,2016,Mineral,,,NL,NL
+7,2016,Moffat,,,NR,NL
+7,2016,Montezuma,104162,1187679,,
+7,2016,Montrose,,,NR,NL
+7,2016,Morgan,,634140,NR,
+7,2016,Otero,,,NL,NL
+7,2016,Ouray,,505470,NR,
+7,2016,Park,,381198,NR,
+7,2016,Phillips,,,NL,NL
+7,2016,Pitkin,97253,1062245,,
+7,2016,Prowers,,,NL,NL
+7,2016,Pueblo,1351605,2995085,,
+7,2016,Rio Blanco,,,NL,NL
+7,2016,Rio Grande,,,NL,NL
+7,2016,Routt,157223,882414,,
+7,2016,Saguache,,,NL,NR
+7,2016,San Juan,,,NL,NR
+7,2016,San Miguel,43759,446217,,
+7,2016,Sedgwick,,,NR,NR
+7,2016,Summit,170367,1760408,,
+7,2016,Teller,,,NR,NL
+7,2016,Washington,,,NL,NL
+7,2016,Weld,335697,2381224,,
+7,2016,Yuma,,,NL,NL
+7,2017,Adams,971747,5462382,,
+7,2017,Alamosa,,,NR,NL
+7,2017,Arapahoe,953749,9672770,,
+7,2017,Archuleta,,884084,NR,
+7,2017,Baca,,,NL,NL
+7,2017,Bent,,,NL,NL
+7,2017,Boulder,1851637,7070534,,
+7,2017,Broomfield,,,NL,NL
+7,2017,Chaffee,,662413,NR,
+7,2017,Cheyenne,,,NL,NL
+7,2017,Clear Creek,34954,678322,,
+7,2017,Conejos,,586118,NL,
+7,2017,Costilla,,453934,NR,
+7,2017,Crowley,,,NL,NL
+7,2017,Custer,,,NL,NL
+7,2017,Delta,,,NL,NL
+7,2017,Denver,17274275,34007419,,
+7,2017,Dolores,,,NL,NL
+7,2017,Douglas,,,NL,NL
+7,2017,Eagle,142382,1159081,,
+7,2017,Elbert,,,NL,NL
+7,2017,El Paso,8717083,,,NR
+7,2017,Fremont,184871,,,NL
+7,2017,Garfield,307082,2128843,,
+7,2017,Gilpin,,271414,NR,
+7,2017,Grand,,455029,NR,
+7,2017,Gunnison,,892740,NR,
+7,2017,Hinsdale,,,NL,NL
+7,2017,Huerfano,,,NL,NR
+7,2017,Jackson,,,NL,NL
+7,2017,Jefferson,1282271,4525746,,
+7,2017,Kiowa,,,NL,NL
+7,2017,Kit Carson,,,NL,NL
+7,2017,Lake,,320873,NL,
+7,2017,La Plata,297527,2366747,,
+7,2017,Larimer,1186223,5303480,,
+7,2017,Las Animas,,4383708,NR,
+7,2017,Lincoln,,,NL,NL
+7,2017,Logan,,,NL,NL
+7,2017,Mesa,,,NR,NR
+7,2017,Mineral,,,NL,NL
+7,2017,Moffat,,,NR,NL
+7,2017,Montezuma,73002,1884658,,
+7,2017,Montrose,,,NR,NL
+7,2017,Morgan,,909700,NR,
+7,2017,Otero,,,NR,NL
+7,2017,Ouray,,,NR,NR
+7,2017,Park,,465717,NR,
+7,2017,Phillips,,,NL,NL
+7,2017,Pitkin,74079,1267251,,
+7,2017,Prowers,,,NL,NL
+7,2017,Pueblo,684190,3762112,,
+7,2017,Rio Blanco,,,NL,NL
+7,2017,Rio Grande,,,NL,NL
+7,2017,Routt,,1009377,NR,
+7,2017,Saguache,,,NL,NR
+7,2017,San Juan,,,NL,NR
+7,2017,San Miguel,26729,521810,,
+7,2017,Sedgwick,,,NR,NR
+7,2017,Summit,119533,2001214,,
+7,2017,Teller,,,NR,NL
+7,2017,Washington,,,NL,NL
+7,2017,Weld,288400,2659205,,
+7,2017,Yuma,,,NL,NL
+7,2018,Adams,600899,7412565,,
+7,2018,Alamosa,,,NR,NL
+7,2018,Arapahoe,854281,10500847,,
+7,2018,Archuleta,,1015573,NR,
+7,2018,Baca,,,NL,NL
+7,2018,Bent,,,NL,NL
+7,2018,Boulder,1466872,8764549,,
+7,2018,Broomfield,,,NL,NL
+7,2018,Chaffee,,699379,NR,
+7,2018,Cheyenne,,,NL,NL
+7,2018,Clear Creek,23986,730165,,
+7,2018,Conejos,,621884,NL,
+7,2018,Costilla,,450314,NL,
+7,2018,Crowley,,,NL,NL
+7,2018,Custer,,,NL,NL
+7,2018,Delta,,,NL,NL
+7,2018,Denver,11859418,34154291,,
+7,2018,Dolores,,,NL,NL
+7,2018,Douglas,,,NL,NL
+7,2018,Eagle,91750,1582803,,
+7,2018,Elbert,,,NL,NL
+7,2018,El Paso,7837080,,,NR
+7,2018,Fremont,145139,,,NL
+7,2018,Garfield,218285,1917005,,
+7,2018,Gilpin,,266111,NR,
+7,2018,Grand,,629538,NR,
+7,2018,Gunnison,,954926,NL,
+7,2018,Hinsdale,,,NL,NL
+7,2018,Huerfano,,,NL,NR
+7,2018,Jackson,,,NL,NL
+7,2018,Jefferson,1161582,4575835,,
+7,2018,Kiowa,,,NL,NL
+7,2018,Kit Carson,,,NL,NL
+7,2018,Lake,,318683,NL,
+7,2018,La Plata,238044,2366479,,
+7,2018,Larimer,981720,6570637,,
+7,2018,Las Animas,31952,4704196,,
+7,2018,Lincoln,,,NL,NL
+7,2018,Logan,,,NL,NL
+7,2018,Mesa,,1674477,NR,
+7,2018,Mineral,,,NL,NL
+7,2018,Moffat,,,NR,NR
+7,2018,Montezuma,92530,2031292,,
+7,2018,Montrose,,,NR,NL
+7,2018,Morgan,,1115451,NR,
+7,2018,Otero,,,NR,NL
+7,2018,Ouray,,751062,NR,
+7,2018,Park,,487238,NR,
+7,2018,Phillips,,,NL,NL
+7,2018,Pitkin,47118,1357126,,
+7,2018,Prowers,,,NL,NL
+7,2018,Pueblo,492063,5249580,,
+7,2018,Rio Blanco,,,NL,NL
+7,2018,Rio Grande,,,NL,NL
+7,2018,Routt,136681,1082308,,
+7,2018,Saguache,,191002,NL,
+7,2018,San Juan,,,NL,NR
+7,2018,San Miguel,,544147,NR,
+7,2018,Sedgwick,,,NR,NR
+7,2018,Summit,91088,2193931,,
+7,2018,Teller,,,NL,NL
+7,2018,Washington,,,NL,NL
+7,2018,Weld,312813,2480209,,
+7,2018,Yuma,,,NL,NL
+8,2014,Adams,481873,,,NR
+8,2014,Alamosa,,,NR,NL
+8,2014,Arapahoe,1453140,,,NL
+8,2014,Archuleta,,,NR,NL
+8,2014,Baca,,,NL,NL
+8,2014,Bent,,,NL,NL
+8,2014,Boulder,2728671,3644021,,
+8,2014,Broomfield,,,NL,NL
+8,2014,Chaffee,75887,,,NR
+8,2014,Cheyenne,,,NL,NL
+8,2014,Clear Creek,102919,480132,,
+8,2014,Conejos,,,NL,NL
+8,2014,Costilla,,,NR,NL
+8,2014,Crowley,,,NL,NL
+8,2014,Custer,,,NL,NL
+8,2014,Delta,,,NL,NL
+8,2014,Denver,15861744,15901236,,
+8,2014,Dolores,,,NL,NL
+8,2014,Douglas,,,NL,NL
+8,2014,Eagle,171357,414091,,
+8,2014,Elbert,,,NL,NL
+8,2014,El Paso,6327504,,,NR
+8,2014,Fremont,268966,,,NL
+8,2014,Garfield,531623,603468,,
+8,2014,Gilpin,42366,155054,,
+8,2014,Grand,,,NR,NL
+8,2014,Gunnison,,309611,NR,
+8,2014,Hinsdale,,,NL,NL
+8,2014,Huerfano,,,NL,NL
+8,2014,Jackson,,,NL,NL
+8,2014,Jefferson,2021406,1858831,,
+8,2014,Kiowa,,,NL,NL
+8,2014,Kit Carson,,,NL,NL
+8,2014,Lake,,,NL,NR
+8,2014,La Plata,657993,,,NL
+8,2014,Larimer,1207539,1340810,,
+8,2014,Las Animas,,,NL,NL
+8,2014,Lincoln,,,NL,NL
+8,2014,Logan,,,NL,NL
+8,2014,Mesa,,,NR,NL
+8,2014,Mineral,,,NL,NL
+8,2014,Moffat,,,NR,NL
+8,2014,Montezuma,132833,,,NL
+8,2014,Montrose,,,NR,NL
+8,2014,Morgan,,,NL,NL
+8,2014,Otero,,,NL,NL
+8,2014,Ouray,,,NR,NR
+8,2014,Park,,,NR,NR
+8,2014,Phillips,,,NL,NL
+8,2014,Pitkin,115179,502231,,
+8,2014,Prowers,,,NL,NL
+8,2014,Pueblo,460037,1685115,,
+8,2014,Rio Blanco,,,NL,NL
+8,2014,Rio Grande,,,NL,NL
+8,2014,Routt,170505,,,NR
+8,2014,Saguache,,,NR,NR
+8,2014,San Juan,,,NL,NL
+8,2014,San Miguel,46369,591931,,
+8,2014,Sedgwick,,,NR,NR
+8,2014,Summit,177412,941538,,
+8,2014,Teller,,,NR,NL
+8,2014,Washington,,,NL,NL
+8,2014,Weld,275556,1291047,,
+8,2014,Yuma,,,NL,NL
+8,2015,Adams,414843,2007490,,
+8,2015,Alamosa,,,NR,NL
+8,2015,Arapahoe,1782767,5068738,,
+8,2015,Archuleta,,,NR,NR
+8,2015,Baca,,,NL,NL
+8,2015,Bent,,,NL,NL
+8,2015,Boulder,2854869,5076823,,
+8,2015,Broomfield,,,NL,NL
+8,2015,Chaffee,,529711,NR,
+8,2015,Cheyenne,,,NL,NL
+8,2015,Clear Creek,99241,549270,,
+8,2015,Conejos,,,NL,NR
+8,2015,Costilla,,,NR,NR
+8,2015,Crowley,,,NL,NL
+8,2015,Custer,,,NL,NL
+8,2015,Delta,,,NL,NL
+8,2015,Denver,18920270,20586503,,
+8,2015,Dolores,,,NL,NL
+8,2015,Douglas,,,NL,NL
+8,2015,Eagle,321194,755726,,
+8,2015,Elbert,,,NL,NL
+8,2015,El Paso,8703525,,,NR
+8,2015,Fremont,247910,,,NL
+8,2015,Garfield,623488,919088,,
+8,2015,Gilpin,33160,209981,,
+8,2015,Grand,,234153,NR,
+8,2015,Gunnison,,454015,NR,
+8,2015,Hinsdale,,,NL,NL
+8,2015,Huerfano,,,NL,NR
+8,2015,Jackson,,,NL,NL
+8,2015,Jefferson,2119709,3008160,,
+8,2015,Kiowa,,,NL,NL
+8,2015,Kit Carson,,,NL,NL
+8,2015,Lake,,,NL,NR
+8,2015,La Plata,468119,1517581,,
+8,2015,Larimer,1506663,2921981,,
+8,2015,Las Animas,,1043528,NR,
+8,2015,Lincoln,,,NL,NL
+8,2015,Logan,,,NL,NL
+8,2015,Mesa,,,NR,NR
+8,2015,Mineral,,,NL,NL
+8,2015,Moffat,,,NR,NL
+8,2015,Montezuma,141894,602753,,
+8,2015,Montrose,,,NR,NL
+8,2015,Morgan,,,NR,NR
+8,2015,Otero,,,NL,NL
+8,2015,Ouray,,,NR,NR
+8,2015,Park,,220562,NR,
+8,2015,Phillips,,,NL,NL
+8,2015,Pitkin,100615,815391,,
+8,2015,Prowers,,,NL,NL
+8,2015,Pueblo,879622,1894167,,
+8,2015,Rio Blanco,,,NL,NL
+8,2015,Rio Grande,,,NL,NL
+8,2015,Routt,197957,649959,,
+8,2015,Saguache,,,NL,NR
+8,2015,San Juan,,,NL,NR
+8,2015,San Miguel,48630,367696,,
+8,2015,Sedgwick,,,NR,NR
+8,2015,Summit,237146,1325273,,
+8,2015,Teller,,,NR,NL
+8,2015,Washington,,,NL,NL
+8,2015,Weld,429172,1964176,,
+8,2015,Yuma,,,NL,NL
+8,2016,Adams,405729,4444010,,
+8,2016,Alamosa,,,NR,NL
+8,2016,Arapahoe,1587942,9084765,,
+8,2016,Archuleta,,,NR,NR
+8,2016,Baca,,,NL,NL
+8,2016,Bent,,,NL,NL
+8,2016,Boulder,2346058,6420613,,
+8,2016,Broomfield,,,NL,NL
+8,2016,Chaffee,,,NR,NR
+8,2016,Cheyenne,,,NL,NL
+8,2016,Clear Creek,90213,660536,,
+8,2016,Conejos,,424132,NL,
+8,2016,Costilla,,369689,NR,
+8,2016,Crowley,,,NL,NL
+8,2016,Custer,,,NL,NL
+8,2016,Delta,,,NL,NL
+8,2016,Denver,20203873,27642402,,
+8,2016,Dolores,,,NL,NL
+8,2016,Douglas,,,NL,NL
+8,2016,Eagle,207938,1120217,,
+8,2016,Elbert,,,NL,NL
+8,2016,El Paso,9379173,,,NR
+8,2016,Fremont,241413,,,NL
+8,2016,Garfield,492910,1712513,,
+8,2016,Gilpin,,284116,NR,
+8,2016,Grand,,401001,NR,
+8,2016,Gunnison,,477649,NR,
+8,2016,Hinsdale,,,NL,NL
+8,2016,Huerfano,,,NL,NR
+8,2016,Jackson,,,NL,NL
+8,2016,Jefferson,1704885,4468831,,
+8,2016,Kiowa,,,NL,NL
+8,2016,Kit Carson,,,NL,NL
+8,2016,Lake,,297877,NL,
+8,2016,La Plata,447191,2212954,,
+8,2016,Larimer,1416132,4318202,,
+8,2016,Las Animas,,2193813,NR,
+8,2016,Lincoln,,,NL,NL
+8,2016,Logan,,,NL,NL
+8,2016,Mesa,,,NR,NR
+8,2016,Mineral,,,NL,NL
+8,2016,Moffat,,,NR,NL
+8,2016,Montezuma,88650,1297984,,
+8,2016,Montrose,,,NR,NL
+8,2016,Morgan,,,NR,NR
+8,2016,Otero,,,NL,NL
+8,2016,Ouray,,492384,NR,
+8,2016,Park,,378230,NR,
+8,2016,Phillips,,,NL,NL
+8,2016,Pitkin,101521,1017858,,
+8,2016,Prowers,,,NL,NL
+8,2016,Pueblo,945662,2940830,,
+8,2016,Rio Blanco,,,NL,NL
+8,2016,Rio Grande,,,NL,NL
+8,2016,Routt,171608,888583,,
+8,2016,Saguache,,,NL,NR
+8,2016,San Juan,,,NL,NR
+8,2016,San Miguel,47479,411794,,
+8,2016,Sedgwick,,,NR,NR
+8,2016,Summit,165787,1702918,,
+8,2016,Teller,,,NR,NL
+8,2016,Washington,,,NL,NL
+8,2016,Weld,340391,2444651,,
+8,2016,Yuma,,,NL,NL
+8,2017,Adams,1126750,5481342,,
+8,2017,Alamosa,,,NR,NL
+8,2017,Arapahoe,911448,9187128,,
+8,2017,Archuleta,,776784,NR,
+8,2017,Baca,,,NL,NL
+8,2017,Bent,,,NL,NL
+8,2017,Boulder,1883573,7401555,,
+8,2017,Broomfield,,,NL,NL
+8,2017,Chaffee,,614319,NR,
+8,2017,Cheyenne,,,NL,NL
+8,2017,Clear Creek,43341,632988,,
+8,2017,Conejos,,571105,NL,
+8,2017,Costilla,,400679,NR,
+8,2017,Crowley,,,NL,NL
+8,2017,Custer,,,NL,NL
+8,2017,Delta,,,NL,NL
+8,2017,Denver,18574912,35043361,,
+8,2017,Dolores,,,NL,NL
+8,2017,Douglas,,,NL,NL
+8,2017,Eagle,154928,1394312,,
+8,2017,Elbert,,,NL,NL
+8,2017,El Paso,8645974,,,NR
+8,2017,Fremont,184251,,,NL
+8,2017,Garfield,325823,2108270,,
+8,2017,Gilpin,,251283,NR,
+8,2017,Grand,,426846,NR,
+8,2017,Gunnison,,809595,NR,
+8,2017,Hinsdale,,,NL,NL
+8,2017,Huerfano,,,NL,NR
+8,2017,Jackson,,,NL,NL
+8,2017,Jefferson,1353370,4474575,,
+8,2017,Kiowa,,,NL,NL
+8,2017,Kit Carson,,,NL,NL
+8,2017,Lake,,322375,NL,
+8,2017,La Plata,298055,2289292,,
+8,2017,Larimer,1206766,5554496,,
+8,2017,Las Animas,45309,4437323,,
+8,2017,Lincoln,,,NL,NL
+8,2017,Logan,,,NL,NL
+8,2017,Mesa,,,NR,NR
+8,2017,Mineral,,,NL,NL
+8,2017,Moffat,,,NR,NL
+8,2017,Montezuma,93411,1862970,,
+8,2017,Montrose,,,NR,NL
+8,2017,Morgan,,964989,NR,
+8,2017,Otero,,,NR,NL
+8,2017,Ouray,,621133,NR,
+8,2017,Park,,455141,NR,
+8,2017,Phillips,,,NL,NL
+8,2017,Pitkin,66581,1205815,,
+8,2017,Prowers,,,NL,NL
+8,2017,Pueblo,737016,3815493,,
+8,2017,Rio Blanco,,,NL,NL
+8,2017,Rio Grande,,,NL,NL
+8,2017,Routt,,976301,NR,
+8,2017,Saguache,,,NL,NR
+8,2017,San Juan,,,NL,NR
+8,2017,San Miguel,21450,450802,,
+8,2017,Sedgwick,,,NR,NR
+8,2017,Summit,112638,1890882,,
+8,2017,Teller,,,NR,NL
+8,2017,Washington,,,NL,NL
+8,2017,Weld,315417,2708742,,
+8,2017,Yuma,,,NL,NL
+8,2018,Adams,400754,7613627,,
+8,2018,Alamosa,,,NR,NL
+8,2018,Arapahoe,808360,10661253,,
+8,2018,Archuleta,,906585,NR,
+8,2018,Baca,,,NL,NL
+8,2018,Bent,,,NL,NL
+8,2018,Boulder,1415106,8774472,,
+8,2018,Broomfield,,,NL,NL
+8,2018,Chaffee,,650455,NR,
+8,2018,Cheyenne,,,NL,NL
+8,2018,Clear Creek,,688187,NR,
+8,2018,Conejos,,651028,NL,
+8,2018,Costilla,,473881,NL,
+8,2018,Crowley,,,NL,NL
+8,2018,Custer,,,NL,NL
+8,2018,Delta,,,NL,NL
+8,2018,Denver,12797280,35343772,,
+8,2018,Dolores,,,NL,NL
+8,2018,Douglas,,,NL,NL
+8,2018,Eagle,100482,1600012,,
+8,2018,Elbert,,,NL,NL
+8,2018,El Paso,7955801,,,NR
+8,2018,Fremont,,,NR,NL
+8,2018,Garfield,186408,1914968,,
+8,2018,Gilpin,,256201,NR,
+8,2018,Grand,,555069,NR,
+8,2018,Gunnison,,897237,NL,
+8,2018,Hinsdale,,,NL,NL
+8,2018,Huerfano,,,NL,NR
+8,2018,Jackson,,,NL,NL
+8,2018,Jefferson,1286756,4650674,,
+8,2018,Kiowa,,,NL,NL
+8,2018,Kit Carson,,,NL,NL
+8,2018,Lake,,330557,NL,
+8,2018,La Plata,,2370568,NR,
+8,2018,Larimer,1030583,6820019,,
+8,2018,Las Animas,40494,4699321,,
+8,2018,Lincoln,,,NL,NL
+8,2018,Logan,,,NL,NL
+8,2018,Mesa,,1737216,NR,
+8,2018,Mineral,,,NL,NL
+8,2018,Moffat,,,NR,NR
+8,2018,Montezuma,97884,2031697,,
+8,2018,Montrose,,,NR,NL
+8,2018,Morgan,,1147988,NR,
+8,2018,Otero,,,NR,NR
+8,2018,Ouray,,757172,NL,
+8,2018,Park,,460047,NR,
+8,2018,Phillips,,,NL,NL
+8,2018,Pitkin,,1362818,NR,
+8,2018,Prowers,,,NL,NL
+8,2018,Pueblo,580863,5468826,,
+8,2018,Rio Blanco,,,NL,NL
+8,2018,Rio Grande,,,NL,NL
+8,2018,Routt,157402,1028248,,
+8,2018,Saguache,,198805,NL,
+8,2018,San Juan,,,NL,NR
+8,2018,San Miguel,,496399,NR,
+8,2018,Sedgwick,,,NR,NR
+8,2018,Summit,104527,2018092,,
+8,2018,Teller,,,NL,NL
+8,2018,Washington,,,NL,NL
+8,2018,Weld,331928,2539739,,
+8,2018,Yuma,,,NL,NL
+9,2014,Adams,453206,,,NR
+9,2014,Alamosa,,,NR,NL
+9,2014,Arapahoe,1353297,,,NL
+9,2014,Archuleta,,,NR,NR
+9,2014,Baca,,,NL,NL
+9,2014,Bent,,,NL,NL
+9,2014,Boulder,2715576,3314834,,
+9,2014,Broomfield,,,NL,NL
+9,2014,Chaffee,,,NR,NR
+9,2014,Cheyenne,,,NL,NL
+9,2014,Clear Creek,102603,375860,,
+9,2014,Conejos,,,NL,NL
+9,2014,Costilla,,,NR,NL
+9,2014,Crowley,,,NL,NL
+9,2014,Custer,,,NL,NL
+9,2014,Delta,,,NL,NL
+9,2014,Denver,15196933,14364191,,
+9,2014,Dolores,,,NL,NL
+9,2014,Douglas,,,NL,NL
+9,2014,Eagle,181480,379890,,
+9,2014,Elbert,,,NL,NL
+9,2014,El Paso,5953327,,,NR
+9,2014,Fremont,233349,,,NL
+9,2014,Garfield,527700,537711,,
+9,2014,Gilpin,39786,138821,,
+9,2014,Grand,,,NR,NL
+9,2014,Gunnison,,255533,NR,
+9,2014,Hinsdale,,,NL,NL
+9,2014,Huerfano,,,NL,NL
+9,2014,Jackson,,,NL,NL
+9,2014,Jefferson,1845807,1701706,,
+9,2014,Kiowa,,,NL,NL
+9,2014,Kit Carson,,,NL,NL
+9,2014,Lake,,,NL,NR
+9,2014,La Plata,623331,,,NR
+9,2014,Larimer,1315740,1378589,,
+9,2014,Las Animas,,,NL,NL
+9,2014,Lincoln,,,NL,NL
+9,2014,Logan,,,NL,NL
+9,2014,Mesa,,,NR,NL
+9,2014,Mineral,,,NL,NL
+9,2014,Moffat,,,NR,NL
+9,2014,Montezuma,125628,,,NL
+9,2014,Montrose,,,NR,NL
+9,2014,Morgan,,,NR,NR
+9,2014,Otero,,,NL,NL
+9,2014,Ouray,,,NR,NR
+9,2014,Park,,,NR,NR
+9,2014,Phillips,,,NL,NL
+9,2014,Pitkin,100612,316259,,
+9,2014,Prowers,,,NL,NL
+9,2014,Pueblo,436843,1386314,,
+9,2014,Rio Blanco,,,NL,NL
+9,2014,Rio Grande,,,NL,NL
+9,2014,Routt,167807,,,NR
+9,2014,Saguache,,,NL,NR
+9,2014,San Juan,,,NL,NL
+9,2014,San Miguel,39758,501532,,
+9,2014,Sedgwick,,,NR,NR
+9,2014,Summit,179358,726128,,
+9,2014,Teller,,,NR,NL
+9,2014,Washington,,,NL,NL
+9,2014,Weld,287891,1201206,,
+9,2014,Yuma,,,NL,NL
+9,2015,Adams,456102,2066128,,
+9,2015,Alamosa,,,NR,NL
+9,2015,Arapahoe,1821831,5321883,,
+9,2015,Archuleta,,,NR,NR
+9,2015,Baca,,,NL,NL
+9,2015,Bent,,,NL,NL
+9,2015,Boulder,2808636,4564394,,
+9,2015,Broomfield,,,NL,NL
+9,2015,Chaffee,,391518,NR,
+9,2015,Cheyenne,,,NL,NL
+9,2015,Clear Creek,98054,490483,,
+9,2015,Conejos,,,NL,NR
+9,2015,Costilla,,,NR,NR
+9,2015,Crowley,,,NL,NL
+9,2015,Custer,,,NL,NL
+9,2015,Delta,,,NL,NL
+9,2015,Denver,18017794,19062651,,
+9,2015,Dolores,,,NL,NL
+9,2015,Douglas,,,NL,NL
+9,2015,Eagle,306549,632711,,
+9,2015,Elbert,,,NL,NL
+9,2015,El Paso,8632187,,,NR
+9,2015,Fremont,262093,,,NL
+9,2015,Garfield,558081,888159,,
+9,2015,Gilpin,31881,206010,,
+9,2015,Grand,,182101,NR,
+9,2015,Gunnison,,333527,NR,
+9,2015,Hinsdale,,,NL,NL
+9,2015,Huerfano,,,NL,NR
+9,2015,Jackson,,,NL,NL
+9,2015,Jefferson,2096374,2859786,,
+9,2015,Kiowa,,,NL,NL
+9,2015,Kit Carson,,,NL,NL
+9,2015,Lake,,,NL,NR
+9,2015,La Plata,489476,1596319,,
+9,2015,Larimer,1546038,2735329,,
+9,2015,Las Animas,,1018744,NR,
+9,2015,Lincoln,,,NL,NL
+9,2015,Logan,,,NL,NL
+9,2015,Mesa,,,NR,NR
+9,2015,Mineral,,,NL,NL
+9,2015,Moffat,,,NR,NL
+9,2015,Montezuma,122425,605971,,
+9,2015,Montrose,,,NR,NL
+9,2015,Morgan,,,NR,NR
+9,2015,Otero,,,NL,NL
+9,2015,Ouray,,342064,NR,
+9,2015,Park,,185916,NR,
+9,2015,Phillips,,,NL,NL
+9,2015,Pitkin,90803,627987,,
+9,2015,Prowers,,,NL,NL
+9,2015,Pueblo,1004209,1721621,,
+9,2015,Rio Blanco,,,NL,NL
+9,2015,Rio Grande,,,NL,NL
+9,2015,Routt,216833,576410,,
+9,2015,Saguache,,,NL,NR
+9,2015,San Juan,,,NL,NR
+9,2015,San Miguel,53511,330093,,
+9,2015,Sedgwick,,,NR,NR
+9,2015,Summit,235065,1024344,,
+9,2015,Teller,,,NR,NL
+9,2015,Washington,,,NL,NL
+9,2015,Weld,447995,1804494,,
+9,2015,Yuma,,,NL,NL
+9,2016,Adams,412289,4668880,,
+9,2016,Alamosa,,,NR,NL
+9,2016,Arapahoe,1493979,9183907,,
+9,2016,Archuleta,,,NR,NR
+9,2016,Baca,,,NL,NL
+9,2016,Bent,,,NL,NL
+9,2016,Boulder,2337601,6306894,,
+9,2016,Broomfield,,,NL,NL
+9,2016,Chaffee,,489993,NR,
+9,2016,Cheyenne,,,NL,NL
+9,2016,Clear Creek,76291,608871,,
+9,2016,Conejos,,435435,NL,
+9,2016,Costilla,,342066,NR,
+9,2016,Crowley,,,NL,NL
+9,2016,Custer,,,NL,NL
+9,2016,Delta,,,NL,NL
+9,2016,Denver,19190347,29423313,,
+9,2016,Dolores,,,NL,NL
+9,2016,Douglas,,,NL,NL
+9,2016,Eagle,191615,995070,,
+9,2016,Elbert,,,NL,NL
+9,2016,El Paso,9387013,,,NR
+9,2016,Fremont,239079,,,NL
+9,2016,Garfield,425704,1754542,,
+9,2016,Gilpin,,300505,NR,
+9,2016,Grand,,,NR,NR
+9,2016,Gunnison,,627401,NR,
+9,2016,Hinsdale,,,NL,NL
+9,2016,Huerfano,,,NL,NR
+9,2016,Jackson,,,NL,NL
+9,2016,Jefferson,1611356,4537417,,
+9,2016,Kiowa,,,NL,NL
+9,2016,Kit Carson,,,NL,NL
+9,2016,Lake,,251980,NL,
+9,2016,La Plata,442682,2226213,,
+9,2016,Larimer,1335581,4343498,,
+9,2016,Las Animas,,2485885,NR,
+9,2016,Lincoln,,,NL,NL
+9,2016,Logan,,,NL,NL
+9,2016,Mesa,,,NR,NR
+9,2016,Mineral,,,NL,NL
+9,2016,Moffat,,,NR,NL
+9,2016,Montezuma,84028,1439910,,
+9,2016,Montrose,,,NR,NL
+9,2016,Morgan,,652609,NR,
+9,2016,Otero,,,NL,NL
+9,2016,Ouray,,515896,NR,
+9,2016,Park,,359173,NR,
+9,2016,Phillips,,,NL,NL
+9,2016,Pitkin,79255,852785,,
+9,2016,Prowers,,,NL,NL
+9,2016,Pueblo,924444,3140055,,
+9,2016,Rio Blanco,,,NL,NL
+9,2016,Rio Grande,,,NL,NL
+9,2016,Routt,,835572,NR,
+9,2016,Saguache,,,NL,NR
+9,2016,San Juan,,,NL,NR
+9,2016,San Miguel,52220,437620,,
+9,2016,Sedgwick,,,NR,NR
+9,2016,Summit,142523,1412253,,
+9,2016,Teller,,,NR,NL
+9,2016,Washington,,,NL,NL
+9,2016,Weld,356553,2567248,,
+9,2016,Yuma,,,NL,NL
+9,2017,Adams,986385,5591544,,
+9,2017,Alamosa,,,NR,NL
+9,2017,Arapahoe,868838,9476898,,
+9,2017,Archuleta,,715518,NR,
+9,2017,Baca,,,NL,NL
+9,2017,Bent,,,NL,NL
+9,2017,Boulder,1867935,7089840,,
+9,2017,Broomfield,,,NL,NL
+9,2017,Chaffee,,547218,NR,
+9,2017,Cheyenne,,,NL,NL
+9,2017,Clear Creek,45086,570485,,
+9,2017,Conejos,,555120,NL,
+9,2017,Costilla,,424241,NR,
+9,2017,Crowley,,,NL,NL
+9,2017,Custer,,,NL,NL
+9,2017,Delta,,,NL,NL
+9,2017,Denver,17531038,34766657,,
+9,2017,Dolores,,,NL,NL
+9,2017,Douglas,,,NL,NL
+9,2017,Eagle,138445,1212598,,
+9,2017,Elbert,,,NL,NL
+9,2017,El Paso,8591074,,,NR
+9,2017,Fremont,166500,,,NL
+9,2017,Garfield,320870,2104540,,
+9,2017,Gilpin,,266428,NR,
+9,2017,Grand,,355550,NR,
+9,2017,Gunnison,,728296,NR,
+9,2017,Hinsdale,,,NL,NL
+9,2017,Huerfano,,,NL,NR
+9,2017,Jackson,,,NL,NL
+9,2017,Jefferson,1391833,4335662,,
+9,2017,Kiowa,,,NL,NL
+9,2017,Kit Carson,,,NL,NL
+9,2017,Lake,,272842,NL,
+9,2017,La Plata,301865,2211371,,
+9,2017,Larimer,1214136,5491456,,
+9,2017,Las Animas,42148,4669330,,
+9,2017,Lincoln,,,NL,NL
+9,2017,Logan,,,NL,NL
+9,2017,Mesa,,931484,NR,
+9,2017,Mineral,,,NL,NL
+9,2017,Moffat,,,NR,NL
+9,2017,Montezuma,74493,1890596,,
+9,2017,Montrose,,,NR,NL
+9,2017,Morgan,,972694,NR,
+9,2017,Otero,,,NR,NL
+9,2017,Ouray,,641630,NR,
+9,2017,Park,,401682,NR,
+9,2017,Phillips,,,NL,NL
+9,2017,Pitkin,64771,1058088,,
+9,2017,Prowers,,,NL,NL
+9,2017,Pueblo,677550,3869882,,
+9,2017,Rio Blanco,,,NL,NL
+9,2017,Rio Grande,,,NL,NL
+9,2017,Routt,,924592,NR,
+9,2017,Saguache,,151900,NL,
+9,2017,San Juan,,,NL,NR
+9,2017,San Miguel,,475875,NR,
+9,2017,Sedgwick,,,NR,NR
+9,2017,Summit,115774,1561814,,
+9,2017,Teller,,,NL,NL
+9,2017,Washington,,,NL,NL
+9,2017,Weld,330702,2723950,,
+9,2017,Yuma,,,NL,NL
+9,2018,Adams,398277,7362649,,
+9,2018,Alamosa,,,NR,NL
+9,2018,Arapahoe,889138,10127781,,
+9,2018,Archuleta,,840533,NL,
+9,2018,Baca,,,NL,NL
+9,2018,Bent,,,NL,NL
+9,2018,Boulder,1299455,8099831,,
+9,2018,Broomfield,,,NL,NL
+9,2018,Chaffee,,580551,NR,
+9,2018,Cheyenne,,,NL,NL
+9,2018,Clear Creek,28653,620626,,
+9,2018,Conejos,,607872,NL,
+9,2018,Costilla,,441921,NL,
+9,2018,Crowley,,,NL,NL
+9,2018,Custer,,,NL,NL
+9,2018,Delta,,,NL,NL
+9,2018,Denver,12967617,34127926,,
+9,2018,Dolores,,,NL,NL
+9,2018,Douglas,,,NL,NL
+9,2018,Eagle,96626,1282007,,
+9,2018,Elbert,,,NL,NL
+9,2018,El Paso,7786421,,,NR
+9,2018,Fremont,,,NR,NL
+9,2018,Garfield,182576,1905410,,
+9,2018,Gilpin,,241174,NL,
+9,2018,Grand,,479851,NR,
+9,2018,Gunnison,,760759,NL,
+9,2018,Hinsdale,,,NL,NL
+9,2018,Huerfano,,,NL,NR
+9,2018,Jackson,,,NL,NL
+9,2018,Jefferson,1247843,4299667,,
+9,2018,Kiowa,,,NL,NL
+9,2018,Kit Carson,,,NL,NL
+9,2018,Lake,,272478,NL,
+9,2018,La Plata,,2338202,NR,
+9,2018,Larimer,936033,6631199,,
+9,2018,Las Animas,27817,4765052,,
+9,2018,Lincoln,,,NL,NL
+9,2018,Logan,,,NL,NL
+9,2018,Mesa,,1754898,NR,
+9,2018,Mineral,,,NL,NL
+9,2018,Moffat,,518034,NR,
+9,2018,Montezuma,94993,1978519,,
+9,2018,Montrose,,,NR,NL
+9,2018,Morgan,,,NR,NR
+9,2018,Otero,,,NR,NR
+9,2018,Ouray,,767446,NL,
+9,2018,Park,,435826,NR,
+9,2018,Phillips,,,NL,NL
+9,2018,Pitkin,44125,1030932,,
+9,2018,Prowers,,,NL,NL
+9,2018,Pueblo,566009,5377188,,
+9,2018,Rio Blanco,,,NL,NL
+9,2018,Rio Grande,,,NL,NL
+9,2018,Routt,135149,968797,,
+9,2018,Saguache,,207584,NL,
+9,2018,San Juan,,,NL,NR
+9,2018,San Miguel,,509927,NR,
+9,2018,Sedgwick,,,NR,NR
+9,2018,Summit,94092,1613075,,
+9,2018,Teller,,,NL,NL
+9,2018,Washington,,,NL,NL
+9,2018,Weld,313809,2372200,,
+9,2018,Yuma,,,NL,NL
+10,2014,Adams,474637,,,NR
+10,2014,Alamosa,,,NR,NL
+10,2014,Arapahoe,1396842,,,NR
+10,2014,Archuleta,,,NR,NR
+10,2014,Baca,,,NL,NL
+10,2014,Bent,,,NL,NL
+10,2014,Boulder,2660593,3477557,,
+10,2014,Broomfield,,,NL,NL
+10,2014,Chaffee,,,NR,NR
+10,2014,Cheyenne,,,NL,NL
+10,2014,Clear Creek,102858,338132,,
+10,2014,Conejos,,,NL,NL
+10,2014,Costilla,,,NR,NL
+10,2014,Crowley,,,NL,NL
+10,2014,Custer,,,NL,NL
+10,2014,Delta,,,NL,NL
+10,2014,Denver,15006222,14895186,,
+10,2014,Dolores,,,NL,NL
+10,2014,Douglas,,,NL,NL
+10,2014,Eagle,206273,356123,,
+10,2014,Elbert,,,NL,NL
+10,2014,El Paso,5742846,,,NR
+10,2014,Fremont,174220,,,NL
+10,2014,Garfield,389617,553834,,
+10,2014,Gilpin,,,NR,NR
+10,2014,Grand,,,NR,NL
+10,2014,Gunnison,,184394,NR,
+10,2014,Hinsdale,,,NL,NL
+10,2014,Huerfano,,,NL,NL
+10,2014,Jackson,,,NL,NL
+10,2014,Jefferson,1923839,1714442,,
+10,2014,Kiowa,,,NL,NL
+10,2014,Kit Carson,,,NL,NL
+10,2014,Lake,,,NL,NR
+10,2014,La Plata,531825,,,NR
+10,2014,Larimer,1232929,1523402,,
+10,2014,Las Animas,,,NL,NL
+10,2014,Lincoln,,,NL,NL
+10,2014,Logan,,,NL,NL
+10,2014,Mesa,,,NR,NL
+10,2014,Mineral,,,NL,NL
+10,2014,Moffat,,,NR,NL
+10,2014,Montezuma,,,NR,NL
+10,2014,Montrose,,,NR,NL
+10,2014,Morgan,,,NR,NR
+10,2014,Otero,,,NL,NL
+10,2014,Ouray,,,NR,NR
+10,2014,Park,,,NR,NR
+10,2014,Phillips,,,NL,NL
+10,2014,Pitkin,86614,246079,,
+10,2014,Prowers,,,NL,NL
+10,2014,Pueblo,352545,1245865,,
+10,2014,Rio Blanco,,,NL,NL
+10,2014,Rio Grande,,,NL,NL
+10,2014,Routt,,,NR,NR
+10,2014,Saguache,,,NL,NR
+10,2014,San Juan,,,NL,NL
+10,2014,San Miguel,36239,278409,,
+10,2014,Sedgwick,,,NR,NR
+10,2014,Summit,178233,632225,,
+10,2014,Teller,,,NR,NL
+10,2014,Washington,,,NL,NL
+10,2014,Weld,361629,1126809,,
+10,2014,Yuma,,,NL,NL
+10,2015,Adams,435580,2446592,,
+10,2015,Alamosa,,,NR,NL
+10,2015,Arapahoe,1743830,5728782,,
+10,2015,Archuleta,,,NR,NR
+10,2015,Baca,,,NL,NL
+10,2015,Bent,,,NL,NL
+10,2015,Boulder,2816381,4777912,,
+10,2015,Broomfield,,,NL,NL
+10,2015,Chaffee,,325900,NR,
+10,2015,Cheyenne,,,NL,NL
+10,2015,Clear Creek,87040,419695,,
+10,2015,Conejos,,,NL,NR
+10,2015,Costilla,,,NR,NR
+10,2015,Crowley,,,NL,NL
+10,2015,Custer,,,NL,NL
+10,2015,Delta,,,NL,NL
+10,2015,Denver,16398610,19085375,,
+10,2015,Dolores,,,NL,NL
+10,2015,Douglas,,,NL,NL
+10,2015,Eagle,294270,590827,,
+10,2015,Elbert,,,NL,NL
+10,2015,El Paso,8065363,,,NR
+10,2015,Fremont,178145,,,NL
+10,2015,Garfield,404126,872142,,
+10,2015,Gilpin,,185948,NR,
+10,2015,Grand,,166746,NR,
+10,2015,Gunnison,,,NR,NR
+10,2015,Hinsdale,,,NL,NL
+10,2015,Huerfano,,,NL,NR
+10,2015,Jackson,,,NL,NL
+10,2015,Jefferson,1881358,3091341,,
+10,2015,Kiowa,,,NL,NL
+10,2015,Kit Carson,,,NL,NL
+10,2015,Lake,,,NL,NR
+10,2015,La Plata,404921,1541740,,
+10,2015,Larimer,1452878,2885257,,
+10,2015,Las Animas,,1035512,NR,
+10,2015,Lincoln,,,NL,NL
+10,2015,Logan,,,NL,NL
+10,2015,Mesa,,,NR,NR
+10,2015,Mineral,,,NL,NL
+10,2015,Moffat,,,NR,NL
+10,2015,Montezuma,106843,627049,,
+10,2015,Montrose,,,NR,NL
+10,2015,Morgan,,,NR,NR
+10,2015,Otero,,,NL,NL
+10,2015,Ouray,,,NR,NR
+10,2015,Park,,201525,NR,
+10,2015,Phillips,,,NL,NL
+10,2015,Pitkin,80160,443764,,
+10,2015,Prowers,,,NL,NL
+10,2015,Pueblo,863610,1710792,,
+10,2015,Rio Blanco,,,NL,NL
+10,2015,Rio Grande,,,NL,NL
+10,2015,Routt,201592,563187,,
+10,2015,Saguache,,,NL,NR
+10,2015,San Juan,,,NL,NR
+10,2015,San Miguel,50875,195014,,
+10,2015,Sedgwick,,,NR,NR
+10,2015,Summit,215459,968236,,
+10,2015,Teller,,,NR,NL
+10,2015,Washington,,,NL,NL
+10,2015,Weld,418307,1908470,,
+10,2015,Yuma,,,NL,NL
+10,2016,Adams,416490,4578245,,
+10,2016,Alamosa,,,NR,NL
+10,2016,Arapahoe,1472572,8954428,,
+10,2016,Archuleta,,,NR,NR
+10,2016,Baca,,,NL,NL
+10,2016,Bent,,,NL,NL
+10,2016,Boulder,2202702,5993882,,
+10,2016,Broomfield,,,NL,NL
+10,2016,Chaffee,,352254,NR,
+10,2016,Cheyenne,,,NL,NL
+10,2016,Clear Creek,69509,486814,,
+10,2016,Conejos,,380038,NL,
+10,2016,Costilla,,265876,NR,
+10,2016,Crowley,,,NL,NL
+10,2016,Custer,,,NL,NL
+10,2016,Delta,,,NL,NL
+10,2016,Denver,17196445,28578229,,
+10,2016,Dolores,,,NL,NL
+10,2016,Douglas,,,NL,NL
+10,2016,Eagle,173346,852099,,
+10,2016,Elbert,,,NL,NL
+10,2016,El Paso,8569109,,,NR
+10,2016,Fremont,189039,,,NL
+10,2016,Garfield,342751,1608072,,
+10,2016,Gilpin,,253131,NR,
+10,2016,Grand,,258512,NR,
+10,2016,Gunnison,,481440,NR,
+10,2016,Hinsdale,,,NL,NL
+10,2016,Huerfano,,,NL,NR
+10,2016,Jackson,,,NL,NL
+10,2016,Jefferson,1637140,4226976,,
+10,2016,Kiowa,,,NL,NL
+10,2016,Kit Carson,,,NL,NL
+10,2016,Lake,,198027,NL,
+10,2016,La Plata,376178,1954316,,
+10,2016,Larimer,1303215,4204839,,
+10,2016,Las Animas,,2343718,NR,
+10,2016,Lincoln,,,NL,NL
+10,2016,Logan,,,NL,NL
+10,2016,Mesa,,,NR,NR
+10,2016,Mineral,,,NL,NL
+10,2016,Moffat,,,NR,NL
+10,2016,Montezuma,65684,1412949,,
+10,2016,Montrose,,,NR,NL
+10,2016,Morgan,,621119,NR,
+10,2016,Otero,,,NL,NL
+10,2016,Ouray,,404670,NR,
+10,2016,Park,,304140,NR,
+10,2016,Phillips,,,NL,NL
+10,2016,Pitkin,71227,527278,,
+10,2016,Prowers,,,NL,NL
+10,2016,Pueblo,645119,2730719,,
+10,2016,Rio Blanco,,,NL,NL
+10,2016,Rio Grande,,,NL,NL
+10,2016,Routt,205695,665803,,
+10,2016,Saguache,,,NL,NR
+10,2016,San Juan,,,NL,NR
+10,2016,San Miguel,40475,242681,,
+10,2016,Sedgwick,,,NR,NR
+10,2016,Summit,156993,1235632,,
+10,2016,Teller,,,NR,NL
+10,2016,Washington,,,NL,NL
+10,2016,Weld,242582,2535546,,
+10,2016,Yuma,,,NL,NL
+10,2017,Adams,948132,5441728,,
+10,2017,Alamosa,,,NR,NL
+10,2017,Arapahoe,927716,9221783,,
+10,2017,Archuleta,,574929,NR,
+10,2017,Baca,,,NL,NL
+10,2017,Bent,,,NL,NL
+10,2017,Boulder,1869460,6744069,,
+10,2017,Broomfield,,,NL,NL
+10,2017,Chaffee,,452091,NR,
+10,2017,Cheyenne,,,NL,NL
+10,2017,Clear Creek,33021,485097,,
+10,2017,Conejos,,469150,NL,
+10,2017,Costilla,,356750,NL,
+10,2017,Crowley,,,NL,NL
+10,2017,Custer,,,NL,NL
+10,2017,Delta,,,NL,NL
+10,2017,Denver,16854622,33586096,,
+10,2017,Dolores,,,NL,NL
+10,2017,Douglas,,,NL,NL
+10,2017,Eagle,121584,982903,,
+10,2017,Elbert,,,NL,NL
+10,2017,El Paso,8153081,,,NR
+10,2017,Fremont,143271,,,NL
+10,2017,Garfield,265961,1773496,,
+10,2017,Gilpin,,197522,NR,
+10,2017,Grand,,,NR,NR
+10,2017,Gunnison,,562053,NR,
+10,2017,Hinsdale,,,NL,NL
+10,2017,Huerfano,,,NL,NR
+10,2017,Jackson,,,NL,NL
+10,2017,Jefferson,1469845,4104272,,
+10,2017,Kiowa,,,NL,NL
+10,2017,Kit Carson,,,NL,NL
+10,2017,Lake,,205966,NL,
+10,2017,La Plata,299503,1971031,,
+10,2017,Larimer,1124315,5315541,,
+10,2017,Las Animas,35561,4192076,,
+10,2017,Lincoln,,,NL,NL
+10,2017,Logan,,,NL,NL
+10,2017,Mesa,,1007121,NR,
+10,2017,Mineral,,,NL,NL
+10,2017,Moffat,,,NR,NL
+10,2017,Montezuma,61290,1759476,,
+10,2017,Montrose,,,NR,NL
+10,2017,Morgan,,944046,NR,
+10,2017,Otero,,,NR,NL
+10,2017,Ouray,,504899,NR,
+10,2017,Park,,344712,NR,
+10,2017,Phillips,,,NL,NL
+10,2017,Pitkin,57474,703705,,
+10,2017,Prowers,,,NL,NL
+10,2017,Pueblo,538665,3525795,,
+10,2017,Rio Blanco,,,NL,NL
+10,2017,Rio Grande,,,NL,NL
+10,2017,Routt,,771913,NR,
+10,2017,Saguache,,117885,NL,
+10,2017,San Juan,,,NL,NR
+10,2017,San Miguel,,266043,NR,
+10,2017,Sedgwick,,,NR,NR
+10,2017,Summit,120951,1295739,,
+10,2017,Teller,,,NR,NL
+10,2017,Washington,,,NL,NL
+10,2017,Weld,327093,2554620,,
+10,2017,Yuma,,,NL,NL
+10,2018,Adams,509170,7365401,,
+10,2018,Alamosa,,,NR,NL
+10,2018,Arapahoe,826764,10245761,,
+10,2018,Archuleta,,722415,NL,
+10,2018,Baca,,,NL,NL
+10,2018,Bent,,,NL,NL
+10,2018,Boulder,1287700,7850413,,
+10,2018,Broomfield,,,NL,NL
+10,2018,Chaffee,,445329,NR,
+10,2018,Cheyenne,,,NL,NL
+10,2018,Clear Creek,21140,516655,,
+10,2018,Conejos,,514891,NL,
+10,2018,Costilla,,349525,NL,
+10,2018,Crowley,,,NL,NR
+10,2018,Custer,,,NL,NL
+10,2018,Delta,,,NL,NL
+10,2018,Denver,12720334,32338630,,
+10,2018,Dolores,,,NL,NL
+10,2018,Douglas,,,NL,NL
+10,2018,Eagle,86610,1069220,,
+10,2018,Elbert,,,NL,NL
+10,2018,El Paso,7882342,,,NR
+10,2018,Fremont,,,NR,NL
+10,2018,Garfield,162367,1690316,,
+10,2018,Gilpin,,194984,NL,
+10,2018,Grand,,392970,NR,
+10,2018,Gunnison,,567511,NL,
+10,2018,Hinsdale,,,NL,NL
+10,2018,Huerfano,,,NL,NR
+10,2018,Jackson,,,NL,NL
+10,2018,Jefferson,1249935,4153968,,
+10,2018,Kiowa,,,NL,NL
+10,2018,Kit Carson,,,NL,NL
+10,2018,Lake,,218867,NL,
+10,2018,La Plata,,2153231,NR,
+10,2018,Larimer,932833,6622929,,
+10,2018,Las Animas,27666,4273377,,
+10,2018,Lincoln,,,NL,NL
+10,2018,Logan,,,NL,NL
+10,2018,Mesa,,1647110,NR,
+10,2018,Mineral,,,NL,NL
+10,2018,Moffat,,510016,NR,
+10,2018,Montezuma,44755,1896742,,
+10,2018,Montrose,,,NR,NL
+10,2018,Morgan,,,NR,NR
+10,2018,Otero,,,NR,NR
+10,2018,Ouray,,612355,NL,
+10,2018,Park,,368779,NR,
+10,2018,Phillips,,,NL,NL
+10,2018,Pitkin,33868,694980,,
+10,2018,Prowers,,,NL,NL
+10,2018,Pueblo,769549,5001654,,
+10,2018,Rio Blanco,,,NL,NL
+10,2018,Rio Grande,,,NL,NL
+10,2018,Routt,132712,851265,,
+10,2018,Saguache,,175549,NL,
+10,2018,San Juan,,,NL,NR
+10,2018,San Miguel,,284125,NR,
+10,2018,Sedgwick,,,NR,NR
+10,2018,Summit,92669,1336205,,
+10,2018,Teller,,,NL,NL
+10,2018,Washington,,,NL,NL
+10,2018,Weld,334645,2362252,,
+10,2018,Yuma,,,NL,NL
+11,2014,Adams,480189,1304091,,
+11,2014,Alamosa,,,NR,NL
+11,2014,Arapahoe,1345048,805369,,
+11,2014,Archuleta,,,NR,NR
+11,2014,Baca,,,NL,NL
+11,2014,Bent,,,NL,NL
+11,2014,Boulder,2400813,3196349,,
+11,2014,Broomfield,,,NL,NL
+11,2014,Chaffee,,,NR,NR
+11,2014,Cheyenne,,,NL,NL
+11,2014,Clear Creek,91727,298012,,
+11,2014,Conejos,,,NL,NL
+11,2014,Costilla,,,NR,NR
+11,2014,Crowley,,,NL,NL
+11,2014,Custer,,,NL,NL
+11,2014,Delta,,,NL,NL
+11,2014,Denver,13469383,13742869,,
+11,2014,Dolores,,,NL,NL
+11,2014,Douglas,,,NL,NL
+11,2014,Eagle,210732,373883,,
+11,2014,Elbert,,,NL,NL
+11,2014,El Paso,5223552,,,NR
+11,2014,Fremont,159257,,,NL
+11,2014,Garfield,318967,507297,,
+11,2014,Gilpin,,,NR,NR
+11,2014,Grand,,,NR,NR
+11,2014,Gunnison,,133062,NR,
+11,2014,Hinsdale,,,NL,NL
+11,2014,Huerfano,,,NL,NL
+11,2014,Jackson,,,NL,NL
+11,2014,Jefferson,1837165,1679786,,
+11,2014,Kiowa,,,NL,NL
+11,2014,Kit Carson,,,NL,NL
+11,2014,Lake,,,NL,NR
+11,2014,La Plata,459409,647493,,
+11,2014,Larimer,1185998,1493948,,
+11,2014,Las Animas,,,NL,NR
+11,2014,Lincoln,,,NL,NL
+11,2014,Logan,,,NL,NL
+11,2014,Mesa,,,NR,NL
+11,2014,Mineral,,,NL,NL
+11,2014,Moffat,,,NR,NL
+11,2014,Montezuma,,,NR,NL
+11,2014,Montrose,,,NR,NL
+11,2014,Morgan,,,NR,NR
+11,2014,Otero,,,NL,NL
+11,2014,Ouray,,,NR,NR
+11,2014,Park,,,NR,NR
+11,2014,Phillips,,,NL,NL
+11,2014,Pitkin,72294,216781,,
+11,2014,Prowers,,,NL,NL
+11,2014,Pueblo,324106,1137217,,
+11,2014,Rio Blanco,,,NL,NL
+11,2014,Rio Grande,,,NL,NL
+11,2014,Routt,,,NR,NR
+11,2014,Saguache,,,NL,NR
+11,2014,San Juan,,,NL,NL
+11,2014,San Miguel,26291,169659,,
+11,2014,Sedgwick,,,NR,NR
+11,2014,Summit,163698,706675,,
+11,2014,Teller,,,NR,NL
+11,2014,Washington,,,NL,NL
+11,2014,Weld,416639,992006,,
+11,2014,Yuma,,,NL,NL
+11,2015,Adams,411536,2426969,,
+11,2015,Alamosa,,,NR,NL
+11,2015,Arapahoe,1474373,5485411,,
+11,2015,Archuleta,,,NR,NR
+11,2015,Baca,,,NL,NL
+11,2015,Bent,,,NL,NL
+11,2015,Boulder,2441291,4312311,,
+11,2015,Broomfield,,,NL,NL
+11,2015,Chaffee,,257406,NR,
+11,2015,Cheyenne,,,NL,NL
+11,2015,Clear Creek,65544,382303,,
+11,2015,Conejos,,,NL,NR
+11,2015,Costilla,,,NR,NR
+11,2015,Crowley,,,NL,NL
+11,2015,Custer,,,NL,NL
+11,2015,Delta,,,NL,NL
+11,2015,Denver,13509435,17834233,,
+11,2015,Dolores,,,NL,NL
+11,2015,Douglas,,,NL,NL
+11,2015,Eagle,239175,608573,,
+11,2015,Elbert,,,NL,NL
+11,2015,El Paso,6629977,,,NR
+11,2015,Fremont,146376,,,NL
+11,2015,Garfield,276743,706287,,
+11,2015,Gilpin,,165186,NR,
+11,2015,Grand,,149468,NR,
+11,2015,Gunnison,,250041,NR,
+11,2015,Hinsdale,,,NL,NL
+11,2015,Huerfano,,,NL,NR
+11,2015,Jackson,,,NL,NL
+11,2015,Jefferson,1654954,2816172,,
+11,2015,Kiowa,,,NL,NL
+11,2015,Kit Carson,,,NL,NL
+11,2015,Lake,,,NL,NR
+11,2015,La Plata,332966,1192549,,
+11,2015,Larimer,1263937,2561270,,
+11,2015,Las Animas,,850923,NR,
+11,2015,Lincoln,,,NL,NL
+11,2015,Logan,,,NL,NL
+11,2015,Mesa,,,NR,NR
+11,2015,Mineral,,,NL,NL
+11,2015,Moffat,,,NR,NL
+11,2015,Montezuma,93505,528833,,
+11,2015,Montrose,,,NR,NL
+11,2015,Morgan,,,NR,NR
+11,2015,Otero,,,NL,NL
+11,2015,Ouray,,,NR,NR
+11,2015,Park,,168909,NR,
+11,2015,Phillips,,,NL,NL
+11,2015,Pitkin,78898,348178,,
+11,2015,Prowers,,,NL,NL
+11,2015,Pueblo,776637,1447179,,
+11,2015,Rio Blanco,,,NL,NL
+11,2015,Rio Grande,,,NL,NL
+11,2015,Routt,182755,437492,,
+11,2015,Saguache,,,NL,NR
+11,2015,San Juan,,,NL,NR
+11,2015,San Miguel,39568,121095,,
+11,2015,Sedgwick,,,NR,NR
+11,2015,Summit,214387,1022796,,
+11,2015,Teller,,,NR,NL
+11,2015,Washington,,,NL,NL
+11,2015,Weld,361925,1688077,,
+11,2015,Yuma,,,NL,NL
+11,2016,Adams,529977,4396031,,
+11,2016,Alamosa,,,NR,NL
+11,2016,Arapahoe,1458869,8514717,,
+11,2016,Archuleta,,,NR,NR
+11,2016,Baca,,,NL,NL
+11,2016,Bent,,,NL,NL
+11,2016,Boulder,2099029,5444937,,
+11,2016,Broomfield,,,NL,NL
+11,2016,Chaffee,,308023,NR,
+11,2016,Cheyenne,,,NL,NL
+11,2016,Clear Creek,70063,431209,,
+11,2016,Conejos,,320078,NL,
+11,2016,Costilla,,228406,NR,
+11,2016,Crowley,,,NL,NL
+11,2016,Custer,,,NL,NL
+11,2016,Delta,,,NL,NL
+11,2016,Denver,17182972,26146211,,
+11,2016,Dolores,,,NL,NL
+11,2016,Douglas,,,NL,NL
+11,2016,Eagle,150334,886933,,
+11,2016,Elbert,,,NL,NL
+11,2016,El Paso,8011818,,,NR
+11,2016,Fremont,,,NR,NL
+11,2016,Garfield,317199,1372095,,
+11,2016,Gilpin,,187219,NR,
+11,2016,Grand,,250357,NR,
+11,2016,Gunnison,,390416,NR,
+11,2016,Hinsdale,,,NL,NL
+11,2016,Huerfano,,,NL,NR
+11,2016,Jackson,,,NL,NL
+11,2016,Jefferson,1474361,3935409,,
+11,2016,Kiowa,,,NL,NL
+11,2016,Kit Carson,,,NL,NL
+11,2016,Lake,,,NL,NR
+11,2016,La Plata,339564,1718599,,
+11,2016,Larimer,1211727,3964140,,
+11,2016,Las Animas,,2305460,NR,
+11,2016,Lincoln,,,NL,NL
+11,2016,Logan,,,NL,NL
+11,2016,Mesa,,,NR,NR
+11,2016,Mineral,,,NL,NL
+11,2016,Moffat,,,NR,NL
+11,2016,Montezuma,62866,1212346,,
+11,2016,Montrose,,,NR,NL
+11,2016,Morgan,,558715,NR,
+11,2016,Otero,,,NL,NL
+11,2016,Ouray,,298217,NR,
+11,2016,Park,,277990,NR,
+11,2016,Phillips,,,NL,NL
+11,2016,Pitkin,60322,445008,,
+11,2016,Prowers,,,NL,NL
+11,2016,Pueblo,659236,2583047,,
+11,2016,Rio Blanco,,,NL,NL
+11,2016,Rio Grande,,,NL,NL
+11,2016,Routt,168346,593501,,
+11,2016,Saguache,,,NL,NR
+11,2016,San Juan,,,NL,NR
+11,2016,San Miguel,30453,146596,,
+11,2016,Sedgwick,,,NR,NR
+11,2016,Summit,,1314039,NR,
+11,2016,Teller,,,NR,NL
+11,2016,Washington,,,NL,NL
+11,2016,Weld,,2417762,NR,
+11,2016,Yuma,,,NL,NL
+11,2017,Adams,999483,5558469,,
+11,2017,Alamosa,,,NR,NL
+11,2017,Arapahoe,755136,9034873,,
+11,2017,Archuleta,,508490,NR,
+11,2017,Baca,,,NL,NL
+11,2017,Bent,,,NL,NL
+11,2017,Boulder,1770651,6329971,,
+11,2017,Broomfield,,,NL,NL
+11,2017,Chaffee,,347798,NR,
+11,2017,Cheyenne,,,NL,NL
+11,2017,Clear Creek,38372,453940,,
+11,2017,Conejos,,424081,NL,
+11,2017,Costilla,,247946,NL,
+11,2017,Crowley,,,NL,NL
+11,2017,Custer,,,NL,NL
+11,2017,Delta,,,NL,NL
+11,2017,Denver,15704331,31195308,,
+11,2017,Dolores,,,NL,NL
+11,2017,Douglas,,,NL,NL
+11,2017,Eagle,118682,980728,,
+11,2017,Elbert,,,NL,NL
+11,2017,El Paso,7652843,,,NR
+11,2017,Fremont,133101,,,NL
+11,2017,Garfield,243896,1581537,,
+11,2017,Gilpin,,188913,NR,
+11,2017,Grand,,272045,NR,
+11,2017,Gunnison,,433357,NR,
+11,2017,Hinsdale,,,NL,NL
+11,2017,Huerfano,,,NL,NR
+11,2017,Jackson,,,NL,NL
+11,2017,Jefferson,1302651,3678694,,
+11,2017,Kiowa,,,NL,NL
+11,2017,Kit Carson,,,NL,NL
+11,2017,Lake,,174191,NL,
+11,2017,La Plata,278348,1753119,,
+11,2017,Larimer,1095959,5125412,,
+11,2017,Las Animas,36449,3956545,,
+11,2017,Lincoln,,,NL,NL
+11,2017,Logan,,,NL,NL
+11,2017,Mesa,,963023,NR,
+11,2017,Mineral,,,NL,NL
+11,2017,Moffat,,,NR,NL
+11,2017,Montezuma,54431,1658451,,
+11,2017,Montrose,,,NR,NL
+11,2017,Morgan,,880963,NR,
+11,2017,Otero,,,NR,NL
+11,2017,Ouray,,,NR,NR
+11,2017,Park,,323525,NR,
+11,2017,Phillips,,,NL,NL
+11,2017,Pitkin,53994,571977,,
+11,2017,Prowers,,,NL,NL
+11,2017,Pueblo,501175,3320340,,
+11,2017,Rio Blanco,,,NL,NL
+11,2017,Rio Grande,,,NL,NL
+11,2017,Routt,,661206,NR,
+11,2017,Saguache,,95793,NL,
+11,2017,San Juan,,,NL,NR
+11,2017,San Miguel,,181166,NR,
+11,2017,Sedgwick,,,NR,NR
+11,2017,Summit,114788,1411797,,
+11,2017,Teller,,,NL,NL
+11,2017,Washington,,,NL,NL
+11,2017,Weld,351629,2433403,,
+11,2017,Yuma,,,NL,NL
+11,2018,Adams,475793,7404234,,
+11,2018,Alamosa,,,NR,NL
+11,2018,Arapahoe,793814,10251205,,
+11,2018,Archuleta,,629695,NL,
+11,2018,Baca,,,NL,NL
+11,2018,Bent,,,NL,NL
+11,2018,Boulder,1277657,7404306,,
+11,2018,Broomfield,,,NL,NL
+11,2018,Chaffee,,379794,NR,
+11,2018,Cheyenne,,,NL,NL
+11,2018,Clear Creek,23148,478979,,
+11,2018,Conejos,,448685,NL,
+11,2018,Costilla,,293351,NL,
+11,2018,Crowley,,,NL,NL
+11,2018,Custer,,,NL,NL
+11,2018,Delta,,,NL,NL
+11,2018,Denver,11829016,31470367,,
+11,2018,Dolores,,,NL,NL
+11,2018,Douglas,,,NL,NL
+11,2018,Eagle,84221,1073888,,
+11,2018,Elbert,,,NL,NL
+11,2018,El Paso,7203476,,,NR
+11,2018,Fremont,112642,,,NL
+11,2018,Garfield,118710,1540424,,
+11,2018,Gilpin,,171444,NL,
+11,2018,Grand,,385453,NR,
+11,2018,Gunnison,,459020,NL,
+11,2018,Hinsdale,,,NL,NL
+11,2018,Huerfano,,,NL,NR
+11,2018,Jackson,,,NL,NL
+11,2018,Jefferson,1305975,4135774,,
+11,2018,Kiowa,,,NL,NL
+11,2018,Kit Carson,,,NL,NL
+11,2018,Lake,,193034,NL,
+11,2018,La Plata,,1916314,NR,
+11,2018,Larimer,894188,6471039,,
+11,2018,Las Animas,23048,4067789,,
+11,2018,Lincoln,,,NL,NL
+11,2018,Logan,,,NL,NL
+11,2018,Mesa,,1553111,NR,
+11,2018,Mineral,,,NL,NL
+11,2018,Moffat,,500264,NR,
+11,2018,Montezuma,45252,1751540,,
+11,2018,Montrose,,,NR,NL
+11,2018,Morgan,,,NR,NR
+11,2018,Otero,,,NR,NR
+11,2018,Ouray,,549988,NL,
+11,2018,Park,,324363,NR,
+11,2018,Phillips,,,NL,NL
+11,2018,Pitkin,33385,599002,,
+11,2018,Prowers,,,NL,NL
+11,2018,Pueblo,602548,4868317,,
+11,2018,Rio Blanco,,,NL,NL
+11,2018,Rio Grande,,,NL,NL
+11,2018,Routt,125491,758528,,
+11,2018,Saguache,,139665,NL,
+11,2018,San Juan,,,NL,NR
+11,2018,San Miguel,,200869,NR,
+11,2018,Sedgwick,,,NR,NR
+11,2018,Summit,90339,1504585,,
+11,2018,Teller,,,NL,NL
+11,2018,Washington,,,NL,NL
+11,2018,Weld,350896,2346003,,
+11,2018,Yuma,,,NL,NL
+12,2014,Adams,470394,1445817,,
+12,2014,Alamosa,,,NR,NL
+12,2014,Arapahoe,1498465,1416559,,
+12,2014,Archuleta,,,NR,NR
+12,2014,Baca,,,NL,NL
+12,2014,Bent,,,NL,NL
+12,2014,Boulder,2548354,3592405,,
+12,2014,Broomfield,,,NL,NL
+12,2014,Chaffee,,,NR,NR
+12,2014,Cheyenne,,,NL,NL
+12,2014,Clear Creek,83182,371997,,
+12,2014,Conejos,,,NL,NL
+12,2014,Costilla,,,NR,NR
+12,2014,Crowley,,,NL,NL
+12,2014,Custer,,,NL,NL
+12,2014,Delta,,,NL,NL
+12,2014,Denver,12138739,14797861,,
+12,2014,Dolores,,,NL,NL
+12,2014,Douglas,,,NL,NL
+12,2014,Eagle,277950,710631,,
+12,2014,Elbert,,,NL,NL
+12,2014,El Paso,5517533,,,NR
+12,2014,Fremont,178729,,,NL
+12,2014,Garfield,283365,560065,,
+12,2014,Gilpin,34112,103121,,
+12,2014,Grand,,,NR,NR
+12,2014,Gunnison,,228173,NR,
+12,2014,Hinsdale,,,NL,NL
+12,2014,Huerfano,,,NL,NL
+12,2014,Jackson,,,NL,NL
+12,2014,Jefferson,1832756,1990092,,
+12,2014,Kiowa,,,NL,NL
+12,2014,Kit Carson,,,NL,NL
+12,2014,Lake,,,NL,NR
+12,2014,La Plata,497203,838948,,
+12,2014,Larimer,1316194,1613144,,
+12,2014,Las Animas,,,NR,NR
+12,2014,Lincoln,,,NL,NL
+12,2014,Logan,,,NL,NL
+12,2014,Mesa,,,NR,NL
+12,2014,Mineral,,,NL,NL
+12,2014,Moffat,,,NR,NL
+12,2014,Montezuma,117849,,,NR
+12,2014,Montrose,,,NR,NL
+12,2014,Morgan,,,NR,NR
+12,2014,Otero,,,NL,NL
+12,2014,Ouray,,,NR,NR
+12,2014,Park,,,NR,NR
+12,2014,Phillips,,,NL,NL
+12,2014,Pitkin,84226,599569,,
+12,2014,Prowers,,,NL,NL
+12,2014,Pueblo,399460,1158670,,
+12,2014,Rio Blanco,,,NL,NL
+12,2014,Rio Grande,,,NL,NL
+12,2014,Routt,169025,493734,,
+12,2014,Saguache,,,NL,NR
+12,2014,San Juan,,,NL,NL
+12,2014,San Miguel,43788,292834,,
+12,2014,Sedgwick,,,NR,NR
+12,2014,Summit,205226,1256397,,
+12,2014,Teller,,,NR,NL
+12,2014,Washington,,,NL,NL
+12,2014,Weld,394521,1071049,,
+12,2014,Yuma,,,NL,NL
+12,2015,Adams,441833,2706310,,
+12,2015,Alamosa,,,NR,NL
+12,2015,Arapahoe,1606205,6055214,,
+12,2015,Archuleta,,,NR,NR
+12,2015,Baca,,,NL,NL
+12,2015,Bent,,,NL,NL
+12,2015,Boulder,2807281,4621551,,
+12,2015,Broomfield,,,NL,NL
+12,2015,Chaffee,,,NR,NR
+12,2015,Cheyenne,,,NL,NL
+12,2015,Clear Creek,81631,492005,,
+12,2015,Conejos,,,NL,NR
+12,2015,Costilla,,,NR,NR
+12,2015,Crowley,,,NL,NL
+12,2015,Custer,,,NL,NL
+12,2015,Delta,,,NL,NL
+12,2015,Denver,16255498,19339032,,
+12,2015,Dolores,,,NL,NL
+12,2015,Douglas,,,NL,NL
+12,2015,Eagle,273264,948426,,
+12,2015,Elbert,,,NL,NL
+12,2015,El Paso,7639235,,,NR
+12,2015,Fremont,160693,,,NL
+12,2015,Garfield,318985,801776,,
+12,2015,Gilpin,,145319,NR,
+12,2015,Grand,,274910,NR,
+12,2015,Gunnison,,365817,NR,
+12,2015,Hinsdale,,,NL,NL
+12,2015,Huerfano,,,NL,NR
+12,2015,Jackson,,,NL,NL
+12,2015,Jefferson,1745285,3153194,,
+12,2015,Kiowa,,,NL,NL
+12,2015,Kit Carson,,,NL,NL
+12,2015,Lake,,,NL,NR
+12,2015,La Plata,370071,1460381,,
+12,2015,Larimer,1374506,2818206,,
+12,2015,Las Animas,,921083,NR,
+12,2015,Lincoln,,,NL,NL
+12,2015,Logan,,,NL,NL
+12,2015,Mesa,,,NR,NR
+12,2015,Mineral,,,NL,NL
+12,2015,Moffat,,,NR,NL
+12,2015,Montezuma,89934,559469,,
+12,2015,Montrose,,,NR,NL
+12,2015,Morgan,,,NR,NR
+12,2015,Otero,,,NL,NL
+12,2015,Ouray,,,NR,NR
+12,2015,Park,,188927,NR,
+12,2015,Phillips,,,NL,NL
+12,2015,Pitkin,83107,895847,,
+12,2015,Prowers,,,NL,NL
+12,2015,Pueblo,1251262,1530280,,
+12,2015,Rio Blanco,,,NL,NL
+12,2015,Rio Grande,,,NL,NL
+12,2015,Routt,203563,655561,,
+12,2015,Saguache,,,NL,NR
+12,2015,San Juan,,,NL,NR
+12,2015,San Miguel,45244,275068,,
+12,2015,Sedgwick,,,NR,NR
+12,2015,Summit,234110,1750307,,
+12,2015,Teller,,,NR,NL
+12,2015,Washington,,,NL,NL
+12,2015,Weld,384896,1849039,,
+12,2015,Yuma,,,NL,NL
+12,2016,Adams,568391,4593466,,
+12,2016,Alamosa,,,NR,NL
+12,2016,Arapahoe,1447994,9260969,,
+12,2016,Archuleta,,,NR,NR
+12,2016,Baca,,,NL,NL
+12,2016,Bent,,,NL,NL
+12,2016,Boulder,2510721,5821440,,
+12,2016,Broomfield,,,NL,NL
+12,2016,Chaffee,,351614,NR,
+12,2016,Cheyenne,,,NL,NL
+12,2016,Clear Creek,61999,526729,,
+12,2016,Conejos,,339375,NL,
+12,2016,Costilla,,223780,NR,
+12,2016,Crowley,,,NL,NL
+12,2016,Custer,,,NL,NL
+12,2016,Delta,,,NL,NL
+12,2016,Denver,16064917,27400081,,
+12,2016,Dolores,,,NL,NL
+12,2016,Douglas,,,NL,NL
+12,2016,Eagle,163815,1398924,,
+12,2016,Elbert,,,NL,NL
+12,2016,El Paso,8417826,,,NR
+12,2016,Fremont,173405,,,NL
+12,2016,Garfield,322592,1451481,,
+12,2016,Gilpin,,204163,NR,
+12,2016,Grand,,390044,NR,
+12,2016,Gunnison,,530400,NR,
+12,2016,Hinsdale,,,NL,NL
+12,2016,Huerfano,,,NL,NR
+12,2016,Jackson,,,NL,NL
+12,2016,Jefferson,1545983,4354956,,
+12,2016,Kiowa,,,NL,NL
+12,2016,Kit Carson,,,NL,NL
+12,2016,Lake,,182830,NL,
+12,2016,La Plata,334003,2011310,,
+12,2016,Larimer,1260854,4145435,,
+12,2016,Las Animas,,2389493,NR,
+12,2016,Lincoln,,,NL,NL
+12,2016,Logan,,,NL,NL
+12,2016,Mesa,,,NR,NR
+12,2016,Mineral,,,NL,NL
+12,2016,Moffat,,,NR,NL
+12,2016,Montezuma,,1211288,NR,
+12,2016,Montrose,,,NR,NL
+12,2016,Morgan,,579314,NR,
+12,2016,Otero,,,NR,NL
+12,2016,Ouray,,334503,NR,
+12,2016,Park,,301869,NR,
+12,2016,Phillips,,,NL,NL
+12,2016,Pitkin,70724,1065431,,
+12,2016,Prowers,,,NL,NL
+12,2016,Pueblo,637069,2566125,,
+12,2016,Rio Blanco,,,NL,NL
+12,2016,Rio Grande,,,NL,NL
+12,2016,Routt,188092,789398,,
+12,2016,Saguache,,,NL,NR
+12,2016,San Juan,,,NL,NR
+12,2016,San Miguel,30626,316572,,
+12,2016,Sedgwick,,,NR,NR
+12,2016,Summit,163465,2203456,,
+12,2016,Teller,,,NR,NL
+12,2016,Washington,,,NL,NL
+12,2016,Weld,309108,2486668,,
+12,2016,Yuma,,,NL,NL
+12,2017,Adams,782044,6120302,,
+12,2017,Alamosa,,,NR,NL
+12,2017,Arapahoe,881650,9761509,,
+12,2017,Archuleta,,732699,NR,
+12,2017,Baca,,,NL,NL
+12,2017,Bent,,,NL,NL
+12,2017,Boulder,1816738,6814221,,
+12,2017,Broomfield,,,NL,NL
+12,2017,Chaffee,,398262,NR,
+12,2017,Cheyenne,,,NL,NL
+12,2017,Clear Creek,32356,574268,,
+12,2017,Conejos,,434200,NL,
+12,2017,Costilla,,273773,NL,
+12,2017,Crowley,,,NL,NL
+12,2017,Custer,,,NL,NL
+12,2017,Delta,,,NL,NL
+12,2017,Denver,14510755,32265126,,
+12,2017,Dolores,,,NL,NL
+12,2017,Douglas,,,NL,NL
+12,2017,Eagle,132404,1531387,,
+12,2017,Elbert,,,NL,NL
+12,2017,El Paso,8513185,,,NR
+12,2017,Fremont,146945,,,NL
+12,2017,Garfield,233612,1681605,,
+12,2017,Gilpin,,179250,NR,
+12,2017,Grand,,435934,NR,
+12,2017,Gunnison,,397636,NR,
+12,2017,Hinsdale,,,NL,NL
+12,2017,Huerfano,,,NL,NR
+12,2017,Jackson,,,NL,NL
+12,2017,Jefferson,1427543,4291144,,
+12,2017,Kiowa,,,NL,NL
+12,2017,Kit Carson,,,NL,NL
+12,2017,Lake,,206999,NL,
+12,2017,La Plata,300663,2010428,,
+12,2017,Larimer,1164472,5490891,,
+12,2017,Las Animas,49588,4019496,,
+12,2017,Lincoln,,,NL,NL
+12,2017,Logan,,,NL,NL
+12,2017,Mesa,,1063973,NR,
+12,2017,Mineral,,,NL,NL
+12,2017,Moffat,,,NR,NL
+12,2017,Montezuma,67895,1687019,,
+12,2017,Montrose,,,NR,NL
+12,2017,Morgan,,920406,NR,
+12,2017,Otero,,,NR,NL
+12,2017,Ouray,,442518,NR,
+12,2017,Park,,367718,NR,
+12,2017,Phillips,,,NL,NL
+12,2017,Pitkin,60311,1271300,,
+12,2017,Prowers,,,NL,NL
+12,2017,Pueblo,514218,3707967,,
+12,2017,Rio Blanco,,,NL,NL
+12,2017,Rio Grande,,,NL,NL
+12,2017,Routt,177246,956589,,
+12,2017,Saguache,,98676,NL,
+12,2017,San Juan,,,NL,NR
+12,2017,San Miguel,,395334,NR,
+12,2017,Sedgwick,,,NR,NR
+12,2017,Summit,126502,2533302,,
+12,2017,Teller,,,NL,NL
+12,2017,Washington,,,NL,NL
+12,2017,Weld,415204,2571924,,
+12,2017,Yuma,,,NL,NL
