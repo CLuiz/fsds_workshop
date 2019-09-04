@@ -35,11 +35,11 @@ def build_simple_features(df):
 
 def main():
     # intent:
-    # use the datseta to model 2 things at first
+    # use the datset to model 2 things at first
     # 1 - find the best counties without rec shops currently to open a dispensary
     # ex.  best_shop ~ expected revenue given pop and rev numbers of other counties across the years
-    # 2 - Find the best county with & without rec to open the next ship (model incremental revenue associated with the opening of a shop given pop, current rec, current med)
-    # 3 - find the same quantities in 5 and ten years using year over year population and revenue growth
+    # 2 - Find the best county with & without rec to open the next shop (model incremental revenue associated with the opening of a shop given pop, current rec, current med)
+    # 3 - find the same quantities in 5 and ten years using year over year population and revenue growth (stretch)
 
     np.random.seed(42)
     df = pd.read_parquet('data/processed_data/processed_dataset.parquet')
@@ -104,7 +104,6 @@ def main():
 
     reg = LinearRegression()
     reg.fit(X_train, y_train)
-    r2 = reg.score(X_train, y_train)
     preds = reg.predict(X_test)
     test['preds'] = preds
     rmse = pow(mean_squared_error(test['total_rev'], test['preds']), .5)
@@ -118,7 +117,7 @@ def main():
     # there is definitely signal here, but it
     # looks like Denver is screwing up the rest of the state.
 
-    # there are a few things we ca do at this point, the easist being try
+    # there are a few things we can do at this point, the easist being try
     # a more sophisticated modeling approach. Random Forest time.
     rf_reg = RandomForestRegressor(n_estimators=200, random_state=42, oob_score=True)
     rf_reg.fit(X_train, y_train)
@@ -129,13 +128,9 @@ def main():
     # hmm, 85% of the regressores value is from our expected customers i
     # feature, and it is far outperforming global population- Nice!
 
-
-
     # DECISIONS point - improve regressor or move on to another modeling technique?
     # If improve regressor - wing it
     # if new technique, clustering
-
-
 
 
     # check shape, info, etc
@@ -157,12 +152,12 @@ def main():
     # simplify:
         # - total expected consumers
         # - expected dollars spent per consumer Maybe?
-        # -
 
     # one easy thing we can do is figure out the optimal number of shops
     # given the expected consumers in an area
     # access score - is there an adjacent county with rec?
     return df
+
 
 if __name__ == '__main__':
     df = pd.read_parquet('data/processed_data/processed_dataset.parquet')
