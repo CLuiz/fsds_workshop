@@ -146,7 +146,7 @@ def prep_population_df(pop_by_age_df):
         age_pivot, global_pops,
         how='left', on=['county', 'year'])
     # lastly, drop the expected consumers in the < 18 bin, as it will always be zero
-    age_df.drop('expected_consumers_<18', inplace=True)
+    # age_df.drop('expected_consumers_<18', inplace=True)
 
     return age_df
 
@@ -309,6 +309,7 @@ def get_shops_by_year(license_file_dir='data/licenses_by_year/'):
     # name source to 'rec' and 'med'
     shops_by_year['source'] = shops_by_year['source'].str[:3]
     # change zip to type int for merge
+    shops_by_year['zip'] = pd.to_numeric(shops_by_year['zip'], errors='coerce').fillna(0)
     shops_by_year['zip'] = shops_by_year['zip'].astype(int)
 
     zips = get_zips()
