@@ -1,5 +1,6 @@
 import json
 import logging
+import subprocess
 
 import pandas as pd
 
@@ -7,7 +8,8 @@ from flask import Flask, render_template
 from bokeh.embed import json_item
 from bokeh.resources import CDN
 
-
+from modeling import build_simple_model_df
+from process_data import process_data
 from utils import read_config
 from viz import make_map_plot
 
@@ -22,10 +24,10 @@ logging.basicConfig(
     datefmt='%d-%b-%y %H:%M:%S')
 
 
-@app.route('/')
-def index():
-    logging.info('Index route called')
-    return render_template('index.html', resources=CDN.render())
+#@app.route('/')
+#def index():
+#    logging.info('Index route called')
+#    return render_template('index.html')
 
 
 @app.route('/predict/')
@@ -34,23 +36,31 @@ def predict_something():
     return "Its a boat"
 
 
-@app.route('/table/')
+@app.route('/')
 def show_table():
     logging.info('Table route called.')
-    df = pd.read_csv('data/unemployment_rates.csv')
+    df = pd.read_parquet('data/processed_data/processed_dataset.parquet')
     html = df.to_html(
         header="true",
-        table_id="table",
+        table_id="dataTable",
         max_rows=100,
-        border=1,
-        classes="table-responsive")
-    return html
+        classes="display")
+    return render_template('index.html', table_html=html)
 
 
 @app.route('/map_plot')
 def show_plot():
     p = make_map_plot()
     return json.dumps(json_item(p, 'myplot'))
+
+
+@app.route('/refresh_data/')
+def refresh_data():
+    # call shell script function
+    subprocess.run(['./get_data.sh'])
+    process_data()
+    build_simple_model_df()
+    return render_template('index.html', table_html=html)
 
 
 if __name__ == '__main__':

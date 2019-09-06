@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split, KFold, GridSearchCV, RandomizedSearchCV
 from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.metrics import mean_squared_error
@@ -32,6 +31,33 @@ def build_simple_features(df):
 
     return df
 
+def build_simple_model_df(save=True):
+
+    df = pd.read_parquet('data/processed_data/processed_dataset.parquet')
+    # add a few features and scale vals
+    df = build_simple_features(df)
+    # create modeling df including all rows with revenue
+    # take all rows with revenue
+
+    # TODO 2019 data not making it through.  WHY?
+    model_df = df[df['total_rev'] > 0]
+
+    # simplify to a few columns for first modeling effort
+    simple_modeling_cols =['county', 'year', 'global_total_pop',
+       'median_household_income', 'per_capita_personal_income',
+       'unemprate', 'total_expected_consumers', 'med', 'rec', 'total_rev']
+
+    simple_model_df = model_df[simple_modeling_cols]
+
+    if save:
+        simple_model_df.to_parquet(
+            'data/processed_data/simple_modeling_set.parquet',
+            engine="fastparquet",
+            index=False)
+        return None
+    else:
+        return df
+
 
 def main():
     # intent:
@@ -45,7 +71,6 @@ def main():
     df = pd.read_parquet('data/processed_data/processed_dataset.parquet')
     # add a few features and scale vals
     df = build_simple_features(df)
-
 
     # first, lets predict revenue based on our feature set
     # this is going to be a much smaller data set - we need to use
@@ -93,12 +118,13 @@ def main():
 
     y_scaler = MinMaxScaler()
     # fit object to data (or fit_transform)
-    y_scaler.fit(y_train)
+    y_scaler.fit(y_train.values.reshape(-1, 1))
     # use object to transform (predict) on train set / other data
-    y_train_scaled = y_scaler.transform(y_train)
-    y_test_scaled = y_scaler.transform(y_test)
+    y_train_scaled = y_scaler.transform(y_train.values.reshape(-1, 1))
+    y_test_scaled = y_scaler.transform(y_test.values.reshape(-1, 1))
 
     # have that issue here.
+
 
     # ok, lets run the data through a linear regression to set a baseline
 
@@ -123,14 +149,33 @@ def main():
     rf_reg.fit(X_train, y_train)
     rf_preds = rf_reg.predict(X_test)
 
+    # predict on counties without revenue to see what 2018 numbers would be
+
+    # get all counties from 2018
+    viz_data = df[(df['total_rev'] == 0) & df['year'] == 2018]
+    viz_data = viz_data['simple_modeling_cols']
+
+    viz_data.set_index(['county', 'year'], inplace=True)
+    X = viz_data.iloc[:, :-1]
+    X_scaled = X_scaler.transform(viz_data)
+    viz_preds = rf_reg.predict(X_scaled)
+
+    # join back to modelling set
+    #full_set =
+    # output to file to add to viz
+
+
+
+
     # look at feature importances
     # rf_reg.feature_importances_
-    # hmm, 85% of the regressores value is from our expected customers i
+    # hmm, 85% of the  value is from our expected customers
     # feature, and it is far outperforming global population- Nice!
 
     # DECISIONS point - improve regressor or move on to another modeling technique?
     # If improve regressor - wing it
     # if new technique, clustering
+
 
 
     # check shape, info, etc
@@ -141,9 +186,6 @@ def main():
 
     # Now lets look at population adjusted revenue
 
-    # ok, now cost of living
-
-    #
     # what fields should we simplify to, and what fields need to be removed?
     # remove
        # - raw population figures including unemp numbers
