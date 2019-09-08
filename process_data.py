@@ -145,9 +145,9 @@ def prep_population_df(pop_by_age_df):
     age_df = pd.merge(
         age_pivot, global_pops,
         how='left', on=['county', 'year'])
+    
     # lastly, drop the expected consumers in the < 18 bin, as it will always be zero
-    age_df.drop('expected_consumers_<18', inplace=True)
-
+    # age_df.drop('expected_consumers_<18', inplace=Truee
     return age_df
 
 
@@ -309,7 +309,8 @@ def get_shops_by_year(license_file_dir='data/licenses_by_year/'):
     # name source to 'rec' and 'med'
     shops_by_year['source'] = shops_by_year['source'].str[:3]
     # change zip to type int for merge
-    shops_by_year['zip'] = shops_by_year['zip'].astype(int)
+
+    shops_by_year['zip'] = pd.to_numeric(shops_by_year['zip'], errors='coerce').fillna(0)
 
     zips = get_zips()
     license_df = pd.merge(shops_by_year, zips, on='zip')
@@ -340,8 +341,57 @@ def join_dfs(dfs):
         master = pd.merge(master, df, on=['county', 'year'], how='outer')
     return master
 
+def process_data(return_data=False, write_file=True):
+    dfs = load_csvs('data')
+
+    # population
+    # Pull out population data and clean up
+    pop_df = prep_population_df(dfs['pop_by_age_and_year_df'])
+
+    # personal income data
+    # Pull income dataset and clean up
+    income_df = prep_income_df(dfs['personal_income_df'])
+
+    # revenue
+    # Pull out tax and revenue data and clean up
+    tax_rev_df = combine_rev_tx_dfs(
+        dfs['mj_sales_revenue_df'],
+        dfs['monthly_tx_revenue_df'])
+
+    # unemp
+    # Pull unemployment data
+    unemp_df = prep_unemp_df(dfs['unemployment_rates_df'])
+
+    # licenses
+    # Pull all license data and get to a useable form
+    shops_by_year_df = get_shops_by_year(license_file_dir='data/licenses_by_year/')
+
+    processed_dfs = [pop_df, income_df, tax_rev_df, unemp_df, shops_by_year_df]
+    master_df = join_dfs(processed_dfs)
+
+    # fill na of all int type columns and recast to int all but county and unemp rate
+    # before we write to file
+    int_cols = [col for col in master_df.columns if col not in ['county', 'unemprate']]
+    master_df[int_cols] = master_df[int_cols].fillna(0).astype(int)
+    master_df['unemprate'] = master_df['unemprate'].fillna(0)
+
+    # One last thing to do with this dataset - missing data imputation. Will address
+    # in modeling step and save updated dataset after feature engineering
+
+    if write_file:
+        os.makedirs('data/processed_data/', exist_ok=True)
+        master_df.to_parquet(
+            'data/processed_data/processed_dataset.parquet',
+            index=False, engine='fastparquet')
+
+    if return_data:
+        return master_df
+
+    return None
+
 
 if __name__ == '__main__':
+    # leave in main for memory stimulus
     # read (most) csvs downloaded with install script into dict of form
     # datasource name: data frame
     # skipping licenses by year because of mixed document types
