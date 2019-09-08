@@ -128,3 +128,6 @@ data/
 
 # miniconda
 miniconda3/
+
+# workshop teaching mats
+walkthrough.py
