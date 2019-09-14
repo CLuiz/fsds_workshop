@@ -25,8 +25,8 @@ run_script () {
   gunicorn -p pid.txt -w $WORKERS --threads $THREADS -b localhost:$PORT \
       --log-level LOG_LEVEL --log-file $(pwd)/$LOGFILE server:app &
   exit 0
-
 }
+
 stop_server () {
   echo 'stop server called'
   # PID=$(pgrep python server.py)
@@ -35,6 +35,7 @@ stop_server () {
   echo "killing process at pid: $PID"
   exit 0
 }
+
 get_info () {
   echo "Config sourced: $CONFIG"
   echo "PORT: $PORT"
@@ -75,6 +76,7 @@ check_install () {
   echo $CONDA_VERSION
 
 }
+
 # https://www.shellscript.sh/tips/getopts/
 while getopts 'crsb:ihx' opt
 do

@@ -36,7 +36,7 @@ fi
 # set location of miniconda binaries
 CONDA_PATH="/miniconda3/bin/"
 
-# export update path so the system can find conda
+# Update and export path so the system can find conda
 export PATH=$(pwd)$CONDA_PATH:$PATH
 
 # update conda base environment with the following flags:
@@ -68,9 +68,10 @@ LOGFILE=$(grep LOGFILE config.ini | cut -d "=" -f2)
 # Create logfile
 touch $LOGFILE
 
-chmod 755 get_data.sh
-# get data
+# set r/w/x permissions for the project directory
+chmod -R 755 .
+
+# Execute the data acquisition script
 ./get_data.sh
 
 # chmod workshop materials
-chmod -R 755 .
