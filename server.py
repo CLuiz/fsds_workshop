@@ -60,7 +60,7 @@ def refresh_data():
     subprocess.run(['./get_data.sh'])
     process_data()
     build_simple_model_df()
-    return render_template('index.html', table_html=html)
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
