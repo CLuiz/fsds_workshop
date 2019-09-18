@@ -35,8 +35,8 @@
           <div id="myplot"></div>
           <script>
             fetch('/map_plot')
-  .then(function(response) {return response.json();})
-  .then(function(item) {Bokeh.embed.embed_item(item); })
+  .then(function(response) { return response.json(); })
+  .then(function(item) { Bokeh.embed.embed_item(item); })
           </script>
         </div>
         <!-- Data Table -->
@@ -44,6 +44,11 @@
           {{ table_html|safe }}
           <!-- <table id="dataTable" class="display" style="width:100%"></table> -->
         </div>
+        <!-- Refresh Modal --> 
+        <div>
+        {% include 'refresh_modal.html' %}
+        </div>
+
       </div>
     </div>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
