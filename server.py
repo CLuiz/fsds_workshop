@@ -1,6 +1,6 @@
 import json
 import logging
-import subprocess
+from subprocess import run, PIPE
 
 import pandas as pd
 
@@ -57,7 +57,7 @@ def show_plot():
 @app.route('/refresh_data/')
 def refresh_data():
     # call shell script function
-    subprocess.run(['./get_data.sh'])
+    run(['./get_data.sh'], stdout=PIPE, stderr=PIPE)
     process_data()
     build_simple_model_df()
     return render_template('index.html')

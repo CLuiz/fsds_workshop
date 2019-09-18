@@ -4,8 +4,8 @@ $(function() {
 });
 
 // Event handlers
-$(function() {
-  $("#refreshData").click(getAllData())
+$(function () {
+  $("#refreshData").click(getAllData)
 });
 
 // Include the most common AJAX settings for clarity
@@ -15,6 +15,7 @@ function getAllData() {
     beforeSend: function () {
       // Not yet implemented
       // glyphicon.spin()
+      console.log('refresh data called');
     },
     success:function () {
       //pass
