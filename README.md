@@ -48,3 +48,11 @@ I'd expect participants to be comfortable/familiar with the following to get the
 
 They should also have:
 - A Unix-like system on which to work with the ability to install packages
+-
+- Install Instructions
+-----------------------
+
+1. Clone this repo
+1. cd into the directory and run ./install.sh
+1. After install, execute ./run.sh -r to start the server
+1. If Bokeh sample data isn't available in your environment you execute ./run.sh -d to download the sample data
