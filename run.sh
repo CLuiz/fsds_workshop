@@ -68,17 +68,23 @@ get_help () {
   echo '-i start ipython repl'
   echo '-h show help'
   echo '-x stop server'
+  echo '-d get bokeh sample data'
   exit 0
 }
 
 check_install () {
-    CONDA_VERSION="$(which ipython)"
+  CONDA_VERSION="$(which ipython)"
   echo $CONDA_VERSION
 
 }
 
+get_bokeh_data () {
+  echo 'get_bokeh_data called. Downloading sample data now'
+  bokeh sampledata
+}
+
 # https://www.shellscript.sh/tips/getopts/
-while getopts 'crsb:ihx' opt
+while getopts 'crsb:ihxd' opt
 do
   case $opt in
     c) check_install ;;
@@ -88,5 +94,6 @@ do
     i) get_ipython ;;
     h) get_help ;;
     x) stop_server ;;
+    d) get_bokeh_data ;;
   esac
 done
