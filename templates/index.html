@@ -32,6 +32,7 @@
 
     <!-- Navbar -->
     {% include 'navbar.html' %}
+
     <!-- Main Content Container -->
     <div class="container-fluid">
       <div class="tab-content">
@@ -43,15 +44,16 @@
   .then(function(item) { Bokeh.embed.embed_item(item); })
           </script>
         </div>
+
         <!-- Data Table -->
         <div id="myTable" class="container tab-pane fade">
           {{ table_html|safe }}
           <!-- <table id="dataTable" class="display" style="width:100%"></table> -->
         </div>
+
         <!-- Refresh Modal --> 
         <div>
         {% include 'refresh_modal.html' %}
-        <!-- {% include 'date_picker.html' %} -->
         </div>
 
       </div>
