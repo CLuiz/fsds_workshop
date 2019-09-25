@@ -43,7 +43,7 @@ function switchYear(year) {
   $.ajax({
     url: '/switch_year/',
     type: 'POST',
-    data: {year: 'year'},
+    data: {'year': year},
     beforeSend: function () {
       // Not yet implemented
       // glyphicon.spin()
