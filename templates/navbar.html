@@ -4,14 +4,29 @@
     <span style="display: inline-block;">Full Stack Data Science</span>
   </a>
 <ul class="nav nav-tabs ml-auto">
+
     <li class="nav-item" id="plotTab">
       <a class="nav-link active"  data-toggle="tab" href="#plot">Map</a>
     </li>
+
     <li class="nav-item" id="tableTab">
       <a class="nav-link"  data-toggle="tab" href="#myTable">Table</a>
     </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown"
+         href="#" role="button" aria-haspopup="true" aria-expanded="false">
+          Select Year</a>
+      <div class="dropdown-menu menu-scroll" id="yearDropdown">
+        {% for n in range(2012, 2026) %}
+        <a class="dropdown-item" data-value="{{ n }}" name="yearOption" href="#!">{{ n }}</a>
+        {% endfor %}
+      </div>
+    </li>
+
     <li class="nav-item">
     <a id="updateData" class="nav-link" data-toggle="modal" data-target="#refreshModal">Update Data</a>
     </li>
+
   </ul>
 </nav>

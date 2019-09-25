@@ -21,13 +21,14 @@
     <script src="https://nightly.datatables.net/js/jquery.dataTables.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <link href="https://nightly.datatables.net/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
-
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"/>
     <title>Full Stack Data Science</title>
   </head>
   <body>
 
     <!-- Navbar -->
     {% include 'navbar.html' %}
+
     <!-- Main Content Container -->
     <div class="container-fluid">
       <div class="tab-content">
@@ -39,11 +40,13 @@
   .then(function(item) { Bokeh.embed.embed_item(item); })
           </script>
         </div>
+
         <!-- Data Table -->
         <div id="myTable" class="container tab-pane fade">
           {{ table_html|safe }}
           <!-- <table id="dataTable" class="display" style="width:100%"></table> -->
         </div>
+
         <!-- Refresh Modal --> 
         <div>
         {% include 'refresh_modal.html' %}

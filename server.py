@@ -4,7 +4,7 @@ from subprocess import run, PIPE
 
 import pandas as pd
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, url_for
 from bokeh.embed import json_item
 from bokeh.resources import CDN
 
@@ -50,7 +50,7 @@ def show_table():
 
 @app.route('/map_plot')
 def show_plot():
-    p = make_map_plot()
+    p = make_map_plot(year=int(CONFIG['PLOT_YEAR']))
     return json.dumps(json_item(p, 'myplot'))
 
 
@@ -62,6 +62,15 @@ def refresh_data():
     build_simple_model_df()
     return render_template('index.html')
 
+
+@app.route('/switch_year/', methods=['POST'])
+def switch_year():
+    year = request.form.get('year')
+    logging.info(f'Switch year route called with arg: {year}')
+
+    # overwrite PLOT_YEAR config var and redirect to show_plot
+    CONFIG['PLOT_YEAR'] = int(year)
+    return redirect(url_for('show_plot'))
 
 if __name__ == '__main__':
     app.run()

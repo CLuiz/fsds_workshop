@@ -1,3 +1,8 @@
 .tab-pane:not(.active) {
   display: none;
   }
+
+.menu-scroll {
+    overflow-y: scroll;
+    max-height: 200px;
+}
