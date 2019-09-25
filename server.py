@@ -51,7 +51,6 @@ def show_table():
 @app.route('/map_plot')
 def show_plot():
     p = make_map_plot(year=int(CONFIG['PLOT_YEAR']))
-    logging.info(f'config: {CONFIG}')
     return json.dumps(json_item(p, 'myplot'))
 
 
