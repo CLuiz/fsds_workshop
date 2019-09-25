@@ -68,10 +68,9 @@ def refresh_data():
 def switch_year():
     year = request.form.get('year')
     logging.info(f'Switch year route called with arg: {year}')
+
     # overwrite PLOT_YEAR config var and redirect to show_plot
-    logging.info(f'year: {year}')
     CONFIG['PLOT_YEAR'] = int(year)
-    # call function that re-calculates data set here
     return redirect(url_for('show_plot'))
 
 if __name__ == '__main__':
