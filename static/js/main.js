@@ -45,21 +45,14 @@ function switchYear(year) {
     type: 'POST',
     data: {'year': year},
     beforeSend: function () {
-      // Not yet implemented
       // glyphicon.spin()
       console.log('Switch year ajax called');
     },
     success: function () {
-      //pass
-      console.log('Sweet success')
       location.reload()
     },
     error: function () {
-      //pass
-    },
-    complete: function () {
-      console.log('Complete!')
-      //pass
+      console.log('Error resolving switchYear function')
     },
   })
 }
