@@ -50,7 +50,8 @@ def show_table():
 
 @app.route('/map_plot')
 def show_plot():
-    p = make_map_plot()
+    p = make_map_plot(year=int(CONFIG['PLOT_YEAR']))
+    logging.info(f'config: {CONFIG}')
     return json.dumps(json_item(p, 'myplot'))
 
 
@@ -65,13 +66,13 @@ def refresh_data():
 
 @app.route('/switch_year/', methods=['POST'])
 def switch_year():
-    logging.info(request.form)
     year = request.form.get('year')
-    #year = request.get_data()
     logging.info(f'Switch year route called with arg: {year}')
-
+    # overwrite PLOT_YEAR config var and redirect to show_plot
+    logging.info(f'year: {year}')
+    CONFIG['PLOT_YEAR'] = int(year)
     # call function that re-calculates data set here
-    return redirect(url_for('show_table'))
+    return redirect(url_for('show_plot'))
 
 if __name__ == '__main__':
     app.run()

@@ -52,6 +52,7 @@ function switchYear(year) {
     success: function () {
       //pass
       console.log('Sweet success')
+      location.reload()
     },
     error: function () {
       //pass
