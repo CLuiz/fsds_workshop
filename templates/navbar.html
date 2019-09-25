@@ -17,9 +17,9 @@
       <a class="nav-link dropdown-toggle" data-toggle="dropdown"
          href="#" role="button" aria-haspopup="true" aria-expanded="false">
           Select Year</a>
-      <div class="dropdown-menu menu-scroll">
+      <div class="dropdown-menu menu-scroll" id="yearDropdown">
         {% for n in range(2012, 2026) %}
-          <a class="dropdown-item" href="#!">{{ n }}</a>
+        <a class="dropdown-item" data-value="{{ n }}" name="yearOption" href="#!">{{ n }}</a>
         {% endfor %}
       </div>
     </li>

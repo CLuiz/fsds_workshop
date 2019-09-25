@@ -4,7 +4,7 @@ from subprocess import run, PIPE
 
 import pandas as pd
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, url_for
 from bokeh.embed import json_item
 from bokeh.resources import CDN
 
@@ -62,6 +62,16 @@ def refresh_data():
     build_simple_model_df()
     return render_template('index.html')
 
+
+@app.route('/switch_year/', methods=['POST'])
+def switch_year():
+    logging.info(request.form)
+    year = request.form.get('year')
+    #year = request.get_data()
+    logging.info(f'Switch year route called with arg: {year}')
+
+    # call function that re-calculates data set here
+    return redirect(url_for('show_table'))
 
 if __name__ == '__main__':
     app.run()
