@@ -123,9 +123,6 @@ def main():
     y_train_scaled = y_scaler.transform(y_train.values.reshape(-1, 1))
     y_test_scaled = y_scaler.transform(y_test.values.reshape(-1, 1))
 
-    # have that issue here.
-
-
     # ok, lets run the data through a linear regression to set a baseline
 
     reg = LinearRegression()
@@ -152,16 +149,23 @@ def main():
     # predict on counties without revenue to see what 2018 numbers would be
 
     # get all counties from 2018
-    viz_data = df[(df['total_rev'] == 0) & df['year'] == 2018]
-    viz_data = viz_data['simple_modeling_cols']
+    full_2018 = df[df['year'] == 2018]
+    viz_data = full_2018[full_2018['total_rev'] == 0]
+    viz_data = viz_data[simple_modeling_cols]
 
     viz_data.set_index(['county', 'year'], inplace=True)
     X = viz_data.iloc[:, :-1]
-    X_scaled = X_scaler.transform(viz_data)
+    X_scaled = X_scaler.transform(X)
+
     viz_preds = rf_reg.predict(X_scaled)
+    viz_data['preds'] = X_scaler.inverse_transform(viz_preds)
+
+    # join back to full 2018 and create column that has true revenue if > 0 else preds
+
+
 
     # join back to modelling set
-    #full_set =
+    # full_set =
     # output to file to add to viz
 
 
