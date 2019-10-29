@@ -157,8 +157,10 @@ def main():
     X = viz_data.iloc[:, :-1]
     X_scaled = X_scaler.transform(X)
 
+    # These preds are not getting what we need. Everything is predicted to the same value.
+    # need to address.
     viz_preds = rf_reg.predict(X_scaled)
-    viz_data['preds'] = X_scaler.inverse_transform(viz_preds)
+    viz_data['preds'] = viz_preds
 
     # join back to full 2018 and create column that has true revenue if > 0 else preds
 
